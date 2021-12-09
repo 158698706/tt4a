@@ -1,64 +1,106 @@
-<mxfile host="app.diagrams.net" modified="2021-12-09T10:08:27.606Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="MRcSYa9YBu2dwPLY4BpF" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-09T12:39:13.544Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="dXs1eZ6AcYB2_04lxEDd" version="15.9.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1182" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1036" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kFwvwpPTQtRQnAW81API-45" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="40" width="800" height="540" as="geometry" />
+        <mxCell id="kFwvwpPTQtRQnAW81API-45" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="40" width="800" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="kFwvwpPTQtRQnAW81API-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kFwvwpPTQtRQnAW81API-31" target="kFwvwpPTQtRQnAW81API-26">
+        <mxCell id="kFwvwpPTQtRQnAW81API-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kFwvwpPTQtRQnAW81API-31" target="kFwvwpPTQtRQnAW81API-26" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="265" y="190" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kFwvwpPTQtRQnAW81API-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kFwvwpPTQtRQnAW81API-26" target="kFwvwpPTQtRQnAW81API-33">
+        <mxCell id="kFwvwpPTQtRQnAW81API-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kFwvwpPTQtRQnAW81API-26" target="kFwvwpPTQtRQnAW81API-33" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="580" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kFwvwpPTQtRQnAW81API-26" value="新TOKEN申请接口" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kFwvwpPTQtRQnAW81API-26" value="新TOKEN申请接口" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kFwvwpPTQtRQnAW81API-30" value="入参" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="kFwvwpPTQtRQnAW81API-30" value="入参" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="52" y="115" width="230" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="kFwvwpPTQtRQnAW81API-31" value="APPLY_SYSCODE 申请系统编码&#xa;APPLY_SECRET 申请系统密钥&#xa;TARGET_SYSCODE 单点目标系统编码&#xa;TARGET_ACCOUNT 单点账号名&#xa;FROM_IP 单点登录来源IP地址&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="kFwvwpPTQtRQnAW81API-30">
+        <mxCell id="kFwvwpPTQtRQnAW81API-31" value="APPLY_SYSCODE 申请系统编码&#xa;APPLY_SECRET 申请系统密钥&#xa;TARGET_SYSCODE 单点目标系统编码&#xa;TARGET_ACCOUNT 单点账号名&#xa;FROM_IP 单点登录来源IP地址&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="kFwvwpPTQtRQnAW81API-30" vertex="1">
           <mxGeometry y="30" width="230" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="kFwvwpPTQtRQnAW81API-33" value="出参" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="kFwvwpPTQtRQnAW81API-33" value="出参" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="557" y="130" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="kFwvwpPTQtRQnAW81API-34" value="RSP 返回成功失败标识&#xa;ACCOUNTID 单点账号标识&#xa;TOKEN 令牌&#xa;ERRDESC 错误描述或提示信息" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="kFwvwpPTQtRQnAW81API-33">
+        <mxCell id="kFwvwpPTQtRQnAW81API-34" value="RSP 返回成功失败标识&#xa;ACCOUNTID 单点账号标识&#xa;TOKEN 令牌&#xa;ERRDESC 错误描述或提示信息" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="kFwvwpPTQtRQnAW81API-33" vertex="1">
           <mxGeometry y="30" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="kFwvwpPTQtRQnAW81API-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="kFwvwpPTQtRQnAW81API-38" source="kFwvwpPTQtRQnAW81API-41">
+        <mxCell id="kFwvwpPTQtRQnAW81API-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kFwvwpPTQtRQnAW81API-41" target="kFwvwpPTQtRQnAW81API-38" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="265" y="380" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kFwvwpPTQtRQnAW81API-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kFwvwpPTQtRQnAW81API-38" target="kFwvwpPTQtRQnAW81API-42">
+        <mxCell id="kFwvwpPTQtRQnAW81API-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kFwvwpPTQtRQnAW81API-38" target="kFwvwpPTQtRQnAW81API-42" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="580" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kFwvwpPTQtRQnAW81API-38" value="新TOKEN校验接口" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kFwvwpPTQtRQnAW81API-38" value="新TOKEN校验接口" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kFwvwpPTQtRQnAW81API-40" value="入参" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="kFwvwpPTQtRQnAW81API-40" value="入参" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="50" y="320" width="230" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="kFwvwpPTQtRQnAW81API-41" value="SYSCODE 系统编码&#xa;ACCOUNTID 单点账号标识&#xa;TOKEN 令牌" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="kFwvwpPTQtRQnAW81API-40">
+        <mxCell id="kFwvwpPTQtRQnAW81API-41" value="SYSCODE 系统编码&#xa;ACCOUNTID 单点账号标识&#xa;TOKEN 令牌" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="kFwvwpPTQtRQnAW81API-40" vertex="1">
           <mxGeometry y="30" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kFwvwpPTQtRQnAW81API-42" value="出参" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="kFwvwpPTQtRQnAW81API-42" value="出参" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="557" y="320" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="kFwvwpPTQtRQnAW81API-43" value="RSP 返回成功失败标识&#xa;SYSCODE 系统编码&#xa;ACCOUNTNAME 单点账号名&#xa;NEWTOKEN 新令牌（老令牌失效）" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="kFwvwpPTQtRQnAW81API-42">
+        <mxCell id="kFwvwpPTQtRQnAW81API-43" value="RSP 返回成功失败标识&#xa;SYSCODE 系统编码&#xa;ACCOUNTNAME 单点账号名&#xa;NEWTOKEN 新令牌（老令牌失效）" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="kFwvwpPTQtRQnAW81API-42" vertex="1">
           <mxGeometry y="30" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="kFwvwpPTQtRQnAW81API-47" value="4A系统提供服务接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="kFwvwpPTQtRQnAW81API-47" value="4A系统提供服务接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="330" y="55" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex5YgKOyC8xBXL9b5BlO-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="530" width="800" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex5YgKOyC8xBXL9b5BlO-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ex5YgKOyC8xBXL9b5BlO-6" target="Ex5YgKOyC8xBXL9b5BlO-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="680" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ex5YgKOyC8xBXL9b5BlO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ex5YgKOyC8xBXL9b5BlO-4" target="Ex5YgKOyC8xBXL9b5BlO-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ex5YgKOyC8xBXL9b5BlO-4" value="新TOKEN申请接口" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex5YgKOyC8xBXL9b5BlO-5" value="入参" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="52" y="605" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex5YgKOyC8xBXL9b5BlO-6" value="APPID 系统编码&#xa;OLD_APPSECRET 原系统密钥&#xa;APPSECRET 申请系统密钥&#xa;UPDATETIME 更新时间&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="Ex5YgKOyC8xBXL9b5BlO-5">
+          <mxGeometry y="30" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex5YgKOyC8xBXL9b5BlO-7" value="出参" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="557" y="620" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex5YgKOyC8xBXL9b5BlO-8" value="RSP 返回成功失败标识&#xa;APPID 系统标识" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="Ex5YgKOyC8xBXL9b5BlO-7">
+          <mxGeometry y="30" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex5YgKOyC8xBXL9b5BlO-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="Ex5YgKOyC8xBXL9b5BlO-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="870" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ex5YgKOyC8xBXL9b5BlO-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ex5YgKOyC8xBXL9b5BlO-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="870" as="targetPoint" />
+            <mxPoint x="470" y="870" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ex5YgKOyC8xBXL9b5BlO-16" value="业务系统开发服务端接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="330" y="545" width="120" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
