@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-12-09T10:06:00.449Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="d7WB2Tu-0d3nV8kJV0TA" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-09T10:08:27.606Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="MRcSYa9YBu2dwPLY4BpF" version="15.8.9" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1182" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kFwvwpPTQtRQnAW81API-45" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="800" height="540" as="geometry" />
+        </mxCell>
         <mxCell id="kFwvwpPTQtRQnAW81API-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kFwvwpPTQtRQnAW81API-31" target="kFwvwpPTQtRQnAW81API-26">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="265" y="190" as="sourcePoint" />
@@ -53,6 +56,9 @@
         </mxCell>
         <mxCell id="kFwvwpPTQtRQnAW81API-43" value="RSP 返回成功失败标识&#xa;SYSCODE 系统编码&#xa;ACCOUNTNAME 单点账号名&#xa;NEWTOKEN 新令牌（老令牌失效）" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="kFwvwpPTQtRQnAW81API-42">
           <mxGeometry y="30" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kFwvwpPTQtRQnAW81API-47" value="4A系统提供服务接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="330" y="55" width="120" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
