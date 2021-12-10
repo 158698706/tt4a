@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T00:44:13.483Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="jdSqXsIOs16IerSjspbL" version="15.8.9" type="github">
-  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2021-12-10T02:58:28.473Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="tIinpkGXCzLCkwQTkT6O" version="15.8.9" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="提供接口">
     <mxGraphModel dx="1182" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="kFwvwpPTQtRQnAW81API-45" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="40" width="800" height="450" as="geometry" />
+          <mxGeometry x="20" y="40" width="800" height="600" as="geometry" />
         </mxCell>
         <mxCell id="kFwvwpPTQtRQnAW81API-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kFwvwpPTQtRQnAW81API-31" target="kFwvwpPTQtRQnAW81API-26" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -61,29 +61,29 @@
           <mxGeometry x="330" y="55" width="120" height="55" as="geometry" />
         </mxCell>
         <mxCell id="Ex5YgKOyC8xBXL9b5BlO-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="530" width="800" height="280" as="geometry" />
+          <mxGeometry x="20" y="710" width="800" height="280" as="geometry" />
         </mxCell>
         <mxCell id="Ex5YgKOyC8xBXL9b5BlO-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ex5YgKOyC8xBXL9b5BlO-6" target="Ex5YgKOyC8xBXL9b5BlO-4" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="265" y="680" as="sourcePoint" />
+            <mxPoint x="265" y="860" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ex5YgKOyC8xBXL9b5BlO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ex5YgKOyC8xBXL9b5BlO-4" target="Ex5YgKOyC8xBXL9b5BlO-7" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="580" y="680" as="targetPoint" />
+            <mxPoint x="580" y="860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ex5YgKOyC8xBXL9b5BlO-4" value="新TOKEN申请接口" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="350" y="650" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ex5YgKOyC8xBXL9b5BlO-5" value="入参" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="52" y="605" width="230" height="120" as="geometry" />
+          <mxGeometry x="52" y="785" width="230" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Ex5YgKOyC8xBXL9b5BlO-6" value="APPID 系统编码&#xa;OLD_APPSECRET 原系统密钥&#xa;APPSECRET 申请系统密钥&#xa;UPDATETIME 更新时间&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="Ex5YgKOyC8xBXL9b5BlO-5" vertex="1">
           <mxGeometry y="30" width="230" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Ex5YgKOyC8xBXL9b5BlO-7" value="出参" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="557" y="620" width="200" height="120" as="geometry" />
+          <mxGeometry x="557" y="800" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Ex5YgKOyC8xBXL9b5BlO-8" value="RSP 返回成功失败标识&#xa;APPID 系统标识" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="Ex5YgKOyC8xBXL9b5BlO-7" vertex="1">
           <mxGeometry y="30" width="200" height="90" as="geometry" />
@@ -94,7 +94,32 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ex5YgKOyC8xBXL9b5BlO-16" value="业务系统开发服务端接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="330" y="545" width="120" height="55" as="geometry" />
+          <mxGeometry x="330" y="725" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="_xVwWy8ecPfzpXmcPR9G-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_xVwWy8ecPfzpXmcPR9G-8" target="_xVwWy8ecPfzpXmcPR9G-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_xVwWy8ecPfzpXmcPR9G-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_xVwWy8ecPfzpXmcPR9G-6" target="_xVwWy8ecPfzpXmcPR9G-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_xVwWy8ecPfzpXmcPR9G-6" value="系统校验校验接口" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_xVwWy8ecPfzpXmcPR9G-7" value="入参" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="50" y="470" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_xVwWy8ecPfzpXmcPR9G-8" value="APPID 系统编码&#xa;APPSECRET 系统密钥&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="_xVwWy8ecPfzpXmcPR9G-7">
+          <mxGeometry y="30" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_xVwWy8ecPfzpXmcPR9G-9" value="出参" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="557" y="490" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_xVwWy8ecPfzpXmcPR9G-10" value="RSP 返回成功失败标识&#xa;APPID" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="_xVwWy8ecPfzpXmcPR9G-9">
+          <mxGeometry y="30" width="200" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
