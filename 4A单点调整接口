@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T02:58:28.473Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="tIinpkGXCzLCkwQTkT6O" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-10T08:49:20.812Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="SVzdJ99IE4qfhuQn9fjv" version="15.8.9" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="提供接口">
     <mxGraphModel dx="1182" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -120,6 +120,35 @@
         </mxCell>
         <mxCell id="_xVwWy8ecPfzpXmcPR9G-10" value="RSP 返回成功失败标识&#xa;APPID" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="_xVwWy8ecPfzpXmcPR9G-9">
           <mxGeometry y="30" width="200" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="AJChEPcT0cJlb1Vl88FA" name="单点登录-新新系统">
+    <mxGraphModel dx="1182" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="LSXKoW-zecKmEUVumffD-0" />
+        <mxCell id="LSXKoW-zecKmEUVumffD-1" parent="LSXKoW-zecKmEUVumffD-0" />
+        <mxCell id="LSXKoW-zecKmEUVumffD-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LSXKoW-zecKmEUVumffD-1" source="LSXKoW-zecKmEUVumffD-2" target="LSXKoW-zecKmEUVumffD-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LSXKoW-zecKmEUVumffD-2" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="LSXKoW-zecKmEUVumffD-1">
+          <mxGeometry x="100" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LSXKoW-zecKmEUVumffD-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LSXKoW-zecKmEUVumffD-1" source="LSXKoW-zecKmEUVumffD-3" target="LSXKoW-zecKmEUVumffD-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LSXKoW-zecKmEUVumffD-3" value="POST提交参数ACCOUNTID&lt;br&gt;TOKEN" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="LSXKoW-zecKmEUVumffD-1">
+          <mxGeometry x="90" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LSXKoW-zecKmEUVumffD-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LSXKoW-zecKmEUVumffD-1" source="LSXKoW-zecKmEUVumffD-5" target="LSXKoW-zecKmEUVumffD-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LSXKoW-zecKmEUVumffD-5" value="业务单点页面" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="LSXKoW-zecKmEUVumffD-1">
+          <mxGeometry x="290" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LSXKoW-zecKmEUVumffD-7" value="4A新令牌校验" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="LSXKoW-zecKmEUVumffD-1">
+          <mxGeometry x="490" y="180" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
