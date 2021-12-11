@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-11T10:16:30.585Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="qt1RfBzGb3dn0ntiVVQA" version="15.9.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-11T13:20:25.515Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="auvcvHO0q02rNna4oWPE" version="15.9.4" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="提供接口">
-    <mxGraphModel dx="1182" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -154,92 +154,95 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_XvleC4kePvutqOwEhiP" name="业务系统多模块跳转">
-    <mxGraphModel dx="942" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="_qXTi3EbiCtL_-5vzFcj-0" />
         <mxCell id="_qXTi3EbiCtL_-5vzFcj-1" parent="_qXTi3EbiCtL_-5vzFcj-0" />
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_qXTi3EbiCtL_-5vzFcj-1" source="_qXTi3EbiCtL_-5vzFcj-2" target="_qXTi3EbiCtL_-5vzFcj-3">
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="_qXTi3EbiCtL_-5vzFcj-1" source="_qXTi3EbiCtL_-5vzFcj-2" target="_qXTi3EbiCtL_-5vzFcj-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-2" value="业务系统A&lt;br&gt;单点到子模块" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="_qXTi3EbiCtL_-5vzFcj-1">
-          <mxGeometry x="620" y="50" width="100" height="60" as="geometry" />
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-2" value="业务系统A&lt;br&gt;单点到子模块" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="_qXTi3EbiCtL_-5vzFcj-1" vertex="1">
+          <mxGeometry x="565" y="50" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_qXTi3EbiCtL_-5vzFcj-1" source="_qXTi3EbiCtL_-5vzFcj-3" target="_qXTi3EbiCtL_-5vzFcj-24">
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="_qXTi3EbiCtL_-5vzFcj-1" source="_qXTi3EbiCtL_-5vzFcj-3" target="_qXTi3EbiCtL_-5vzFcj-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-3" value="本地解密jwt" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="_qXTi3EbiCtL_-5vzFcj-1">
-          <mxGeometry x="610" y="165" width="120" height="60" as="geometry" />
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-3" value="本地解密jwt" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="_qXTi3EbiCtL_-5vzFcj-1" vertex="1">
+          <mxGeometry x="555" y="161" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-21" value="TOKEN产生规则：&lt;br style=&quot;font-size: 15px&quot;&gt;采用对应系统的系统appsecret密钥进行签名加密认证，生成jwt串作为token&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;jwttoken中包含&lt;br style=&quot;font-size: 15px&quot;&gt;token有效期、登录sessionid等信息" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;" vertex="1" parent="_qXTi3EbiCtL_-5vzFcj-1">
-          <mxGeometry x="90" y="70" width="290" height="150" as="geometry" />
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-21" value="TOKEN产生规则：&lt;br style=&quot;font-size: 15px&quot;&gt;采用对应系统的系统appsecret密钥进行签名加密认证，生成jwt串作为token&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;jwttoken中包含&lt;br style=&quot;font-size: 15px&quot;&gt;token有效期、登录sessionid等信息" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;" parent="_qXTi3EbiCtL_-5vzFcj-1" vertex="1">
+          <mxGeometry x="40" y="70" width="290" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-22" value="访问业务模块A1" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="_qXTi3EbiCtL_-5vzFcj-1">
-          <mxGeometry x="610" y="476" width="120" height="60" as="geometry" />
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-22" value="访问业务模块A1" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="_qXTi3EbiCtL_-5vzFcj-1" vertex="1">
+          <mxGeometry x="555" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_qXTi3EbiCtL_-5vzFcj-1" source="_qXTi3EbiCtL_-5vzFcj-24" target="_qXTi3EbiCtL_-5vzFcj-22">
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="_qXTi3EbiCtL_-5vzFcj-1" source="_qXTi3EbiCtL_-5vzFcj-24" target="_qXTi3EbiCtL_-5vzFcj-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-30" value="有效" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_qXTi3EbiCtL_-5vzFcj-29">
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-30" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_qXTi3EbiCtL_-5vzFcj-29" vertex="1" connectable="0">
           <mxGeometry x="-0.2952" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_qXTi3EbiCtL_-5vzFcj-1" source="_qXTi3EbiCtL_-5vzFcj-24" target="_qXTi3EbiCtL_-5vzFcj-31">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="_qXTi3EbiCtL_-5vzFcj-1" source="_qXTi3EbiCtL_-5vzFcj-24" target="_qXTi3EbiCtL_-5vzFcj-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="709" y="331" as="sourcePoint" />
+            <mxPoint x="776" y="331" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-33" value="无效" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_qXTi3EbiCtL_-5vzFcj-32">
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-33" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_qXTi3EbiCtL_-5vzFcj-32" vertex="1" connectable="0">
           <mxGeometry x="-0.3019" y="-4" relative="1" as="geometry">
             <mxPoint y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-24" value="jwt是否是有效期" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="_qXTi3EbiCtL_-5vzFcj-1">
-          <mxGeometry x="620" y="290" width="100" height="100" as="geometry" />
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-24" value="jwt是否是有效期内，&lt;br&gt;且距离有效期大于5秒" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="_qXTi3EbiCtL_-5vzFcj-1" vertex="1">
+          <mxGeometry x="520" y="276" width="190" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_qXTi3EbiCtL_-5vzFcj-1" source="_qXTi3EbiCtL_-5vzFcj-31" target="_qXTi3EbiCtL_-5vzFcj-22">
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="_qXTi3EbiCtL_-5vzFcj-1" source="_qXTi3EbiCtL_-5vzFcj-31" target="_qXTi3EbiCtL_-5vzFcj-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-35" value="携带新token访问模块A1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_qXTi3EbiCtL_-5vzFcj-34">
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-35" value="携带新token访问模块A1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_qXTi3EbiCtL_-5vzFcj-34" vertex="1" connectable="0">
           <mxGeometry x="0.1125" y="2" relative="1" as="geometry">
             <mxPoint y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-31" value="调用token申请接口，获取新token" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="_qXTi3EbiCtL_-5vzFcj-1">
-          <mxGeometry x="826" y="310" width="120" height="60" as="geometry" />
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-31" value="调用token申请接口，获取新token" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="_qXTi3EbiCtL_-5vzFcj-1" vertex="1">
+          <mxGeometry x="810" y="288" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_qXTi3EbiCtL_-5vzFcj-1" source="_qXTi3EbiCtL_-5vzFcj-36" target="_qXTi3EbiCtL_-5vzFcj-37">
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="_qXTi3EbiCtL_-5vzFcj-1" source="_qXTi3EbiCtL_-5vzFcj-36" target="_qXTi3EbiCtL_-5vzFcj-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-36" value="4A系统&lt;br&gt;申请token接口" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="_qXTi3EbiCtL_-5vzFcj-1">
-          <mxGeometry x="150" y="280" width="100" height="60" as="geometry" />
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-36" value="4A系统&lt;br&gt;申请token接口" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="_qXTi3EbiCtL_-5vzFcj-1" vertex="1">
+          <mxGeometry x="110" y="310" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-37" value="&lt;span&gt;4A针对token一个系统，一个账号可以产生多个有效token&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="_qXTi3EbiCtL_-5vzFcj-1">
-          <mxGeometry x="140" y="420" width="120" height="60" as="geometry" />
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-37" value="&lt;span&gt;4A针对token一个系统，一个账号可以产生多个有效token&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="_qXTi3EbiCtL_-5vzFcj-1" vertex="1">
+          <mxGeometry x="100" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_qXTi3EbiCtL_-5vzFcj-1" source="_qXTi3EbiCtL_-5vzFcj-40" target="_qXTi3EbiCtL_-5vzFcj-42">
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="_qXTi3EbiCtL_-5vzFcj-1" source="_qXTi3EbiCtL_-5vzFcj-40" target="_qXTi3EbiCtL_-5vzFcj-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-40" value="4A系统&lt;br&gt;token校验接口" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="_qXTi3EbiCtL_-5vzFcj-1">
-          <mxGeometry x="410" y="60" width="100" height="60" as="geometry" />
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-40" value="4A系统&lt;br&gt;token校验接口" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="_qXTi3EbiCtL_-5vzFcj-1" vertex="1">
+          <mxGeometry x="360" y="60" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-47" value="可解、有效" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_qXTi3EbiCtL_-5vzFcj-1" source="_qXTi3EbiCtL_-5vzFcj-42" target="_qXTi3EbiCtL_-5vzFcj-46">
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-47" value="可解、有效" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="_qXTi3EbiCtL_-5vzFcj-1" source="_qXTi3EbiCtL_-5vzFcj-42" target="_qXTi3EbiCtL_-5vzFcj-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-42" value="本地解密jwt" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="_qXTi3EbiCtL_-5vzFcj-1">
-          <mxGeometry x="420" y="161" width="80" height="80" as="geometry" />
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-42" value="本地解密jwt" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="_qXTi3EbiCtL_-5vzFcj-1" vertex="1">
+          <mxGeometry x="370" y="161" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_qXTi3EbiCtL_-5vzFcj-1" source="_qXTi3EbiCtL_-5vzFcj-46" target="_qXTi3EbiCtL_-5vzFcj-50">
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="_qXTi3EbiCtL_-5vzFcj-1" source="_qXTi3EbiCtL_-5vzFcj-46" target="_qXTi3EbiCtL_-5vzFcj-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-52" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_qXTi3EbiCtL_-5vzFcj-51">
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-52" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_qXTi3EbiCtL_-5vzFcj-51" vertex="1" connectable="0">
           <mxGeometry x="-0.2444" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-46" value="4A系统token表是否存在" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="_qXTi3EbiCtL_-5vzFcj-1">
-          <mxGeometry x="420" y="292" width="80" height="80" as="geometry" />
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-46" value="4A系统token表是否存在" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="_qXTi3EbiCtL_-5vzFcj-1" vertex="1">
+          <mxGeometry x="370" y="292" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-50" value="返回校验成功" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="_qXTi3EbiCtL_-5vzFcj-1">
-          <mxGeometry x="400" y="450" width="120" height="60" as="geometry" />
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-50" value="返回校验成功" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="_qXTi3EbiCtL_-5vzFcj-1" vertex="1">
+          <mxGeometry x="350" y="450" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
