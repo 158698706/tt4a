@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-11T09:48:00.835Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="n-kcr3n_aV4gA4bVmfU_" version="15.9.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-11T09:50:48.560Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="wsA6ffavQFFQ10wQ6dVc" version="15.9.4" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="提供接口">
     <mxGraphModel dx="1182" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -170,8 +170,8 @@
         <mxCell id="_qXTi3EbiCtL_-5vzFcj-3" value="本地解密jwt" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="_qXTi3EbiCtL_-5vzFcj-1">
           <mxGeometry x="610" y="165" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-21" value="&lt;br&gt;采用对应系统的系统appsecret密钥进行签名加密认证，生成jwt串作为token&lt;br&gt;&lt;br&gt;jwttoken中包含&lt;br&gt;token有效期、采用业务系统密钥进行加密签证" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="_qXTi3EbiCtL_-5vzFcj-1">
-          <mxGeometry x="90" y="100" width="290" height="110" as="geometry" />
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-21" value="TOKEN产生规则：&lt;br style=&quot;font-size: 15px&quot;&gt;采用对应系统的系统appsecret密钥进行签名加密认证，生成jwt串作为token&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;jwttoken中包含&lt;br style=&quot;font-size: 15px&quot;&gt;token有效期、登录sessionid等信息" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;" vertex="1" parent="_qXTi3EbiCtL_-5vzFcj-1">
+          <mxGeometry x="90" y="70" width="290" height="150" as="geometry" />
         </mxCell>
         <mxCell id="_qXTi3EbiCtL_-5vzFcj-22" value="访问业务模块A1" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="_qXTi3EbiCtL_-5vzFcj-1">
           <mxGeometry x="610" y="476" width="120" height="60" as="geometry" />
@@ -209,7 +209,7 @@
         <mxCell id="_qXTi3EbiCtL_-5vzFcj-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_qXTi3EbiCtL_-5vzFcj-1" source="_qXTi3EbiCtL_-5vzFcj-36" target="_qXTi3EbiCtL_-5vzFcj-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-36" value="4A系统&lt;br&gt;申请token" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="_qXTi3EbiCtL_-5vzFcj-1">
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-36" value="4A系统&lt;br&gt;申请token接口" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="_qXTi3EbiCtL_-5vzFcj-1">
           <mxGeometry x="150" y="280" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_qXTi3EbiCtL_-5vzFcj-37" value="&lt;span&gt;4A针对token一个系统，一个账号可以产生多个有效token&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="_qXTi3EbiCtL_-5vzFcj-1">
@@ -218,7 +218,7 @@
         <mxCell id="_qXTi3EbiCtL_-5vzFcj-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_qXTi3EbiCtL_-5vzFcj-1" source="_qXTi3EbiCtL_-5vzFcj-40" target="_qXTi3EbiCtL_-5vzFcj-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_qXTi3EbiCtL_-5vzFcj-40" value="4A系统&lt;br&gt;token校验" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="_qXTi3EbiCtL_-5vzFcj-1">
+        <mxCell id="_qXTi3EbiCtL_-5vzFcj-40" value="4A系统&lt;br&gt;token校验接口" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="_qXTi3EbiCtL_-5vzFcj-1">
           <mxGeometry x="410" y="60" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_qXTi3EbiCtL_-5vzFcj-47" value="可解、有效" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_qXTi3EbiCtL_-5vzFcj-1" source="_qXTi3EbiCtL_-5vzFcj-42" target="_qXTi3EbiCtL_-5vzFcj-46">
