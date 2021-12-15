@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net" modified="2021-12-15T05:38:23.544Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="19g78BQkCxsuz8J3416W" version="15.9.4" type="github" pages="2">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="4A管理数据模型">
+    <mxGraphModel dx="1182" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y7mrTgpkIZg8PlTDdpqD-15" value="人员" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="180" y="70" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y7mrTgpkIZg8PlTDdpqD-16" value="账号" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="340" y="170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y7mrTgpkIZg8PlTDdpqD-17" value="角色" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="500" y="270" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y7mrTgpkIZg8PlTDdpqD-18" value="组织" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="180" y="270" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y7mrTgpkIZg8PlTDdpqD-19" value="岗位" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="500" y="70" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y7mrTgpkIZg8PlTDdpqD-20" value="菜单" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="660" y="180" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y7mrTgpkIZg8PlTDdpqD-31" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="y7mrTgpkIZg8PlTDdpqD-15" target="y7mrTgpkIZg8PlTDdpqD-16" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="180" y="380" as="sourcePoint" />
+            <mxPoint x="280" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y7mrTgpkIZg8PlTDdpqD-32" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="y7mrTgpkIZg8PlTDdpqD-16" target="y7mrTgpkIZg8PlTDdpqD-19" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="370" y="360" as="sourcePoint" />
+            <mxPoint x="470" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y7mrTgpkIZg8PlTDdpqD-33" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="y7mrTgpkIZg8PlTDdpqD-16" target="y7mrTgpkIZg8PlTDdpqD-17" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="100" y="450" as="sourcePoint" />
+            <mxPoint x="200" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y7mrTgpkIZg8PlTDdpqD-34" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="y7mrTgpkIZg8PlTDdpqD-18" target="y7mrTgpkIZg8PlTDdpqD-16" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="210" y="370" as="sourcePoint" />
+            <mxPoint x="310" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y7mrTgpkIZg8PlTDdpqD-36" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="y7mrTgpkIZg8PlTDdpqD-17" target="y7mrTgpkIZg8PlTDdpqD-20" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="490" y="520" as="sourcePoint" />
+            <mxPoint x="590" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tBgkuHAfSkf-UNDd6iPS" name="数据流向图">
+    <mxGraphModel dx="1182" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="gfKWmlearbqlMHCiAIDc-0" />
+        <mxCell id="gfKWmlearbqlMHCiAIDc-1" parent="gfKWmlearbqlMHCiAIDc-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
