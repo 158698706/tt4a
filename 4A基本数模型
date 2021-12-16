@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T06:45:49.708Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="Hl0T8OPz0FNrB4xpY8on" version="15.9.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-16T02:03:41.198Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="zq_zreJXLIomBR4CzGvH" version="15.9.4" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="4A管理数据模型">
-    <mxGraphModel dx="1182" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1182" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,6 +51,9 @@
             <mxPoint x="490" y="520" as="sourcePoint" />
             <mxPoint x="590" y="420" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="cBCfBxvqwD-uGzJT4J6p-2" value="1" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="430" width="490" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
