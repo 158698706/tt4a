@@ -1,9 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T11:03:22.079Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="gZpJo9zZeEpzoUyETsBW" version="15.9.6" type="github">
-  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2021-12-20T11:03:56.415Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="g4qw8RruE6QUd-x1UfXO" version="15.9.6" type="github" pages="2">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="jwt规则">
     <mxGraphModel dx="942" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1bW7jqmMGxsqmwK0uqaC" name="业务系统处理逻辑">
+    <mxGraphModel dx="942" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Mj-kB1C7--M0cNPSisDb-0" />
+        <mxCell id="Mj-kB1C7--M0cNPSisDb-1" parent="Mj-kB1C7--M0cNPSisDb-0" />
       </root>
     </mxGraphModel>
   </diagram>
