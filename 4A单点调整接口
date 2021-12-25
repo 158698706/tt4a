@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-25T06:20:09.777Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="sNtMWz91ppIQPb1JS1ne" version="16.0.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-25T07:17:49.988Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="CzuUjpr5XfisXSRQGQAe" version="16.0.3" type="github" pages="6">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="提供接口">
     <mxGraphModel dx="1182" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -575,6 +575,62 @@
         </mxCell>
         <mxCell id="kfeoXc6iVhctr_raG2li-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="kfeoXc6iVhctr_raG2li-1" source="kfeoXc6iVhctr_raG2li-23" target="kfeoXc6iVhctr_raG2li-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="am-cL6J_s1ROkdrEvRgV" name="网关交互参数类型">
+    <mxGraphModel dx="1182" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="MRJcQuKy1D46UiP9czmK-0" />
+        <mxCell id="MRJcQuKy1D46UiP9czmK-1" parent="MRJcQuKy1D46UiP9czmK-0" />
+        <mxCell id="IszQpL8nG5TtNYd33TVj-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MRJcQuKy1D46UiP9czmK-1" source="IszQpL8nG5TtNYd33TVj-0" target="IszQpL8nG5TtNYd33TVj-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IszQpL8nG5TtNYd33TVj-0" value="网关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MRJcQuKy1D46UiP9czmK-1">
+          <mxGeometry x="500" y="100" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IszQpL8nG5TtNYd33TVj-1" value="跨系统接口访问传参" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="MRJcQuKy1D46UiP9czmK-1">
+          <mxGeometry x="40" y="65" width="350" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IszQpL8nG5TtNYd33TVj-2" value="APPID 客户端系统编码" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IszQpL8nG5TtNYd33TVj-1">
+          <mxGeometry y="26" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IszQpL8nG5TtNYd33TVj-3" value="APPUUID 客户端本地产生UUID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IszQpL8nG5TtNYd33TVj-1">
+          <mxGeometry y="52" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IszQpL8nG5TtNYd33TVj-5" value="APPUUIDCRPT 客户端采用系统密钥对APPUUID进行DES加密" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IszQpL8nG5TtNYd33TVj-1">
+          <mxGeometry y="78" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IszQpL8nG5TtNYd33TVj-4" value="ACCESSIPADDR 客户端IP地址" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IszQpL8nG5TtNYd33TVj-1">
+          <mxGeometry y="104" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IszQpL8nG5TtNYd33TVj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MRJcQuKy1D46UiP9czmK-1" source="IszQpL8nG5TtNYd33TVj-3" target="IszQpL8nG5TtNYd33TVj-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IszQpL8nG5TtNYd33TVj-7" value="2.4.5.系统密钥校验接口" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="MRJcQuKy1D46UiP9czmK-1">
+          <mxGeometry x="610" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IszQpL8nG5TtNYd33TVj-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="MRJcQuKy1D46UiP9czmK-1" source="IszQpL8nG5TtNYd33TVj-10" target="IszQpL8nG5TtNYd33TVj-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IszQpL8nG5TtNYd33TVj-10" value="网关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MRJcQuKy1D46UiP9czmK-1">
+          <mxGeometry x="500" y="284" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IszQpL8nG5TtNYd33TVj-11" value="系统改造前" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="MRJcQuKy1D46UiP9czmK-1">
+          <mxGeometry x="30" y="266" width="350" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="IszQpL8nG5TtNYd33TVj-12" value="ACCTNAME 客户端系统编码" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IszQpL8nG5TtNYd33TVj-11">
+          <mxGeometry y="26" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IszQpL8nG5TtNYd33TVj-13" value="TOKEN 令牌" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IszQpL8nG5TtNYd33TVj-11">
+          <mxGeometry y="52" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IszQpL8nG5TtNYd33TVj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=-0.154;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="MRJcQuKy1D46UiP9czmK-1" source="IszQpL8nG5TtNYd33TVj-13" target="IszQpL8nG5TtNYd33TVj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IszQpL8nG5TtNYd33TVj-17" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2.1.3.统一凭证校验接口&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="MRJcQuKy1D46UiP9czmK-1">
+          <mxGeometry x="610" y="284" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
