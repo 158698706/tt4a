@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-25T05:43:00.648Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="fYVkYK0fBr9NqY8-SI3X" version="16.0.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-25T06:20:09.777Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="sNtMWz91ppIQPb1JS1ne" version="16.0.3" type="github" pages="5">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="提供接口">
     <mxGraphModel dx="1182" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -451,7 +451,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZQ_IvATZEyY1npQyGV24" name="网关交互逻辑">
-    <mxGraphModel dx="2009" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2009" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="kfeoXc6iVhctr_raG2li-0" />
         <mxCell id="kfeoXc6iVhctr_raG2li-1" parent="kfeoXc6iVhctr_raG2li-0" />
@@ -468,14 +468,14 @@
           <mxGeometry x="70" y="50" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kfeoXc6iVhctr_raG2li-8" value="组装报文准备调用系统B接口" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="kfeoXc6iVhctr_raG2li-4" vertex="1">
-          <mxGeometry x="60" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="60" y="168" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kfeoXc6iVhctr_raG2li-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="kfeoXc6iVhctr_raG2li-3" source="kfeoXc6iVhctr_raG2li-16" target="kfeoXc6iVhctr_raG2li-23" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="660" y="715" as="targetPoint" />
+            <mxPoint x="660" y="713" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="690" y="450" />
-              <mxPoint x="690" y="690" />
+              <mxPoint x="690" y="448" />
+              <mxPoint x="690" y="688" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -487,7 +487,7 @@
         <mxCell id="kfeoXc6iVhctr_raG2li-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="kfeoXc6iVhctr_raG2li-3" source="kfeoXc6iVhctr_raG2li-18" target="kfeoXc6iVhctr_raG2li-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="580" y="690" />
+              <mxPoint x="580" y="688" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -495,28 +495,28 @@
           <mxGeometry x="240" y="20" width="240" height="1060" as="geometry" />
         </mxCell>
         <mxCell id="kfeoXc6iVhctr_raG2li-23" value="获取校验结果" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="kfeoXc6iVhctr_raG2li-5" vertex="1">
-          <mxGeometry x="80" y="640" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="638" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kfeoXc6iVhctr_raG2li-28" value="透传参数到系统B，并允许A访问B" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="kfeoXc6iVhctr_raG2li-5" vertex="1">
-          <mxGeometry x="80" y="860" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="858" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kfeoXc6iVhctr_raG2li-32" value="阻断" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="kfeoXc6iVhctr_raG2li-5" vertex="1">
-          <mxGeometry x="10" y="980" width="70" height="50" as="geometry" />
+          <mxGeometry x="10" y="978" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kfeoXc6iVhctr_raG2li-6" value="4A系统" style="swimlane;startSize=20;" parent="kfeoXc6iVhctr_raG2li-3" vertex="1">
           <mxGeometry x="480" y="20" width="240" height="1060" as="geometry" />
         </mxCell>
         <mxCell id="kfeoXc6iVhctr_raG2li-18" value="校验token令牌" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="kfeoXc6iVhctr_raG2li-6" vertex="1">
-          <mxGeometry x="40" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="518" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kfeoXc6iVhctr_raG2li-16" value="校验系统密钥" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="kfeoXc6iVhctr_raG2li-6" vertex="1">
-          <mxGeometry x="40" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="398" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kfeoXc6iVhctr_raG2li-7" value="系统B" style="swimlane;startSize=20;" parent="kfeoXc6iVhctr_raG2li-3" vertex="1">
           <mxGeometry x="720" y="20" width="240" height="1060" as="geometry" />
         </mxCell>
         <mxCell id="kfeoXc6iVhctr_raG2li-30" value="获取参数，处理信息&lt;br&gt;也可以继续通过请求头获取令牌到4A进行令牌校验" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="kfeoXc6iVhctr_raG2li-7" vertex="1">
-          <mxGeometry x="60" y="860" width="130" height="60" as="geometry" />
+          <mxGeometry x="60" y="858" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kfeoXc6iVhctr_raG2li-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="kfeoXc6iVhctr_raG2li-3" source="kfeoXc6iVhctr_raG2li-28" target="kfeoXc6iVhctr_raG2li-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -524,8 +524,8 @@
         <mxCell id="kfeoXc6iVhctr_raG2li-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="kfeoXc6iVhctr_raG2li-1" source="kfeoXc6iVhctr_raG2li-10" target="kfeoXc6iVhctr_raG2li-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kfeoXc6iVhctr_raG2li-10" value="请求头中携带&lt;br&gt;系统A的APPID\APPSECRT&lt;br&gt;之前借助head中token等参数进行越权限制的，依然传递B系统的accId和token" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="kfeoXc6iVhctr_raG2li-1" vertex="1">
-          <mxGeometry x="-60" y="362" width="160" height="90" as="geometry" />
+        <mxCell id="kfeoXc6iVhctr_raG2li-10" value="请求头中携带&lt;br&gt;系统A的APPID\UUID等值&lt;br&gt;之前借助head中token等参数进行越权限制的，依然传递B系统的accId和token" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="kfeoXc6iVhctr_raG2li-1" vertex="1">
+          <mxGeometry x="-60" y="360" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="kfeoXc6iVhctr_raG2li-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="kfeoXc6iVhctr_raG2li-1" source="kfeoXc6iVhctr_raG2li-8" target="kfeoXc6iVhctr_raG2li-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -534,7 +534,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kfeoXc6iVhctr_raG2li-12" value="网关鉴权" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="kfeoXc6iVhctr_raG2li-1" vertex="1">
-          <mxGeometry x="200" y="377" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="375" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kfeoXc6iVhctr_raG2li-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="kfeoXc6iVhctr_raG2li-1" source="kfeoXc6iVhctr_raG2li-14" target="kfeoXc6iVhctr_raG2li-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -547,7 +547,7 @@
         <mxCell id="kfeoXc6iVhctr_raG2li-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="kfeoXc6iVhctr_raG2li-1" source="kfeoXc6iVhctr_raG2li-14" target="kfeoXc6iVhctr_raG2li-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="260" y="640" />
+              <mxPoint x="260" y="638" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -557,7 +557,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kfeoXc6iVhctr_raG2li-14" value="&lt;span&gt;APPID是否为空&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="kfeoXc6iVhctr_raG2li-1" vertex="1">
-          <mxGeometry x="200" y="480" width="120" height="80" as="geometry" />
+          <mxGeometry x="200" y="478" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kfeoXc6iVhctr_raG2li-29" value="成功" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="kfeoXc6iVhctr_raG2li-1" source="kfeoXc6iVhctr_raG2li-26" target="kfeoXc6iVhctr_raG2li-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -571,7 +571,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kfeoXc6iVhctr_raG2li-26" value="判断结果" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="kfeoXc6iVhctr_raG2li-1" vertex="1">
-          <mxGeometry x="240" y="860" width="80" height="40" as="geometry" />
+          <mxGeometry x="240" y="858" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kfeoXc6iVhctr_raG2li-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="kfeoXc6iVhctr_raG2li-1" source="kfeoXc6iVhctr_raG2li-23" target="kfeoXc6iVhctr_raG2li-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
