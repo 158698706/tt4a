@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-25T07:17:49.988Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="CzuUjpr5XfisXSRQGQAe" version="16.0.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-12-29T12:06:55.795Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="bbheTOZIN8PhanM0R29z" version="16.1.0" type="github" pages="7">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="提供接口">
     <mxGraphModel dx="1182" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -631,6 +631,23 @@
         </mxCell>
         <mxCell id="IszQpL8nG5TtNYd33TVj-17" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2.1.3.统一凭证校验接口&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="MRJcQuKy1D46UiP9czmK-1">
           <mxGeometry x="610" y="284" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="P4u4XyKpNFs7k7FOwbV8" name="各单点登录申请校验流程">
+    <mxGraphModel dx="1182" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="4KeXj_bMGHRjBuPzoee_-0" />
+        <mxCell id="4KeXj_bMGHRjBuPzoee_-1" parent="4KeXj_bMGHRjBuPzoee_-0" />
+        <mxCell id="4KeXj_bMGHRjBuPzoee_-4" value="三代系统" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="4KeXj_bMGHRjBuPzoee_-1">
+          <mxGeometry x="330" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4KeXj_bMGHRjBuPzoee_-7" value="二代系统" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="4KeXj_bMGHRjBuPzoee_-1">
+          <mxGeometry x="330" y="410" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4KeXj_bMGHRjBuPzoee_-8" value="一代系统" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="4KeXj_bMGHRjBuPzoee_-1">
+          <mxGeometry x="330" y="600" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
