@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-15T08:28:15.775Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="i7EKQGgpwxx-jivFQeNZ" version="16.2.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-15T08:30:29.342Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="QJBjjf88pUJEYQrBapTR" version="16.2.4" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="原有授权模式">
     <mxGraphModel dx="1038" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lNg4HkQFBeymeus1TO-I" name="授权方案一">
-    <mxGraphModel dx="1038" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="8CQ-ia9fO0FRhSrcfYEi-0" />
         <mxCell id="8CQ-ia9fO0FRhSrcfYEi-1" parent="8CQ-ia9fO0FRhSrcfYEi-0" />
@@ -170,7 +170,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uurqNcsF23_Rn0OkwrQy" name="授权方案二">
-    <mxGraphModel dx="1038" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1">
       <root>
         <mxCell id="VEONL2WNQXDeuScce6_d-0" />
         <mxCell id="VEONL2WNQXDeuScce6_d-1" parent="VEONL2WNQXDeuScce6_d-0" />
@@ -209,7 +209,18 @@
           <mxGeometry x="80" y="410" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n_7zqOX7N7Pk6Qgxa6lv-9" value="Entity" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="VEONL2WNQXDeuScce6_d-1">
-          <mxGeometry x="350" y="370" width="100" height="40" as="geometry" />
+          <mxGeometry x="260" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yiaLKsGjJVGYuU0Uhlwn" name="第 4 页">
+    <mxGraphModel dx="1038" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Sd00HyLn9HasEdEAHKrx-0" />
+        <mxCell id="Sd00HyLn9HasEdEAHKrx-1" parent="Sd00HyLn9HasEdEAHKrx-0" />
+        <mxCell id="Sd00HyLn9HasEdEAHKrx-2" value="Entity" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Sd00HyLn9HasEdEAHKrx-1">
+          <mxGeometry x="140" y="230" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
