@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-15T07:45:49.066Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="1-CSxgG4U-gsq-UXZb1e" version="16.2.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-15T07:57:00.446Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="ZolOIG32uEgMe5I-0jYj" version="16.2.4" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="原有授权模式">
     <mxGraphModel dx="1038" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -174,6 +174,27 @@
       <root>
         <mxCell id="VEONL2WNQXDeuScce6_d-0" />
         <mxCell id="VEONL2WNQXDeuScce6_d-1" parent="VEONL2WNQXDeuScce6_d-0" />
+        <mxCell id="n_7zqOX7N7Pk6Qgxa6lv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="VEONL2WNQXDeuScce6_d-1" source="n_7zqOX7N7Pk6Qgxa6lv-0" target="n_7zqOX7N7Pk6Qgxa6lv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n_7zqOX7N7Pk6Qgxa6lv-0" value="数据项" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="VEONL2WNQXDeuScce6_d-1">
+          <mxGeometry x="220" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n_7zqOX7N7Pk6Qgxa6lv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="VEONL2WNQXDeuScce6_d-1" source="n_7zqOX7N7Pk6Qgxa6lv-1" target="n_7zqOX7N7Pk6Qgxa6lv-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="350" />
+              <mxPoint x="370" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n_7zqOX7N7Pk6Qgxa6lv-1" value="数据项操作" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="VEONL2WNQXDeuScce6_d-1">
+          <mxGeometry x="220" y="330" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n_7zqOX7N7Pk6Qgxa6lv-2" value="菜单" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="VEONL2WNQXDeuScce6_d-1">
+          <mxGeometry x="420" y="280" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
