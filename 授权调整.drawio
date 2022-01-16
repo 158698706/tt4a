@@ -1,4 +1,106 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T15:07:01.665Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="QTzY9rtyrddmhgqh2WiA" version="16.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-16T15:10:17.033Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="2NokduNwW6TCA6Knm9e3" version="16.2.7" type="github" pages="4">
+  <diagram id="YnDmW9PTfBtEW9jrCdju" name="第 4 页">
+    <mxGraphModel dx="1038" dy="576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-0" />
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-1" parent="VnN19P3VDIoYAi3wAm9Y-0" />
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VnN19P3VDIoYAi3wAm9Y-1" source="VnN19P3VDIoYAi3wAm9Y-2" target="VnN19P3VDIoYAi3wAm9Y-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-2" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="VnN19P3VDIoYAi3wAm9Y-1">
+          <mxGeometry x="293" y="56" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VnN19P3VDIoYAi3wAm9Y-1" source="VnN19P3VDIoYAi3wAm9Y-3" target="VnN19P3VDIoYAi3wAm9Y-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-3" value="接收4A单点参数" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="VnN19P3VDIoYAi3wAm9Y-1">
+          <mxGeometry x="283" y="161" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VnN19P3VDIoYAi3wAm9Y-1" source="VnN19P3VDIoYAi3wAm9Y-7" target="VnN19P3VDIoYAi3wAm9Y-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-15" value="正确" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VnN19P3VDIoYAi3wAm9Y-14">
+          <mxGeometry x="-0.2356" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-7" value="参数校验" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="VnN19P3VDIoYAi3wAm9Y-1">
+          <mxGeometry x="303" y="263" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VnN19P3VDIoYAi3wAm9Y-1" source="VnN19P3VDIoYAi3wAm9Y-13" target="VnN19P3VDIoYAi3wAm9Y-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-13" value="获取本系统密钥&lt;br&gt;使用密钥解密令牌" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="VnN19P3VDIoYAi3wAm9Y-1">
+          <mxGeometry x="283" y="392" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VnN19P3VDIoYAi3wAm9Y-1" source="VnN19P3VDIoYAi3wAm9Y-16" target="VnN19P3VDIoYAi3wAm9Y-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-20" value="解密异常" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VnN19P3VDIoYAi3wAm9Y-19">
+          <mxGeometry x="-0.272" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VnN19P3VDIoYAi3wAm9Y-1" source="VnN19P3VDIoYAi3wAm9Y-16" target="VnN19P3VDIoYAi3wAm9Y-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="142" y="677" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="213" y="562" />
+              <mxPoint x="213" y="677" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-24" value="令牌已失效" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VnN19P3VDIoYAi3wAm9Y-23">
+          <mxGeometry x="0.1638" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VnN19P3VDIoYAi3wAm9Y-1" source="VnN19P3VDIoYAi3wAm9Y-16" target="VnN19P3VDIoYAi3wAm9Y-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-28" value="令牌正确且有效" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VnN19P3VDIoYAi3wAm9Y-27">
+          <mxGeometry x="-0.2444" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-16" value="判断结果" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="VnN19P3VDIoYAi3wAm9Y-1">
+          <mxGeometry x="303" y="522" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-18" value="错误页面，提示解密异常" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="VnN19P3VDIoYAi3wAm9Y-1">
+          <mxGeometry x="22" y="532" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-25" value="提示令牌已失效，请重新单点" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="VnN19P3VDIoYAi3wAm9Y-1">
+          <mxGeometry x="20" y="643" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VnN19P3VDIoYAi3wAm9Y-1" source="VnN19P3VDIoYAi3wAm9Y-26" target="VnN19P3VDIoYAi3wAm9Y-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-26" value="调用4A令牌校验接口" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="VnN19P3VDIoYAi3wAm9Y-1">
+          <mxGeometry x="283" y="692" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VnN19P3VDIoYAi3wAm9Y-1" source="VnN19P3VDIoYAi3wAm9Y-29" target="VnN19P3VDIoYAi3wAm9Y-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-33" value="正确" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VnN19P3VDIoYAi3wAm9Y-32">
+          <mxGeometry x="-0.2667" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-29" value="判断返回结果" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="VnN19P3VDIoYAi3wAm9Y-1">
+          <mxGeometry x="303" y="803" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VnN19P3VDIoYAi3wAm9Y-1" source="VnN19P3VDIoYAi3wAm9Y-31" target="VnN19P3VDIoYAi3wAm9Y-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-31" value="使用校验返回用户名进行登录，展现用户页面" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="VnN19P3VDIoYAi3wAm9Y-1">
+          <mxGeometry x="283" y="945" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VnN19P3VDIoYAi3wAm9Y-34" value="结束" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="VnN19P3VDIoYAi3wAm9Y-1">
+          <mxGeometry x="283" y="1085" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="原有授权模式">
     <mxGraphModel dx="1250" dy="611" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -215,74 +317,6 @@
         </mxCell>
         <mxCell id="PvKErX-ExL5SwqMNkQk6-1" value="数据范围（管理区域）" style="whiteSpace=wrap;html=1;align=center;" parent="VEONL2WNQXDeuScce6_d-1" vertex="1">
           <mxGeometry x="80" y="320" width="150" height="60" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="YnDmW9PTfBtEW9jrCdju" name="第 4 页">
-    <mxGraphModel dx="1865" dy="576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="VnN19P3VDIoYAi3wAm9Y-0" />
-        <mxCell id="VnN19P3VDIoYAi3wAm9Y-1" parent="VnN19P3VDIoYAi3wAm9Y-0" />
-        <mxCell id="VnN19P3VDIoYAi3wAm9Y-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VnN19P3VDIoYAi3wAm9Y-1" source="VnN19P3VDIoYAi3wAm9Y-2" target="VnN19P3VDIoYAi3wAm9Y-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VnN19P3VDIoYAi3wAm9Y-2" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="VnN19P3VDIoYAi3wAm9Y-1">
-          <mxGeometry x="205" y="50" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VnN19P3VDIoYAi3wAm9Y-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VnN19P3VDIoYAi3wAm9Y-1" source="VnN19P3VDIoYAi3wAm9Y-3" target="VnN19P3VDIoYAi3wAm9Y-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VnN19P3VDIoYAi3wAm9Y-3" value="接收4A单点参数" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="VnN19P3VDIoYAi3wAm9Y-1">
-          <mxGeometry x="195" y="190" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VnN19P3VDIoYAi3wAm9Y-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VnN19P3VDIoYAi3wAm9Y-1" source="VnN19P3VDIoYAi3wAm9Y-7" target="VnN19P3VDIoYAi3wAm9Y-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VnN19P3VDIoYAi3wAm9Y-15" value="正确" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VnN19P3VDIoYAi3wAm9Y-14">
-          <mxGeometry x="-0.2356" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VnN19P3VDIoYAi3wAm9Y-7" value="参数校验" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="VnN19P3VDIoYAi3wAm9Y-1">
-          <mxGeometry x="215" y="320" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="VnN19P3VDIoYAi3wAm9Y-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VnN19P3VDIoYAi3wAm9Y-1" source="VnN19P3VDIoYAi3wAm9Y-13" target="VnN19P3VDIoYAi3wAm9Y-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VnN19P3VDIoYAi3wAm9Y-13" value="获取本系统密钥&lt;br&gt;使用密钥解密令牌" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="VnN19P3VDIoYAi3wAm9Y-1">
-          <mxGeometry x="195" y="490" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VnN19P3VDIoYAi3wAm9Y-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VnN19P3VDIoYAi3wAm9Y-1" source="VnN19P3VDIoYAi3wAm9Y-16" target="VnN19P3VDIoYAi3wAm9Y-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VnN19P3VDIoYAi3wAm9Y-20" value="解密异常" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VnN19P3VDIoYAi3wAm9Y-19">
-          <mxGeometry x="-0.272" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VnN19P3VDIoYAi3wAm9Y-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VnN19P3VDIoYAi3wAm9Y-1" source="VnN19P3VDIoYAi3wAm9Y-16" target="VnN19P3VDIoYAi3wAm9Y-25">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="54" y="775" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="125" y="660" />
-              <mxPoint x="125" y="775" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VnN19P3VDIoYAi3wAm9Y-24" value="令牌已失效" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VnN19P3VDIoYAi3wAm9Y-23">
-          <mxGeometry x="0.1638" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VnN19P3VDIoYAi3wAm9Y-16" value="判断结果" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="VnN19P3VDIoYAi3wAm9Y-1">
-          <mxGeometry x="215" y="620" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="VnN19P3VDIoYAi3wAm9Y-18" value="错误页面，提示解密异常" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="VnN19P3VDIoYAi3wAm9Y-1">
-          <mxGeometry x="-66" y="630" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VnN19P3VDIoYAi3wAm9Y-25" value="提示令牌已失效，请重新单点" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="VnN19P3VDIoYAi3wAm9Y-1">
-          <mxGeometry x="-68" y="741" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
