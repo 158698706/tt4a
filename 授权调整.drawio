@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T09:31:23.117Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="k1IVkC3oQCx2oCSkv2_q" version="16.4.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-01-26T12:11:19.092Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="7hB3aYzyo0RJYgxQTqn_" version="16.4.3" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="原有授权模式">
     <mxGraphModel dx="1182" dy="565" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -435,7 +435,7 @@
         <mxCell id="o8TvKzSyp4gjB_jng5IY-5" value="共享服务器（redis）" style="swimlane;startSize=20;" vertex="1" parent="o8TvKzSyp4gjB_jng5IY-2">
           <mxGeometry x="520" width="240" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="o8TvKzSyp4gjB_jng5IY-17" value="" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="o8TvKzSyp4gjB_jng5IY-5">
+        <mxCell id="o8TvKzSyp4gjB_jng5IY-17" value="将loginKey存入redis，设置有效期为OA的有效期" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="o8TvKzSyp4gjB_jng5IY-5">
           <mxGeometry x="60" y="275" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o8TvKzSyp4gjB_jng5IY-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="o8TvKzSyp4gjB_jng5IY-1" source="o8TvKzSyp4gjB_jng5IY-10" target="o8TvKzSyp4gjB_jng5IY-12">
