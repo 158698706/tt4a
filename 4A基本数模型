@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-25T03:23:56.630Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="ZR_OQxUJmuhRBzisLNq8" version="16.6.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-02-25T03:29:39.332Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="EmoNuO1FE5xO0kJhGga6" version="16.6.2" type="github" pages="6">
   <diagram id="FSVTRaNp_vcdZQEsljns" name="当前4A角色模型">
     <mxGraphModel dx="1038" dy="576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -977,7 +977,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iX0ppQgPxcFh6_pE-6IN" name="模型-2">
-    <mxGraphModel dx="1038" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1865" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rDAhcl_Jf78RWhXP_pCc-0" />
         <mxCell id="rDAhcl_Jf78RWhXP_pCc-1" parent="rDAhcl_Jf78RWhXP_pCc-0" />
@@ -1721,6 +1721,12 @@
         </mxCell>
         <mxCell id="rDAhcl_Jf78RWhXP_pCc-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="rDAhcl_Jf78RWhXP_pCc-1" source="rDAhcl_Jf78RWhXP_pCc-172" target="rDAhcl_Jf78RWhXP_pCc-149">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDAhcl_Jf78RWhXP_pCc-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rDAhcl_Jf78RWhXP_pCc-1" source="rDAhcl_Jf78RWhXP_pCc-180" target="rDAhcl_Jf78RWhXP_pCc-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDAhcl_Jf78RWhXP_pCc-180" value="针对内部人员，所属组织1条，工作组织0~n条；&lt;br&gt;外部人员，所属组织可0~1条，工作组织0~n条。" style="shape=note;size=20;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="rDAhcl_Jf78RWhXP_pCc-1">
+          <mxGeometry x="-270" y="430" width="190" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
