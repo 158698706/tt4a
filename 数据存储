@@ -1,4 +1,4 @@
-<mxfile modified="2022-03-02T01:07:37.980Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="IpV6wUnGkwfkv0x0z_DM" version="16.6.4" type="github">
+<mxfile modified="2022-03-02T01:10:48.744Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="zFdtWLGvMbZR2f8Cmm_7" version="16.6.4" type="github">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
     <mxGraphModel dx="1038" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -22,6 +22,14 @@
         <mxCell id="JQtMgHcCJYPFxEaiX_Kf-23" value="服务商登录门户" style="rounded=0;whiteSpace=wrap;html=1;" parent="JQtMgHcCJYPFxEaiX_Kf-3" vertex="1">
           <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="lLdsxdv1f81py9-WsLEY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JQtMgHcCJYPFxEaiX_Kf-4" target="JQtMgHcCJYPFxEaiX_Kf-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="360" />
+              <mxPoint x="510" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="JQtMgHcCJYPFxEaiX_Kf-4" value="认证服务" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="110" y="100" width="200" height="200" as="geometry" />
         </mxCell>
@@ -35,13 +43,13 @@
           <mxGeometry x="130" y="520" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JQtMgHcCJYPFxEaiX_Kf-9" value="oracle数据库" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="750" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JQtMgHcCJYPFxEaiX_Kf-14" value="数据同步服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="550" width="120" height="60" as="geometry" />
+          <mxGeometry x="750" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JQtMgHcCJYPFxEaiX_Kf-11" value="redis缓存" style="swimlane;startSize=23;" parent="1" vertex="1">
-          <mxGeometry x="710" y="410" width="200" height="230" as="geometry" />
+          <mxGeometry x="410" y="414" width="200" height="230" as="geometry" />
         </mxCell>
         <mxCell id="JQtMgHcCJYPFxEaiX_Kf-12" value="临时数据（令牌、二维码等）缓存" style="rounded=0;whiteSpace=wrap;html=1;" parent="JQtMgHcCJYPFxEaiX_Kf-11" vertex="1">
           <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
@@ -57,9 +65,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JQtMgHcCJYPFxEaiX_Kf-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="JQtMgHcCJYPFxEaiX_Kf-14" target="JQtMgHcCJYPFxEaiX_Kf-11" edge="1">
+        <mxCell id="JQtMgHcCJYPFxEaiX_Kf-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="JQtMgHcCJYPFxEaiX_Kf-14" target="JQtMgHcCJYPFxEaiX_Kf-11" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1040" y="310" as="targetPoint" />
+            <mxPoint x="610" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JQtMgHcCJYPFxEaiX_Kf-20" value="定时同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="JQtMgHcCJYPFxEaiX_Kf-18" vertex="1" connectable="0">
@@ -73,8 +81,13 @@
             <mxPoint x="350" y="650" as="targetPoint" />
             <Array as="points">
               <mxPoint x="200" y="700" />
-              <mxPoint x="810" y="700" />
+              <mxPoint x="510" y="700" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLdsxdv1f81py9-WsLEY-3" value="通过缓存查询，并返回内容" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JQtMgHcCJYPFxEaiX_Kf-21">
+          <mxGeometry x="-0.081" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
