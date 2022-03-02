@@ -1,6 +1,6 @@
-<mxfile modified="2022-03-02T01:16:12.269Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="G0cGN4ogVzWrsD01f6qQ" version="16.6.4" type="github">
+<mxfile modified="2022-03-02T16:32:52.593Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="oDP3vjVpBeBuOMuLiPSN" version="16.6.4" type="github">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
-    <mxGraphModel dx="1038" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1597" dy="486" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,7 +86,7 @@
           <mxGeometry x="700" y="1210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JQtMgHcCJYPFxEaiX_Kf-14" value="数据同步服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="700" y="1360" width="120" height="60" as="geometry" />
+          <mxGeometry x="700" y="1350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JQtMgHcCJYPFxEaiX_Kf-11" value="redis缓存" style="swimlane;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="340" y="1214" width="200" height="230" as="geometry" />
@@ -105,9 +105,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JQtMgHcCJYPFxEaiX_Kf-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="JQtMgHcCJYPFxEaiX_Kf-14" target="JQtMgHcCJYPFxEaiX_Kf-11" edge="1">
+        <mxCell id="JQtMgHcCJYPFxEaiX_Kf-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=elbowEdgeStyle;" parent="1" source="JQtMgHcCJYPFxEaiX_Kf-14" target="JQtMgHcCJYPFxEaiX_Kf-11" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="1380" as="targetPoint" />
+            <mxPoint x="540" y="1390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JQtMgHcCJYPFxEaiX_Kf-20" value="定时同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="JQtMgHcCJYPFxEaiX_Kf-18" vertex="1" connectable="0">
@@ -136,6 +136,17 @@
         </mxCell>
         <mxCell id="lLdsxdv1f81py9-WsLEY-11" value="es存储" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lLdsxdv1f81py9-WsLEY-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JQtMgHcCJYPFxEaiX_Kf-11" target="JQtMgHcCJYPFxEaiX_Kf-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="591" y="1229" as="sourcePoint" />
+            <mxPoint x="641" y="1179" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLdsxdv1f81py9-WsLEY-21" value="使用部分缓存来展示" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lLdsxdv1f81py9-WsLEY-20">
+          <mxGeometry x="-0.226" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
