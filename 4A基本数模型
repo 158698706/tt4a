@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T01:09:58.624Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="WvZEoo8z9FpQJ0fOb1eE" version="16.6.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-03-11T01:15:15.464Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="GlWjk4gcEFPeO63FE7r0" version="16.6.7" type="github" pages="7">
   <diagram id="FSVTRaNp_vcdZQEsljns" name="当前4A角色模型">
     <mxGraphModel dx="1036" dy="568" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -2082,7 +2082,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aHnzq0j7tG8CewPAOiGv-4" value="上一环节标识" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="aHnzq0j7tG8CewPAOiGv-2">
+        <mxCell id="aHnzq0j7tG8CewPAOiGv-4" value="上一环节标识（0...n）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="aHnzq0j7tG8CewPAOiGv-2">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2095,7 +2095,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aHnzq0j7tG8CewPAOiGv-7" value="下一环节标识" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="aHnzq0j7tG8CewPAOiGv-5">
+        <mxCell id="aHnzq0j7tG8CewPAOiGv-7" value="下一环节标识（0...n）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="aHnzq0j7tG8CewPAOiGv-5">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
