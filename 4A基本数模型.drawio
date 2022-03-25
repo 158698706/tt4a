@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T08:37:17.224Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="26L281uJ-fRWt2xKUF8A" version="17.2.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-03-25T08:41:24.525Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="ZGPA4dA5A6GNF2u4sB-z" version="17.2.1" type="github" pages="8">
   <diagram id="iX0ppQgPxcFh6_pE-6IN" name="授权设计-当前">
     <mxGraphModel dx="1038" dy="576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1588,7 +1588,7 @@
             <mxPoint x="906" y="795" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0RrbNvVGH7pu1IubHqLv-15" value="权限（授权）" style="swimlane;" parent="vhI5LnI8lh3p890vVd6q-1" vertex="1">
+        <mxCell id="0RrbNvVGH7pu1IubHqLv-15" value="权限" style="swimlane;" parent="vhI5LnI8lh3p890vVd6q-1" vertex="1">
           <mxGeometry x="492" y="681" width="222" height="449" as="geometry" />
         </mxCell>
         <mxCell id="0RrbNvVGH7pu1IubHqLv-16" value="角色" style="whiteSpace=wrap;html=1;align=center;" parent="0RrbNvVGH7pu1IubHqLv-15" vertex="1">
