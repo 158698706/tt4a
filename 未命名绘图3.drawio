@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T13:10:34.139Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="fodD21VQLhQiU6rch3Yq" version="17.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-30T13:21:33.496Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="Tf76521MfXmz3YhBVMTB" version="17.2.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1038" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1038" dy="576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="23a65jXl4EKVRDY3e5kB-1" value="发现问题&lt;br style=&quot;font-size: 17px;&quot;&gt;2021.12底" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="70" y="160" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="23a65jXl4EKVRDY3e5kB-2" value="怀疑网络或机器问题&lt;br style=&quot;font-size: 17px&quot;&gt;尝试重启&lt;br style=&quot;font-size: 17px&quot;&gt;2022.1" style="whiteSpace=wrap;html=1;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="23a65jXl4EKVRDY3e5kB-4" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="210" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="23a65jXl4EKVRDY3e5kB-5" value="排查weblogic问题&lt;br style=&quot;font-size: 17px&quot;&gt;2022.2" style="whiteSpace=wrap;html=1;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="650" y="160" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="23a65jXl4EKVRDY3e5kB-6" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="210" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="23a65jXl4EKVRDY3e5kB-7" value="根据oracle建议修改空指针&lt;br style=&quot;font-size: 17px&quot;&gt;2022.3上旬" style="whiteSpace=wrap;html=1;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="655" y="420" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="23a65jXl4EKVRDY3e5kB-8" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="710" y="290" width="50" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="23a65jXl4EKVRDY3e5kB-9" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="525" y="460" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="23a65jXl4EKVRDY3e5kB-10" value="解决redis报错，修改连接配置&lt;br style=&quot;font-size: 17px&quot;&gt;2022.3中旬" style="whiteSpace=wrap;html=1;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="365" y="420" width="160" height="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
