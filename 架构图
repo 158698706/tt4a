@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T08:27:08.012Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="scKUZW4cRKTknLZMYVPJ" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-25T08:31:00.940Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="wNOBZhNQr2RBlbmEez-V" version="17.4.6" type="github" pages="2">
   <diagram id="V-qjbV28PKjuagungosX" name="应用架构">
     <mxGraphModel dx="1038" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -119,6 +119,36 @@
             <mxPoint x="610" y="220" as="sourcePoint" />
             <mxPoint x="676" y="331" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pIFb2pXNoxLrIRPe7qov-29" value="日志模块" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="921" y="72" width="200" height="489" as="geometry" />
+        </mxCell>
+        <mxCell id="pIFb2pXNoxLrIRPe7qov-30" value="门户登录日志" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="pIFb2pXNoxLrIRPe7qov-29">
+          <mxGeometry x="40" y="45" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="pIFb2pXNoxLrIRPe7qov-31" value="单点登录日志" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="pIFb2pXNoxLrIRPe7qov-29">
+          <mxGeometry x="40" y="94" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="pIFb2pXNoxLrIRPe7qov-32" value="接口发送日志" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="pIFb2pXNoxLrIRPe7qov-29">
+          <mxGeometry x="40" y="143" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="pIFb2pXNoxLrIRPe7qov-33" value="接口接收日志" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="pIFb2pXNoxLrIRPe7qov-29">
+          <mxGeometry x="40" y="187" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="pIFb2pXNoxLrIRPe7qov-34" value="页面操作日志" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="pIFb2pXNoxLrIRPe7qov-29">
+          <mxGeometry x="40" y="239" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="pIFb2pXNoxLrIRPe7qov-35" value="账号变更日志" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="pIFb2pXNoxLrIRPe7qov-29">
+          <mxGeometry x="40" y="291" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="pIFb2pXNoxLrIRPe7qov-36" value="授权变更日志" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="pIFb2pXNoxLrIRPe7qov-29">
+          <mxGeometry x="40" y="340" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="pIFb2pXNoxLrIRPe7qov-37" value="角色变更日志" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="pIFb2pXNoxLrIRPe7qov-29">
+          <mxGeometry x="40" y="392" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="pIFb2pXNoxLrIRPe7qov-38" value="。。。" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="pIFb2pXNoxLrIRPe7qov-29">
+          <mxGeometry x="40" y="441" width="120" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
