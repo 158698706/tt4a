@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T08:19:21.775Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="U6bEOA9qsT55UieA43VY" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-25T08:19:35.233Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="etoeRHOBi9JyjL6HjggH" version="17.4.6" type="github" pages="2">
   <diagram id="V-qjbV28PKjuagungosX" name="应用架构">
     <mxGraphModel dx="1038" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,7 +94,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pIFb2pXNoxLrIRPe7qov-22" value="管理权限" style="swimlane;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="710" y="270" width="200" height="200" as="geometry" />
+          <mxGeometry x="666" y="271" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="pIFb2pXNoxLrIRPe7qov-21" value="组织管理范围" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="pIFb2pXNoxLrIRPe7qov-22">
           <mxGeometry x="40" y="45" width="120" height="32" as="geometry" />
