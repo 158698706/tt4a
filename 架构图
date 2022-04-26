@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T00:56:23.313Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="NgRosQVtJrUgTxvhP7MW" version="17.4.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-04-26T01:03:45.388Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="MR3YF_AuC6ez8Bna5aGU" version="17.4.6" type="github" pages="6">
   <diagram id="V-qjbV28PKjuagungosX" name="应用架构">
     <mxGraphModel dx="1038" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -686,6 +686,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="R0QH1kaNdCrafEKUwbp1-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="R0QH1kaNdCrafEKUwbp1-8" target="R0QH1kaNdCrafEKUwbp1-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-366" y="827" />
+              <mxPoint x="-137" y="827" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="R0QH1kaNdCrafEKUwbp1-8" value="数据接收接口" style="swimlane;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-466" y="638" width="200" height="150" as="geometry" />
         </mxCell>
@@ -693,10 +701,10 @@
           <mxGeometry x="-104" y="408" width="200" height="150" as="geometry" />
         </mxCell>
         <mxCell id="R0QH1kaNdCrafEKUwbp1-12" value="QUERY4A查询服务" style="swimlane;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-235" y="630" width="200" height="150" as="geometry" />
+          <mxGeometry x="-237" y="638" width="200" height="150" as="geometry" />
         </mxCell>
         <mxCell id="R0QH1kaNdCrafEKUwbp1-13" value="阿里邮箱认证服务" style="swimlane;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="610" y="418" width="200" height="150" as="geometry" />
+          <mxGeometry x="270" y="441" width="200" height="150" as="geometry" />
         </mxCell>
         <mxCell id="R0QH1kaNdCrafEKUwbp1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="R0QH1kaNdCrafEKUwbp1-15" target="R0QH1kaNdCrafEKUwbp1-10">
           <mxGeometry relative="1" as="geometry" />
