@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T01:28:08.245Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="9ruv5HcGYthZjDEhdYcD" version="17.4.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-04-26T02:25:45.492Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="cfG6Lg-pFLY16aiwafhX" version="17.4.6" type="github" pages="6">
   <diagram id="V-qjbV28PKjuagungosX" name="应用架构">
-    <mxGraphModel dx="1038" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1490" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="u5KBHcL1l5XmIH8IYQcQ" name="数据逻辑模型">
-    <mxGraphModel dx="1038" dy="576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1490" dy="562" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,7 +157,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wOhciFW4awJx3cVcq-C4" name="系统关系图">
-    <mxGraphModel dx="1038" dy="611" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1490" dy="562" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -359,7 +359,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hOYnJHKw65_cvaSybUcK" name="功能架构图">
-    <mxGraphModel dx="2153" dy="719" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2153" dy="661" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -441,22 +441,22 @@
         <mxCell id="1R7bBD7Wg2RHEfmoe-HB-46" value="外部业务系统" style="swimlane;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-258" y="603" width="914" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="1R7bBD7Wg2RHEfmoe-HB-47" value="账号管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1R7bBD7Wg2RHEfmoe-HB-46">
+        <mxCell id="1R7bBD7Wg2RHEfmoe-HB-47" value="账号" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1R7bBD7Wg2RHEfmoe-HB-46">
           <mxGeometry x="26" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1R7bBD7Wg2RHEfmoe-HB-48" value="角色管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1R7bBD7Wg2RHEfmoe-HB-46">
+        <mxCell id="1R7bBD7Wg2RHEfmoe-HB-48" value="角色" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1R7bBD7Wg2RHEfmoe-HB-46">
           <mxGeometry x="171" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1R7bBD7Wg2RHEfmoe-HB-49" value="授权管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1R7bBD7Wg2RHEfmoe-HB-46">
+        <mxCell id="1R7bBD7Wg2RHEfmoe-HB-49" value="授权" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1R7bBD7Wg2RHEfmoe-HB-46">
           <mxGeometry x="316" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1R7bBD7Wg2RHEfmoe-HB-50" value="企业管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1R7bBD7Wg2RHEfmoe-HB-46">
+        <mxCell id="1R7bBD7Wg2RHEfmoe-HB-50" value="企业" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1R7bBD7Wg2RHEfmoe-HB-46">
           <mxGeometry x="468" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1R7bBD7Wg2RHEfmoe-HB-51" value="管理区域管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1R7bBD7Wg2RHEfmoe-HB-46">
+        <mxCell id="1R7bBD7Wg2RHEfmoe-HB-51" value="管理区域" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1R7bBD7Wg2RHEfmoe-HB-46">
           <mxGeometry x="613" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1R7bBD7Wg2RHEfmoe-HB-52" value="组织管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1R7bBD7Wg2RHEfmoe-HB-46">
+        <mxCell id="1R7bBD7Wg2RHEfmoe-HB-52" value="组织" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1R7bBD7Wg2RHEfmoe-HB-46">
           <mxGeometry x="758" y="40" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1R7bBD7Wg2RHEfmoe-HB-53" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.71;dx=17.2;direction=south;notch=0;fontSize=12;" vertex="1" parent="1">
@@ -520,7 +520,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jXeAj3HoMcZYrgeMDH3u" name="服务调用图">
-    <mxGraphModel dx="2098" dy="1120" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2663" dy="1103" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -639,7 +639,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zETXPBHUmU9BukGejnOI" name="服务调用图(无数据库)">
-    <mxGraphModel dx="2929" dy="1273" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2929" dy="1203" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -690,11 +690,12 @@
         <mxCell id="R0QH1kaNdCrafEKUwbp1-42" value="192.168.15.13" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="R0QH1kaNdCrafEKUwbp1-7">
           <mxGeometry x="37.5" y="94" width="125" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="R0QH1kaNdCrafEKUwbp1-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="R0QH1kaNdCrafEKUwbp1-8" target="R0QH1kaNdCrafEKUwbp1-7">
+        <mxCell id="R0QH1kaNdCrafEKUwbp1-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="R0QH1kaNdCrafEKUwbp1-8" target="R0QH1kaNdCrafEKUwbp1-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-500" y="712.9999999999998" />
-              <mxPoint x="-500" y="446" />
+              <mxPoint x="-500" y="713" />
+              <mxPoint x="-500" y="516" />
+              <mxPoint x="-466" y="516" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -800,8 +801,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="R0QH1kaNdCrafEKUwbp1-31" value="ESB调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="R0QH1kaNdCrafEKUwbp1-30">
+        <mxCell id="R0QH1kaNdCrafEKUwbp1-31" value="直连" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="R0QH1kaNdCrafEKUwbp1-30">
           <mxGeometry x="-0.4993" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R0QH1kaNdCrafEKUwbp1-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="R0QH1kaNdCrafEKUwbp1-21" target="R0QH1kaNdCrafEKUwbp1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R0QH1kaNdCrafEKUwbp1-90" value="直连" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="R0QH1kaNdCrafEKUwbp1-87">
+          <mxGeometry x="-0.4842" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -836,6 +845,20 @@
         </mxCell>
         <mxCell id="R0QH1kaNdCrafEKUwbp1-25" value="网关调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="R0QH1kaNdCrafEKUwbp1-24">
           <mxGeometry x="0.1139" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R0QH1kaNdCrafEKUwbp1-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="R0QH1kaNdCrafEKUwbp1-27" target="R0QH1kaNdCrafEKUwbp1-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="-126" />
+              <mxPoint x="-535" y="-126" />
+              <mxPoint x="-535" y="483" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R0QH1kaNdCrafEKUwbp1-89" value="直连" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="R0QH1kaNdCrafEKUwbp1-88">
+          <mxGeometry x="-0.2539" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
