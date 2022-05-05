@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T10:07:18.570Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="N_PwbPnGMShZkza1uBlT" version="17.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-05T10:07:37.336Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="oH490RLns5TXasBTjp-I" version="17.5.1" type="github">
   <diagram id="F_FzhGLOeo37H5IHpz6f" name="桌面app扫码登录">
     <mxGraphModel dx="1038" dy="528" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7w27c38mjaaKXxDGYJ0L-5" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
+        <mxCell id="7w27c38mjaaKXxDGYJ0L-5" value="桌面APP扫码登录" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
           <mxGeometry x="130" y="60" width="670" height="1160" as="geometry" />
         </mxCell>
         <mxCell id="7w27c38mjaaKXxDGYJ0L-6" value="桌面APP" style="swimlane;startSize=20;" vertex="1" parent="7w27c38mjaaKXxDGYJ0L-5">
