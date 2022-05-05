@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T08:27:38.898Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="ocGBAfapkaSy9fyc7SfO" version="17.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-05T08:50:33.490Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="koTXIJQNlpclaJ5mUVi-" version="17.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1221" dy="678" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,12 +37,6 @@
         <mxCell id="ueINkfBuXHxpLNmE87W7-13" value="入库API" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="ueINkfBuXHxpLNmE87W7-4">
           <mxGeometry x="55" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ueINkfBuXHxpLNmE87W7-17" value="ES组件" style="swimlane;startSize=20;" vertex="1" parent="ueINkfBuXHxpLNmE87W7-0">
-          <mxGeometry x="1090" width="230" height="536" as="geometry" />
-        </mxCell>
-        <mxCell id="ueINkfBuXHxpLNmE87W7-18" value="通用日志索引" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="ueINkfBuXHxpLNmE87W7-17">
-          <mxGeometry x="55" y="180" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="ueINkfBuXHxpLNmE87W7-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ueINkfBuXHxpLNmE87W7-0" source="ueINkfBuXHxpLNmE87W7-8" target="ueINkfBuXHxpLNmE87W7-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -56,6 +50,18 @@
         </mxCell>
         <mxCell id="ueINkfBuXHxpLNmE87W7-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ueINkfBuXHxpLNmE87W7-0" source="ueINkfBuXHxpLNmE87W7-13" target="ueINkfBuXHxpLNmE87W7-18">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ueINkfBuXHxpLNmE87W7-17" value="ES组件" style="swimlane;startSize=20;" vertex="1" parent="ueINkfBuXHxpLNmE87W7-0">
+          <mxGeometry x="1090" width="230" height="536" as="geometry" />
+        </mxCell>
+        <mxCell id="ueINkfBuXHxpLNmE87W7-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontSize=8;endArrow=none;endFill=0;" edge="1" parent="ueINkfBuXHxpLNmE87W7-17" source="ueINkfBuXHxpLNmE87W7-18" target="ueINkfBuXHxpLNmE87W7-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ueINkfBuXHxpLNmE87W7-18" value="通用日志索引" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="ueINkfBuXHxpLNmE87W7-17">
+          <mxGeometry x="55" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ueINkfBuXHxpLNmE87W7-39" value="index_4a_stardlog_YYYYMM&lt;br&gt;其中YYYYMM按月产生，每月一个索引" style="shape=note;size=20;whiteSpace=wrap;html=1;fontSize=8;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="ueINkfBuXHxpLNmE87W7-17">
+          <mxGeometry x="4" y="317" width="215" height="96" as="geometry" />
         </mxCell>
         <mxCell id="ueINkfBuXHxpLNmE87W7-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ueINkfBuXHxpLNmE87W7-6" target="ueINkfBuXHxpLNmE87W7-8">
           <mxGeometry relative="1" as="geometry" />
