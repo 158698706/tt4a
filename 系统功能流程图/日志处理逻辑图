@@ -1,26 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T03:21:21.377Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="IjgDV3yqnO5F9aD_Aa78" version="17.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-05T03:22:45.270Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="jBip5gnwByxpsIPYa-k9" version="17.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1038" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="823" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="ueINkfBuXHxpLNmE87W7-0" value="日志入库" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="100" y="60" width="820" height="800" as="geometry" />
+          <mxGeometry x="100" y="60" width="1090" height="800" as="geometry" />
         </mxCell>
         <mxCell id="ueINkfBuXHxpLNmE87W7-1" value="4A服务" style="swimlane;startSize=20;" vertex="1" parent="ueINkfBuXHxpLNmE87W7-0">
-          <mxGeometry x="20" width="200" height="800" as="geometry" />
+          <mxGeometry x="20" width="290" height="800" as="geometry" />
         </mxCell>
         <mxCell id="ueINkfBuXHxpLNmE87W7-5" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="ueINkfBuXHxpLNmE87W7-1">
           <mxGeometry x="50" y="40" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ueINkfBuXHxpLNmE87W7-2" value="铁塔KAFKA组件" style="swimlane;startSize=20;" vertex="1" parent="ueINkfBuXHxpLNmE87W7-0">
-          <mxGeometry x="220" width="200" height="800" as="geometry" />
+          <mxGeometry x="310" width="280" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="ueINkfBuXHxpLNmE87W7-8" value="基础日志TOPIC" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="ueINkfBuXHxpLNmE87W7-2">
+          <mxGeometry x="80" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ueINkfBuXHxpLNmE87W7-3" value="日志服务" style="swimlane;startSize=20;" vertex="1" parent="ueINkfBuXHxpLNmE87W7-0">
-          <mxGeometry x="420" width="200" height="800" as="geometry" />
+          <mxGeometry x="590" width="270" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="ueINkfBuXHxpLNmE87W7-10" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="ueINkfBuXHxpLNmE87W7-3">
+          <mxGeometry x="100" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ueINkfBuXHxpLNmE87W7-4" value="ES组件" style="swimlane;startSize=20;" vertex="1" parent="ueINkfBuXHxpLNmE87W7-0">
-          <mxGeometry x="620" width="200" height="800" as="geometry" />
+          <mxGeometry x="860" width="230" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="ueINkfBuXHxpLNmE87W7-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ueINkfBuXHxpLNmE87W7-0" source="ueINkfBuXHxpLNmE87W7-8" target="ueINkfBuXHxpLNmE87W7-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ueINkfBuXHxpLNmE87W7-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ueINkfBuXHxpLNmE87W7-6" target="ueINkfBuXHxpLNmE87W7-8">
           <mxGeometry relative="1" as="geometry" />
@@ -30,15 +39,6 @@
         </mxCell>
         <mxCell id="ueINkfBuXHxpLNmE87W7-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ueINkfBuXHxpLNmE87W7-5" target="ueINkfBuXHxpLNmE87W7-6">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ueINkfBuXHxpLNmE87W7-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ueINkfBuXHxpLNmE87W7-8" target="ueINkfBuXHxpLNmE87W7-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ueINkfBuXHxpLNmE87W7-8" value="基础日志TOPIC" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="240" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ueINkfBuXHxpLNmE87W7-10" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="560" y="240" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
