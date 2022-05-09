@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T09:08:02.636Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="JfKg1s2nSYZi3DJMCQzu" version="18.0.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-05-09T09:22:35.999Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="DqENgIpPNdNNUi_-wHID" version="18.0.1" type="github" pages="9">
   <diagram id="iX0ppQgPxcFh6_pE-6IN" name="授权设计-当前">
     <mxGraphModel dx="1276" dy="520" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2986,20 +2986,30 @@
         <mxCell id="uGbxcnzyODG32WHndOvT-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;startArrow=none;startFill=0;" edge="1" parent="1" source="uGbxcnzyODG32WHndOvT-14" target="uGbxcnzyODG32WHndOvT-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="uGbxcnzyODG32WHndOvT-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="1" source="uGbxcnzyODG32WHndOvT-14" target="uGbxcnzyODG32WHndOvT-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="uGbxcnzyODG32WHndOvT-14" value="主账号表" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="60" y="80" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uGbxcnzyODG32WHndOvT-15" value="组织表" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="40" y="350" width="150" height="60" as="geometry" />
+          <mxGeometry x="540" y="120" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uGbxcnzyODG32WHndOvT-16" value="附属身份表&lt;br&gt;（业务系统对应为账号）" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="290" y="80" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uGbxcnzyODG32WHndOvT-17" value="授权表" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="414" y="250" width="150" height="60" as="geometry" />
+          <mxGeometry x="220" y="250" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uGbxcnzyODG32WHndOvT-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="1" source="uGbxcnzyODG32WHndOvT-18" target="uGbxcnzyODG32WHndOvT-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uGbxcnzyODG32WHndOvT-18" value="角色表" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="220" y="350" width="150" height="60" as="geometry" />
+          <mxGeometry x="540" y="250" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
