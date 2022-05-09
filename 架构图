@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T05:41:30.703Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="JGVvXskW1jF2e_2ZYJzr" version="18.0.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-05-09T05:42:11.285Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="hUHiIZs51wt0VEQEgUol" version="18.0.1" type="github" pages="8">
   <diagram id="V-qjbV28PKjuagungosX" name="应用架构">
     <mxGraphModel dx="1276" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -694,8 +694,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-500" y="713" />
-              <mxPoint x="-500" y="516" />
-              <mxPoint x="-466" y="516" />
+              <mxPoint x="-500" y="521" />
             </Array>
           </mxGeometry>
         </mxCell>
