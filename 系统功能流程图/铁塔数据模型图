@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T05:30:10.393Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="N3fjGIL3bCyhQWWKooBN" version="18.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-10T05:31:04.254Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="FEInSj_rNWgA57LDdAWV" version="18.0.2" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="账号模型">
     <mxGraphModel dx="1036" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,17 +10,11 @@
         <mxCell id="GVua6UzzKq8r6y87GWec-0" value="账号" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="90" y="60" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GVua6UzzKq8r6y87GWec-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GVua6UzzKq8r6y87GWec-1" target="GVua6UzzKq8r6y87GWec-4">
+        <mxCell id="GVua6UzzKq8r6y87GWec-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;startArrow=ERzeroToMany;startFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GVua6UzzKq8r6y87GWec-1" target="GVua6UzzKq8r6y87GWec-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GVua6UzzKq8r6y87GWec-1" value="附属身份&lt;br&gt;（对应业务系统账号）" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="339" y="60" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="GVua6UzzKq8r6y87GWec-2" value="组织" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="90" y="180" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="GVua6UzzKq8r6y87GWec-3" value="角色" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="440" y="260" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GVua6UzzKq8r6y87GWec-4" value="角色" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="610" y="60" width="150" height="60" as="geometry" />
