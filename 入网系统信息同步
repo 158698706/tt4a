@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T06:20:00.194Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="73SfmJ2gtyVQIkckVDTh" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T06:20:30.517Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="CX9uq5ATgk82JWnjN5dz" version="18.0.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1036" dy="568" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -62,7 +62,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BiFDnto1k-MucE_3rM6I-25" value="4A" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="29" y="502" width="242" height="508" as="geometry" />
+          <mxGeometry x="28" y="484" width="242" height="508" as="geometry" />
         </mxCell>
         <mxCell id="BiFDnto1k-MucE_3rM6I-26" value="组织操作信息" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="BiFDnto1k-MucE_3rM6I-25">
           <mxGeometry x="30" y="34" width="182" height="210" as="geometry" />
@@ -123,6 +123,12 @@
         </mxCell>
         <mxCell id="BiFDnto1k-MucE_3rM6I-41" value="消息队列&lt;br&gt;KAFKA/MQ" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="349" y="632" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BiFDnto1k-MucE_3rM6I-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BiFDnto1k-MucE_3rM6I-26" target="BiFDnto1k-MucE_3rM6I-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiFDnto1k-MucE_3rM6I-49" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.31;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BiFDnto1k-MucE_3rM6I-31" target="BiFDnto1k-MucE_3rM6I-41">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
