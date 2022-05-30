@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-30T01:59:25.912Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="4EghXMMvI8qY-PoUC7Df" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-30T02:54:22.735Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="xskA9EsY9sdipUmdP-Co" version="18.1.3" type="github">
   <diagram id="80bUOrs99OH43615THwN" name="审计人员实名制">
-    <mxGraphModel dx="942" dy="1732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="942" dy="1766" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Vv9YOYUthKRj_WySPsf8-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="120" y="-1120" width="100" height="40" as="geometry" />
+          <mxGeometry x="170" y="-1140" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Vv9YOYUthKRj_WySPsf8-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vv9YOYUthKRj_WySPsf8-2" target="Vv9YOYUthKRj_WySPsf8-7">
           <mxGeometry relative="1" as="geometry" />
@@ -17,22 +17,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Vv9YOYUthKRj_WySPsf8-2" value="将外部审计人员的手机号都设置为空" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="110" y="-1020" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="-1040" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vv9YOYUthKRj_WySPsf8-7" value="审计人员登录补齐手机号" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="310" y="-1020" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="-1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Vv9YOYUthKRj_WySPsf8-9" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="110" y="-710" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Vv9YOYUthKRj_WySPsf8-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vv9YOYUthKRj_WySPsf8-11" target="Vv9YOYUthKRj_WySPsf8-9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Vv9YOYUthKRj_WySPsf8-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vv9YOYUthKRj_WySPsf8-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="-730" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Vv9YOYUthKRj_WySPsf8-11" value="定时刷新（1天一次）" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="70" y="-890" width="200" height="120" as="geometry" />
+          <mxGeometry x="120" y="-910" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Vv9YOYUthKRj_WySPsf8-5" value="将审计人员手机号不为空的用户认证策略设置为动态认证" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Vv9YOYUthKRj_WySPsf8-11">
           <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vv9YOYUthKRj_WySPsf8-15" value="定时统计（1周一次）" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-730" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Vv9YOYUthKRj_WySPsf8-16" value="统计未补齐手机号的审计人员，将审计人员发送到审计部门，未登录的账号是否先冻结或清理" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Vv9YOYUthKRj_WySPsf8-15">
+          <mxGeometry x="40" y="40" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vv9YOYUthKRj_WySPsf8-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-920" width="40" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
