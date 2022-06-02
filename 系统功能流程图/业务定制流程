@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-02T02:34:55.699Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="B-afx37Ib4Tl9YhcdxQ6" version="18.2.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-02T02:35:37.541Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="7Rlx6I_FaBG9YZ6HS2IJ" version="18.2.0" type="github" pages="3">
   <diagram id="80bUOrs99OH43615THwN" name="审计人员实名制">
     <mxGraphModel dx="1038" dy="1745" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -261,14 +261,14 @@
         <mxCell id="p5tJAyNzZ2Z2Ty_g9__L-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 1;endArrow=none;endFill=0;" edge="1" parent="1" source="p5tJAyNzZ2Z2Ty_g9__L-32" target="p5tJAyNzZ2Z2Ty_g9__L-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p5tJAyNzZ2Z2Ty_g9__L-32" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;外部系统权限服务&lt;br&gt;（微服务方式）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="801" y="204" width="174" height="78" as="geometry" />
+        <mxCell id="p5tJAyNzZ2Z2Ty_g9__L-32" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;外部系统权限服务&lt;br&gt;（微服务方式）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="751" y="204" width="174" height="78" as="geometry" />
         </mxCell>
         <mxCell id="p5tJAyNzZ2Z2Ty_g9__L-34" value="微服务网关" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="505" y="185" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="p5tJAyNzZ2Z2Ty_g9__L-39" value="传递参数使用API中定义的Bean进行对象传递。减少报文解析耦合" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1007" y="160" width="119" height="152" as="geometry" />
+          <mxGeometry x="986" y="167" width="119" height="152" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
