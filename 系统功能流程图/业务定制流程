@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-02T01:45:17.063Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="tVUJQrqvX_zAhM8yTR_6" version="18.2.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-02T01:46:22.102Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="OSZ61GjJ3J98cN3c6sGr" version="18.2.0" type="github" pages="3">
   <diagram id="80bUOrs99OH43615THwN" name="审计人员实名制">
     <mxGraphModel dx="1038" dy="1745" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -182,7 +182,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p5tJAyNzZ2Z2Ty_g9__L-1" value="4A微服务" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="p5tJAyNzZ2Z2Ty_g9__L-1" value="微服务组件" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="18" y="24" width="317" height="296" as="geometry" />
         </mxCell>
         <mxCell id="p5tJAyNzZ2Z2Ty_g9__L-16" value="AuthService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="p5tJAyNzZ2Z2Ty_g9__L-1">
@@ -220,6 +220,9 @@
         </mxCell>
         <mxCell id="p5tJAyNzZ2Z2Ty_g9__L-6" value="提供jar包供外系统引用" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="81" y="455.5" width="135" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p5tJAyNzZ2Z2Ty_g9__L-21" value="外部微服务" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="754" y="27" width="200" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
