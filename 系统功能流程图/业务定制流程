@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-06T01:04:20.289Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="COkH1IpIHSHzUQIvc83H" version="18.2.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-06T01:05:04.111Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="4ocVhH7Z0j4z7l12-1m_" version="18.2.0" type="github" pages="3">
   <diagram id="80bUOrs99OH43615THwN" name="审计人员实名制">
     <mxGraphModel dx="1038" dy="1745" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -170,7 +170,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="q207LGma8FVKJxDEreaD" name="4A组件设计">
-    <mxGraphModel dx="1504" dy="678" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1504" dy="678" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
