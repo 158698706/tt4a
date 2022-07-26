@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-26T08:41:12.083Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="9WmwwCRCfRfX_LrNRMXl" version="20.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-07-26T08:41:32.495Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="PTugG9_nV4P6M9t8sfBp" version="20.0.4" type="github" pages="5">
   <diagram id="80bUOrs99OH43615THwN" name="审计人员实名制">
     <mxGraphModel dx="1038" dy="1745" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -556,7 +556,7 @@
         <mxCell id="72GQCs6ttA44xG2Ww0TE-87" value="业务系统" style="swimlane;startSize=20;" vertex="1" parent="72GQCs6ttA44xG2Ww0TE-65">
           <mxGeometry x="720" y="20" width="240" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="72GQCs6ttA44xG2Ww0TE-88" value="同步企业认证状态" style="whiteSpace=wrap;html=1;" vertex="1" parent="72GQCs6ttA44xG2Ww0TE-87">
+        <mxCell id="72GQCs6ttA44xG2Ww0TE-88" value="同步人员认证状态" style="whiteSpace=wrap;html=1;" vertex="1" parent="72GQCs6ttA44xG2Ww0TE-87">
           <mxGeometry x="60" y="620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="72GQCs6ttA44xG2Ww0TE-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="72GQCs6ttA44xG2Ww0TE-65" source="72GQCs6ttA44xG2Ww0TE-69" target="72GQCs6ttA44xG2Ww0TE-72">
