@@ -1,14 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T02:18:51.480Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="jlFPu9ln3bLeMkUvCCaI" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-02T09:07:57.838Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="ucFXDkKlCvw-_U4f4V96" version="20.2.2" type="github">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1278" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ClzaWVWFPtAGCxICIhVA-1" value="mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="414" y="260" width="60" height="80" as="geometry" />
+        <mxCell id="ClzaWVWFPtAGCxICIhVA-1" value="redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="330" y="350" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ClzaWVWFPtAGCxICIhVA-2" value="es库" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="140" y="320" width="100" height="60" as="geometry" />
+          <mxGeometry x="140" y="370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ClzaWVWFPtAGCxICIhVA-3" value="管理门户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ClzaWVWFPtAGCxICIhVA-8" value="认证服务" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="460" y="70" width="290" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ClzaWVWFPtAGCxICIhVA-4" value="radius认证服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ClzaWVWFPtAGCxICIhVA-8">
+          <mxGeometry x="13" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ClzaWVWFPtAGCxICIhVA-5" value="radius认证服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ClzaWVWFPtAGCxICIhVA-8">
+          <mxGeometry x="14" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ClzaWVWFPtAGCxICIhVA-6" value="radius认证服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ClzaWVWFPtAGCxICIhVA-8">
+          <mxGeometry x="156" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ClzaWVWFPtAGCxICIhVA-7" value="radius认证服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ClzaWVWFPtAGCxICIhVA-8">
+          <mxGeometry x="156" y="40" width="119" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ClzaWVWFPtAGCxICIhVA-9" value="mysql" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="290" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
