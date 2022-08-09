@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-09T08:04:43.598Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="B5G5uI6HlGCGD1lZ3SWG" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-09T08:05:30.016Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="fAPPYMYcirg4MFj1P6SS" version="20.2.3" type="github" pages="2">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1438" dy="576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -149,7 +149,7 @@
         <mxCell id="mG1_QtouG2n3M9SObZ9u-7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="0O8u7vly5QMk8H5rp8xr-1" vertex="1">
           <mxGeometry y="210" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mG1_QtouG2n3M9SObZ9u-8" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="mG1_QtouG2n3M9SObZ9u-7" vertex="1">
+        <mxCell id="mG1_QtouG2n3M9SObZ9u-8" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="mG1_QtouG2n3M9SObZ9u-7" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -199,7 +199,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DmUnIQXVfpkRjb4k_uoT-1" value="设备表" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="-38" y="13" width="180" height="160" as="geometry" />
+          <mxGeometry x="223" y="13" width="180" height="160" as="geometry" />
         </mxCell>
         <mxCell id="DmUnIQXVfpkRjb4k_uoT-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="DmUnIQXVfpkRjb4k_uoT-1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -254,7 +254,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DmUnIQXVfpkRjb4k_uoT-14" value="群组" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="216" y="13" width="180" height="310" as="geometry" />
+          <mxGeometry x="-53" y="13" width="180" height="310" as="geometry" />
         </mxCell>
         <mxCell id="DmUnIQXVfpkRjb4k_uoT-15" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="DmUnIQXVfpkRjb4k_uoT-14">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -374,7 +374,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DmUnIQXVfpkRjb4k_uoT-27" value="日志" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="-33" y="268" width="180" height="160" as="geometry" />
+          <mxGeometry x="223" y="241" width="180" height="160" as="geometry" />
         </mxCell>
         <mxCell id="DmUnIQXVfpkRjb4k_uoT-28" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="DmUnIQXVfpkRjb4k_uoT-27">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -427,6 +427,9 @@
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="DmUnIQXVfpkRjb4k_uoT-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mG1_QtouG2n3M9SObZ9u-7" target="DmUnIQXVfpkRjb4k_uoT-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
