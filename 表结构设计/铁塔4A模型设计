@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T08:15:50.109Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="3sL1MOD-7xv3PgkbZl5L" version="20.2.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-08-23T08:21:56.470Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="ZhHBKjDBLHvd9rll3GTN" version="20.2.5" type="github" pages="4">
   <diagram id="yEV5bFC-EWyYp4_EpvXo" name="第 1 页">
     <mxGraphModel dx="1038" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -427,7 +427,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tUkuZArphUDppWfE0Vfy" name="第 4 页">
-    <mxGraphModel dx="1883" dy="1273" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2529" dy="1273" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -539,7 +539,7 @@
         <mxCell id="agJk9dKLBVscapJ63_wq-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="agJk9dKLBVscapJ63_wq-28" target="agJk9dKLBVscapJ63_wq-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="agJk9dKLBVscapJ63_wq-28" value="用户绑定角色集中的角色" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="agJk9dKLBVscapJ63_wq-28" value="获取角色集中的角色" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-43" y="668" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="agJk9dKLBVscapJ63_wq-34" value="结束" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
