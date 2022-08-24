@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T12:27:26.444Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="zvp8FxZ4T4cp-bg8csp4" version="20.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-08-24T12:28:33.044Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="8DSuojDgic9hLX3OsorW" version="20.2.7" type="github" pages="3">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1678" dy="576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -513,7 +513,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5OQA7fGUhZK_yrap1rAv-8" value="负载VIP(虚拟地址)&lt;br&gt;（keepalive+nginx）" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" vertex="1" parent="5OQA7fGUhZK_yrap1rAv-22">
+        <mxCell id="5OQA7fGUhZK_yrap1rAv-8" value="负载VIP(虚拟地址)&lt;br&gt;（keepalive+nginx）" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="5OQA7fGUhZK_yrap1rAv-22">
           <mxGeometry y="170" width="120" height="59" as="geometry" />
         </mxCell>
         <mxCell id="5OQA7fGUhZK_yrap1rAv-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="5OQA7fGUhZK_yrap1rAv-20" target="5OQA7fGUhZK_yrap1rAv-2">
