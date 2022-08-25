@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-25T08:17:37.231Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="sc0fyBLHdTdKHjD7AnP8" version="20.2.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-25T08:18:37.397Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="36qxK24EMCg5q2VDIaVX" version="20.2.7" type="github" pages="5">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1438" dy="576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -587,8 +587,28 @@
         <mxCell id="9fWTcCc07ufAxplODORI-10" value="mgt2" style="whiteSpace=wrap;html=1;" vertex="1" parent="9fWTcCc07ufAxplODORI-8">
           <mxGeometry x="228" y="49" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9fWTcCc07ufAxplODORI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.252;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9fWTcCc07ufAxplODORI-8" target="QD34HAkZK1EM_K8ZrFRA-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="9fWTcCc07ufAxplODORI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9fWTcCc07ufAxplODORI-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="176" y="246" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fWTcCc07ufAxplODORI-12" value="同步账号等信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9fWTcCc07ufAxplODORI-11">
+          <mxGeometry x="-0.2965" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fWTcCc07ufAxplODORI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="9fWTcCc07ufAxplODORI-3" target="9fWTcCc07ufAxplODORI-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="814" y="449" />
+              <mxPoint x="814" y="-54" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fWTcCc07ufAxplODORI-14" value="上报日志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9fWTcCc07ufAxplODORI-13">
+          <mxGeometry x="0.0014" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
