@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-25T05:27:38.541Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="9uTT9GsnqbGd7AVwF-3b" version="20.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-08-25T06:22:22.776Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="U8XF3pdHJ8jgap5osgPI" version="20.2.7" type="github" pages="3">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1438" dy="576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -474,7 +474,7 @@
           <mxGeometry x="-160" y="397" width="120" height="36" as="geometry" />
         </mxCell>
         <mxCell id="5OQA7fGUhZK_yrap1rAv-22" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="119" y="20" width="332" height="416" as="geometry" />
+          <mxGeometry x="121" y="22" width="332" height="416" as="geometry" />
         </mxCell>
         <mxCell id="5OQA7fGUhZK_yrap1rAv-1" value="radius_server" style="swimlane;fillColor=default;swimlaneFillColor=none;strokeColor=default;" parent="5OQA7fGUhZK_yrap1rAv-22" vertex="1">
           <mxGeometry x="64" width="268" height="416" as="geometry" />
@@ -494,9 +494,6 @@
         <mxCell id="5OQA7fGUhZK_yrap1rAv-20" value="radius1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" parent="5OQA7fGUhZK_yrap1rAv-1" vertex="1">
           <mxGeometry x="83" y="67" width="120" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="5OQA7fGUhZK_yrap1rAv-21" value="VIP(虚拟地址)&lt;br&gt;（keepalive）" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=default;" parent="5OQA7fGUhZK_yrap1rAv-1" vertex="1">
-          <mxGeometry x="-64" y="170" width="120" height="43" as="geometry" />
-        </mxCell>
         <mxCell id="5OQA7fGUhZK_yrap1rAv-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="5OQA7fGUhZK_yrap1rAv-22" source="5OQA7fGUhZK_yrap1rAv-8" target="5OQA7fGUhZK_yrap1rAv-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -513,8 +510,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5OQA7fGUhZK_yrap1rAv-8" value="负载VIP(虚拟地址)&lt;br&gt;（keepalive+nginx）" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" parent="5OQA7fGUhZK_yrap1rAv-22" vertex="1">
-          <mxGeometry y="170" width="120" height="59" as="geometry" />
+        <mxCell id="5OQA7fGUhZK_yrap1rAv-8" value="负载VIP(虚拟地址)&lt;br&gt;（lvs+keepalive+nginx）" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" parent="5OQA7fGUhZK_yrap1rAv-22" vertex="1">
+          <mxGeometry x="-19" y="170" width="126" height="59" as="geometry" />
         </mxCell>
         <mxCell id="5OQA7fGUhZK_yrap1rAv-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="5OQA7fGUhZK_yrap1rAv-20" target="5OQA7fGUhZK_yrap1rAv-2" edge="1">
           <mxGeometry relative="1" as="geometry">
