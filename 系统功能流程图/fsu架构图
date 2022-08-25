@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-25T08:34:52.962Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="9hzYiQvWvlLIwXdx3_Kx" version="20.2.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-25T08:42:50.826Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="S-sfSL2bL51nT00-2UZs" version="20.2.7" type="github" pages="5">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1438" dy="576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -595,7 +595,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9fWTcCc07ufAxplODORI-8" value="radius认证（集团）" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="9fWTcCc07ufAxplODORI-8" value="radius管理（集团）" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="-17" y="-15" width="415" height="154" as="geometry" />
         </mxCell>
         <mxCell id="9fWTcCc07ufAxplODORI-9" value="mgt1" style="whiteSpace=wrap;html=1;" vertex="1" parent="9fWTcCc07ufAxplODORI-8">
