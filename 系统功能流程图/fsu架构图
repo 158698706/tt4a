@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-25T06:22:22.776Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="U8XF3pdHJ8jgap5osgPI" version="20.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-08-25T07:54:57.673Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="2HOpQ6yc4kLF80SItoFh" version="20.2.7" type="github" pages="4">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1438" dy="576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -533,6 +533,29 @@
           <mxGeometry x="-0.0742" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5fLC0dgFp3HHU2b1iGo0" name="第 4 页">
+    <mxGraphModel dx="1038" dy="576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QD34HAkZK1EM_K8ZrFRA-1" value="radius_server" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="148" y="84" width="380" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="QD34HAkZK1EM_K8ZrFRA-2" value="sever1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QD34HAkZK1EM_K8ZrFRA-1">
+          <mxGeometry x="32" y="54" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QD34HAkZK1EM_K8ZrFRA-3" value="sever2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QD34HAkZK1EM_K8ZrFRA-1">
+          <mxGeometry x="225" y="54" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QD34HAkZK1EM_K8ZrFRA-4" value="sever3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QD34HAkZK1EM_K8ZrFRA-1">
+          <mxGeometry x="32" y="152" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QD34HAkZK1EM_K8ZrFRA-5" value="sever4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QD34HAkZK1EM_K8ZrFRA-1">
+          <mxGeometry x="225" y="152" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
