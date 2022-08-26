@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-26T06:30:49.169Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="CjgehSY2uD5QwVlSdQ1d" version="20.2.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-26T06:31:38.382Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="4g7zFtVXATmAFN1FxwV8" version="20.2.7" type="github" pages="5">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1438" dy="576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -699,9 +699,9 @@
         <mxCell id="9fWTcCc07ufAxplODORI-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="1" source="9fWTcCc07ufAxplODORI-9" target="9fWTcCc07ufAxplODORI-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9fWTcCc07ufAxplODORI-29" value="同步账号等信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9fWTcCc07ufAxplODORI-27" vertex="1" connectable="0">
+        <mxCell id="9fWTcCc07ufAxplODORI-29" value="同步下沉省账号等信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9fWTcCc07ufAxplODORI-27" vertex="1" connectable="0">
           <mxGeometry x="-0.0281" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9fWTcCc07ufAxplODORI-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;" parent="1" source="9fWTcCc07ufAxplODORI-22" target="9fWTcCc07ufAxplODORI-9" edge="1">
@@ -768,9 +768,9 @@
         <mxCell id="BPkuqOUy-Msghws2Kwtv-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="9fWTcCc07ufAxplODORI-9" target="BPkuqOUy-Msghws2Kwtv-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BPkuqOUy-Msghws2Kwtv-24" value="同步账号信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BPkuqOUy-Msghws2Kwtv-23">
+        <mxCell id="BPkuqOUy-Msghws2Kwtv-24" value="同步全国账号信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BPkuqOUy-Msghws2Kwtv-23">
           <mxGeometry x="0.4301" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
