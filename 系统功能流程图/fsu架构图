@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-27T07:24:29.785Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="cUodQbJMRjJVjspBWPfn" version="20.2.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-27T07:37:05.751Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="tm5pP2ibGDtl7p1TAO1K" version="20.2.7" type="github" pages="5">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1678" dy="576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -781,6 +781,9 @@
           <mxGeometry x="0.4301" y="-1" relative="1" as="geometry">
             <mxPoint x="-49" y="-4" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="QCOYUhicC05niyYoYym_-1" value="radius认证（集团侧）" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="-205" y="-293" width="374" height="134" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
