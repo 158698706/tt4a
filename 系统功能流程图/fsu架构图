@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-27T07:22:16.098Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="8rOcV0-BPr06b2bomK1l" version="20.2.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-27T07:23:44.100Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="eISSZo5Z0Rd-IfD6T556" version="20.2.7" type="github" pages="5">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1678" dy="576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -700,13 +700,14 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-96" y="283" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-96" y="283" />
+              <mxPoint x="-118" y="146" />
+              <mxPoint x="-96" y="146" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9fWTcCc07ufAxplODORI-29" value="同步下沉省账号等信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9fWTcCc07ufAxplODORI-27" vertex="1" connectable="0">
           <mxGeometry x="-0.0281" y="-3" relative="1" as="geometry">
-            <mxPoint y="9" as="offset" />
+            <mxPoint x="-6" y="76" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9fWTcCc07ufAxplODORI-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;" parent="1" source="9fWTcCc07ufAxplODORI-22" target="9fWTcCc07ufAxplODORI-9" edge="1">
@@ -714,7 +715,7 @@
         </mxCell>
         <mxCell id="9fWTcCc07ufAxplODORI-30" value="上报日志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9fWTcCc07ufAxplODORI-28" vertex="1" connectable="0">
           <mxGeometry x="0.3391" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="1" y="-28" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BPkuqOUy-Msghws2Kwtv-7" value="radius认证（集团灾备）" style="swimlane;" parent="1" vertex="1">
