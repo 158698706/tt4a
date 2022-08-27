@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-27T07:46:04.743Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="i4aevNFGnqDGnzDtKyaS" version="20.2.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-27T07:46:30.242Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="AL16vUvhZkbWkS4KP7m6" version="20.2.7" type="github" pages="5">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1678" dy="576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -788,9 +788,6 @@
         </mxCell>
         <mxCell id="QCOYUhicC05niyYoYym_-7" value="。。。。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QCOYUhicC05niyYoYym_-1">
           <mxGeometry x="17" y="87" width="328" height="27" as="geometry" />
-        </mxCell>
-        <mxCell id="QCOYUhicC05niyYoYym_-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="116" y="-95" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QCOYUhicC05niyYoYym_-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="QCOYUhicC05niyYoYym_-7" target="BPkuqOUy-Msghws2Kwtv-1">
           <mxGeometry relative="1" as="geometry">
