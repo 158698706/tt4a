@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-29T02:22:55.493Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="mrH4jgC7DoBMe0seg-Ym" version="20.2.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-08-29T02:42:31.131Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="Djt-qL60Pq84MT0lAXW2" version="20.2.7" type="github" pages="6">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1438" dy="576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -804,7 +804,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="第 4 页 的副本" id="NxpPSkG1dGZ-KHTCYLkD">
-    <mxGraphModel dx="2530" dy="1360" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1789" dy="949" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="25OB4ex4ckE4pXie6LXU-0" />
         <mxCell id="25OB4ex4ckE4pXie6LXU-1" parent="25OB4ex4ckE4pXie6LXU-0" />
@@ -987,9 +987,6 @@
         <mxCell id="l5fGFFYLHPrikWfPzC3u-0" value="同步下沉省账号等信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="25OB4ex4ckE4pXie6LXU-1">
           <mxGeometry x="-267" y="190" as="geometry" />
         </mxCell>
-        <mxCell id="l5fGFFYLHPrikWfPzC3u-1" value="上报日志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="25OB4ex4ckE4pXie6LXU-1">
-          <mxGeometry x="-426" y="204" as="geometry" />
-        </mxCell>
         <mxCell id="l5fGFFYLHPrikWfPzC3u-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="25OB4ex4ckE4pXie6LXU-1" source="l5fGFFYLHPrikWfPzC3u-5" target="25OB4ex4ckE4pXie6LXU-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -999,6 +996,11 @@
               <mxPoint x="-428" y="471" />
               <mxPoint x="-428" y="24" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5fGFFYLHPrikWfPzC3u-9" value="上边日志、上报账号设备状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l5fGFFYLHPrikWfPzC3u-8">
+          <mxGeometry x="0.3404" y="-5" relative="1" as="geometry">
+            <mxPoint x="-6" y="56" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
