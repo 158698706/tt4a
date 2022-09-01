@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-01T11:33:52.013Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="nbEPtcKMqqTe5Xqg9ahy" version="20.2.7" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-09-01T11:36:14.808Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="DvgYS2HWX4Ym6WFkeozt" version="20.2.7" type="github" pages="9">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="提供接口">
     <mxGraphModel dx="1038" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -750,11 +750,36 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="4X4nwmSC-MXbYEj1aFYw" name="第 9 页">
-    <mxGraphModel dx="1038" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="4X4nwmSC-MXbYEj1aFYw" name="会话注销">
+    <mxGraphModel dx="1438" dy="176" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iCQdsnZqgmPkqRy1dBHC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iCQdsnZqgmPkqRy1dBHC-1" target="iCQdsnZqgmPkqRy1dBHC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iCQdsnZqgmPkqRy1dBHC-7" value="消费注销信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iCQdsnZqgmPkqRy1dBHC-6">
+          <mxGeometry x="-0.3022" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCQdsnZqgmPkqRy1dBHC-1" value="消息中间件&lt;br&gt;kafka" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="244" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iCQdsnZqgmPkqRy1dBHC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iCQdsnZqgmPkqRy1dBHC-2" target="iCQdsnZqgmPkqRy1dBHC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iCQdsnZqgmPkqRy1dBHC-4" value="产生注销通知" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iCQdsnZqgmPkqRy1dBHC-3">
+          <mxGeometry x="-0.0344" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCQdsnZqgmPkqRy1dBHC-2" value="非内嵌业务系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="486" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iCQdsnZqgmPkqRy1dBHC-5" value="4A系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="501" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
