@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T12:07:46.795Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="CmTL8TolTOzR3VJJoEyS" version="20.2.8" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-09-07T12:08:01.305Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="L6LDnpd4aeko80tb-ROl" version="20.2.8" type="github" pages="10">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="提供接口">
     <mxGraphModel dx="1038" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -894,7 +894,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="695" y="715" />
-              <mxPoint x="420" y="715" />
+              <mxPoint x="451" y="715" />
+              <mxPoint x="451" y="695" />
             </Array>
           </mxGeometry>
         </mxCell>
