@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T12:10:37.370Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="uuEx66DHKBLyJP_oNFv9" version="20.2.8" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-09-07T12:11:25.362Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="wh6ZiLZk-My5mjM-lmXT" version="20.2.8" type="github" pages="10">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="提供接口">
     <mxGraphModel dx="1038" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -912,7 +912,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q5_p2Z5fyoyuD4CBA442-24" value="根据系统标识获取令牌及单点url" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="q5_p2Z5fyoyuD4CBA442-24" value="系统可oauth登录。&lt;br&gt;根据系统标识获取令牌及单点url" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="717" y="551" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="q5_p2Z5fyoyuD4CBA442-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q5_p2Z5fyoyuD4CBA442-17" target="q5_p2Z5fyoyuD4CBA442-24">
