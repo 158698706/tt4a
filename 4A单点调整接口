@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T12:08:01.305Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="L6LDnpd4aeko80tb-ROl" version="20.2.8" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-09-07T12:08:57.802Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="kvZmhmn4bpqGEd0XeZQg" version="20.2.8" type="github" pages="10">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="提供接口">
     <mxGraphModel dx="1038" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -784,7 +784,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rXtGj5m2CRSwE5865dQA" name="OAUTH2.0登录">
-    <mxGraphModel dx="865" dy="480" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="678" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -795,7 +795,7 @@
           <mxGeometry x="20" width="150" height="882" as="geometry" />
         </mxCell>
         <mxCell id="q5_p2Z5fyoyuD4CBA442-1" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="86kWbZhA7BjofJIukU0m-2">
-          <mxGeometry x="46" y="55" width="40" height="60" as="geometry" />
+          <mxGeometry x="45" y="55" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="86kWbZhA7BjofJIukU0m-6" value="业务系统" style="swimlane;startSize=20;" vertex="1" parent="86kWbZhA7BjofJIukU0m-1">
           <mxGeometry x="170" width="350" height="882" as="geometry" />
