@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-13T03:23:50.901Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="ZD424kLvm0EvYTrArbh8" version="20.2.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-13T03:25:22.030Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="rA4RlnY8faRR5LBG10-O" version="20.2.8" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="企业认证流程">
-    <mxGraphModel dx="865" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -93,21 +93,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xceOTYyBqCTmzoK6qaq5-49" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=1.14;entryY=0.208;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="xceOTYyBqCTmzoK6qaq5-48">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="650" y="330" as="sourcePoint" />
-            <mxPoint x="200" y="440" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xceOTYyBqCTmzoK6qaq5-52" value="回调通知认证结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="450" y="325" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="xceOTYyBqCTmzoK6qaq5-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.02;entryY=0.53;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xceOTYyBqCTmzoK6qaq5-48" target="xceOTYyBqCTmzoK6qaq5-53">
+        <mxCell id="xceOTYyBqCTmzoK6qaq5-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xceOTYyBqCTmzoK6qaq5-48" target="xceOTYyBqCTmzoK6qaq5-53">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="350" y="380" />
               <mxPoint x="505" y="380" />
-              <mxPoint x="505" y="402" />
+              <mxPoint x="505" y="388" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -129,6 +120,17 @@
         </mxCell>
         <mxCell id="xceOTYyBqCTmzoK6qaq5-63" value="&lt;font style=&quot;font-size: 1px;&quot;&gt;1、更新企业状态、企业信息&lt;br style=&quot;font-size: 1px;&quot;&gt;2、根据经办人创建外部账号，若已存在，则更新经办人信息&lt;br&gt;3、推送企业认证状态到电子签章、pms等系统&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=1;fontStyle=0;labelBackgroundColor=#FFFFCC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="274" y="480" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xceOTYyBqCTmzoK6qaq5-64" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;fontSize=1;exitX=0;exitY=0.894;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.28;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xceOTYyBqCTmzoK6qaq5-41" target="xceOTYyBqCTmzoK6qaq5-48">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="165" y="364" as="sourcePoint" />
+            <mxPoint x="325" y="364" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xceOTYyBqCTmzoK6qaq5-65" value="&lt;span style=&quot;font-size: 2px;&quot;&gt;回调通知认证结果&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=1;" vertex="1" connectable="0" parent="xceOTYyBqCTmzoK6qaq5-64">
+          <mxGeometry x="-0.3208" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
