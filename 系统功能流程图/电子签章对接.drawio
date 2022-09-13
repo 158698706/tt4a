@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-13T05:33:30.247Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="A7-Y3bnLYnfrG3DQlwjp" version="20.2.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-13T05:34:21.453Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="MkwpQvjw5Nqh31t3pn3K" version="20.2.8" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="企业认证流程">
     <mxGraphModel dx="1038" dy="611" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -158,10 +158,10 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="180" y="307" />
-              <mxPoint x="180" y="437" />
+              <mxPoint x="180" y="403" />
             </Array>
             <mxPoint x="55" y="307" as="sourcePoint" />
-            <mxPoint x="55" y="437" as="targetPoint" />
+            <mxPoint x="55" y="403" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5nCTGtRs4uEZQ8u1A9RU-7" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;rounded=1;" vertex="1" parent="1">
@@ -230,7 +230,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5nCTGtRs4uEZQ8u1A9RU-28" value="&lt;font style=&quot;font-size: 1px;&quot;&gt;1、更新人员认证状态&lt;br style=&quot;font-size: 1px;&quot;&gt;2、根据人员创建外部账号；&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=1;fontStyle=0;labelBackgroundColor=#FFFFCC;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="359" y="401" width="139" height="34" as="geometry" />
+          <mxGeometry x="360" y="388" width="139" height="34" as="geometry" />
         </mxCell>
         <mxCell id="5nCTGtRs4uEZQ8u1A9RU-29" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=1;fontSize=1;exitX=0;exitY=0.894;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5nCTGtRs4uEZQ8u1A9RU-12" target="5nCTGtRs4uEZQ8u1A9RU-4">
           <mxGeometry width="160" relative="1" as="geometry">
