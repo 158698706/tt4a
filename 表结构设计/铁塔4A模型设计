@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-22T09:31:59.917Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="NsW8oIxmACe92Bom4KPU" version="20.3.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-09-22T09:32:44.952Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="KHxPhhDbHQEFpNa54oFW" version="20.3.0" type="github" pages="6">
   <diagram id="yEV5bFC-EWyYp4_EpvXo" name="第 1 页">
     <mxGraphModel dx="1038" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -928,7 +928,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CLle_loAqCudPzUBvD8k-15" value="角色集中添加组织关联角色" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="21" y="1454" width="120" height="60" as="geometry" />
+          <mxGeometry x="21" y="1393" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CLle_loAqCudPzUBvD8k-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CLle_loAqCudPzUBvD8k-25" target="CLle_loAqCudPzUBvD8k-9">
           <mxGeometry relative="1" as="geometry">
@@ -942,7 +942,7 @@
         </mxCell>
         <mxCell id="CLle_loAqCudPzUBvD8k-20" value="不为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CLle_loAqCudPzUBvD8k-19">
           <mxGeometry x="-0.2968" y="4" relative="1" as="geometry">
-            <mxPoint x="74" as="offset" />
+            <mxPoint x="74" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CLle_loAqCudPzUBvD8k-21" value="设置角色集&lt;br&gt;用于记录需要保存的角色" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
@@ -957,8 +957,8 @@
         <mxCell id="CLle_loAqCudPzUBvD8k-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CLle_loAqCudPzUBvD8k-25" target="CLle_loAqCudPzUBvD8k-27">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-438" y="1322" />
-              <mxPoint x="-438" y="1610" />
+              <mxPoint x="-402" y="1322" />
+              <mxPoint x="-402" y="1549" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -974,10 +974,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CLle_loAqCudPzUBvD8k-27" value="获取角色集中的角色" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="21" y="1580" width="120" height="60" as="geometry" />
+          <mxGeometry x="21" y="1519" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CLle_loAqCudPzUBvD8k-28" value="结束" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="221" y="1580" width="120" height="60" as="geometry" />
+          <mxGeometry x="221" y="1519" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CLle_loAqCudPzUBvD8k-29" value="&lt;font color=&quot;#ff3333&quot;&gt;2022-0922分割线&lt;/font&gt;" style="line;strokeWidth=2;html=1;strokeColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="-622" y="830" width="1475" height="92.19" as="geometry" />
