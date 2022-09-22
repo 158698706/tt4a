@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-22T09:22:20.259Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="FuHTcLxCzz76Juef04Wa" version="20.3.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-09-22T09:25:08.688Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="qLe2IiU29jjB9ugdjTAo" version="20.3.0" type="github" pages="6">
   <diagram id="yEV5bFC-EWyYp4_EpvXo" name="第 1 页">
     <mxGraphModel dx="1038" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -968,7 +968,7 @@
             <mxPoint x="74" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CLle_loAqCudPzUBvD8k-21" value="设置角色集记录需要保存的角色" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="CLle_loAqCudPzUBvD8k-21" value="设置角色集&lt;br&gt;用于记录需要保存的角色" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-113" y="1108" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CLle_loAqCudPzUBvD8k-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="CLle_loAqCudPzUBvD8k-2" target="CLle_loAqCudPzUBvD8k-21">
