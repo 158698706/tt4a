@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T05:28:20.302Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="ejZP1La2gd93bs7Esn5i" version="20.3.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-09-26T05:33:43.683Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="dRqAoS4YfT6AXfDFL4yg" version="20.3.3" type="github" pages="6">
   <diagram id="yEV5bFC-EWyYp4_EpvXo" name="第 1 页">
     <mxGraphModel dx="1038" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -596,11 +596,11 @@
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-39" value="岗位与角色组关系表" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="5Qk35PuHXA4OkOokIsUI-1">
+        <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-39" value="岗位与角色组关系表" style="shape=table;startSize=22;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="5Qk35PuHXA4OkOokIsUI-1">
           <mxGeometry x="135" y="290" width="180" height="160" as="geometry" />
         </mxCell>
         <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-40" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="QzgXJ8ZpPD9Qh8xb_EXS-39">
-          <mxGeometry y="30" width="180" height="30" as="geometry" />
+          <mxGeometry y="22" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-41" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;" vertex="1" parent="QzgXJ8ZpPD9Qh8xb_EXS-40">
           <mxGeometry width="30" height="30" as="geometry">
@@ -613,7 +613,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-43" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="QzgXJ8ZpPD9Qh8xb_EXS-39">
-          <mxGeometry y="60" width="180" height="30" as="geometry" />
+          <mxGeometry y="52" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-44" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="QzgXJ8ZpPD9Qh8xb_EXS-43">
           <mxGeometry width="30" height="30" as="geometry">
@@ -626,7 +626,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-46" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="QzgXJ8ZpPD9Qh8xb_EXS-39">
-          <mxGeometry y="90" width="180" height="30" as="geometry" />
+          <mxGeometry y="82" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-47" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="QzgXJ8ZpPD9Qh8xb_EXS-46">
           <mxGeometry width="30" height="30" as="geometry">
@@ -639,7 +639,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-49" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="QzgXJ8ZpPD9Qh8xb_EXS-39">
-          <mxGeometry y="120" width="180" height="30" as="geometry" />
+          <mxGeometry y="112" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-50" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="QzgXJ8ZpPD9Qh8xb_EXS-49">
           <mxGeometry width="30" height="30" as="geometry">
@@ -715,8 +715,8 @@
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-68" value="岗位组织定制表说明：&lt;br&gt;1、继承类型，包含向上覆盖，从上继承。&lt;br&gt;向上覆盖：此组织对应岗位的角色直接覆盖上级组织配置的角色。&lt;br&gt;从上继承：此组织拥有对应的角色权限，同时拥有上级组织拥有的角色&lt;br&gt;&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="5Qk35PuHXA4OkOokIsUI-1">
-          <mxGeometry x="638" y="115" width="198" height="139" as="geometry" />
+        <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-68" value="说明：&lt;br&gt;一、岗位新建时自动产生角色组，岗位与角色组绑定；岗位删除时也自动删除角色组。角色组不再可以从页面增删改。&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="5Qk35PuHXA4OkOokIsUI-1">
+          <mxGeometry x="649" y="145" width="194" height="111" as="geometry" />
         </mxCell>
         <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-69" value="岗位角色配置表" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="5Qk35PuHXA4OkOokIsUI-1">
           <mxGeometry x="418" y="273" width="180" height="160" as="geometry" />
