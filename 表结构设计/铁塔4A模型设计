@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T05:24:29.566Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="nybGmPhe7PX_OSPUM9vJ" version="20.3.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-09-26T05:26:20.089Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="FFR9foi3Luj6mVsV-xzL" version="20.3.3" type="github" pages="6">
   <diagram id="yEV5bFC-EWyYp4_EpvXo" name="第 1 页">
     <mxGraphModel dx="1038" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1038,19 +1038,19 @@
         </mxCell>
         <mxCell id="I1iXPcB_czz5g_4SDQJ7-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="I1iXPcB_czz5g_4SDQJ7-17" target="I1iXPcB_czz5g_4SDQJ7-25" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="484.94000000000005" y="324" as="targetPoint" />
+            <mxPoint x="497.94000000000005" y="324" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I1iXPcB_czz5g_4SDQJ7-17" value="记录组织关联角色并添加到角色集中" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="409.94000000000005" y="379" width="120" height="60" as="geometry" />
+          <mxGeometry x="422.94000000000005" y="379" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I1iXPcB_czz5g_4SDQJ7-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="I1iXPcB_czz5g_4SDQJ7-25" target="I1iXPcB_czz5g_4SDQJ7-9" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="544.94" y="294" as="sourcePoint" />
             <mxPoint x="559.94" y="17" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="297" y="254" />
-              <mxPoint x="297" y="545" />
+              <mxPoint x="324" y="254" />
+              <mxPoint x="324" y="545" />
               <mxPoint x="1000" y="545" />
               <mxPoint x="1000" y="294" />
             </Array>
@@ -1073,8 +1073,8 @@
         <mxCell id="I1iXPcB_czz5g_4SDQJ7-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="I1iXPcB_czz5g_4SDQJ7-25" target="I1iXPcB_czz5g_4SDQJ7-27" parent="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="330" y="294" />
-              <mxPoint x="330" y="487" />
+              <mxPoint x="356" y="294" />
+              <mxPoint x="356" y="487" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1084,7 +1084,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="I1iXPcB_czz5g_4SDQJ7-25" value="获取上级组织&lt;br&gt;上级组织是否为空" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="394.94000000000005" y="254" width="150" height="80" as="geometry" />
+          <mxGeometry x="407.94000000000005" y="254" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="I1iXPcB_czz5g_4SDQJ7-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="I1iXPcB_czz5g_4SDQJ7-27" target="I1iXPcB_czz5g_4SDQJ7-28" parent="1">
           <mxGeometry relative="1" as="geometry" />
