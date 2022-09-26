@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T05:15:16.328Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="hZUhhGreWo_95XIryprB" version="20.3.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-09-26T05:16:55.142Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="EikJPgOeuQ4OFG8xCvKG" version="20.3.3" type="github" pages="6">
   <diagram id="yEV5bFC-EWyYp4_EpvXo" name="第 1 页">
     <mxGraphModel dx="1038" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -542,7 +542,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-26" value="岗位组织定制表" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="5Qk35PuHXA4OkOokIsUI-1">
-          <mxGeometry x="440" y="240" width="180" height="160" as="geometry" />
+          <mxGeometry x="420" y="460" width="180" height="160" as="geometry" />
         </mxCell>
         <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-27" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="QzgXJ8ZpPD9Qh8xb_EXS-26">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -661,7 +661,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-55" value="角色表" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="5Qk35PuHXA4OkOokIsUI-1">
-          <mxGeometry x="440" y="480" width="180" height="160" as="geometry" />
+          <mxGeometry x="656" y="333" width="180" height="160" as="geometry" />
         </mxCell>
         <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-56" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="QzgXJ8ZpPD9Qh8xb_EXS-55">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -716,10 +716,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-68" value="岗位组织定制表说明：&lt;br&gt;1、继承类型，包含向上覆盖，从上继承。&lt;br&gt;向上覆盖：此组织对应岗位的角色直接覆盖上级组织配置的角色。&lt;br&gt;从上继承：此组织拥有对应的角色权限，同时拥有上级组织拥有的角色&lt;br&gt;&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="5Qk35PuHXA4OkOokIsUI-1">
-          <mxGeometry x="700" y="121" width="198" height="139" as="geometry" />
+          <mxGeometry x="638" y="115" width="198" height="139" as="geometry" />
         </mxCell>
         <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-69" value="岗位角色配置表" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="5Qk35PuHXA4OkOokIsUI-1">
-          <mxGeometry x="700" y="380" width="180" height="160" as="geometry" />
+          <mxGeometry x="418" y="273" width="180" height="160" as="geometry" />
         </mxCell>
         <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-70" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="QzgXJ8ZpPD9Qh8xb_EXS-69">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -773,7 +773,7 @@
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5Qk35PuHXA4OkOokIsUI-1" source="QzgXJ8ZpPD9Qh8xb_EXS-73" target="QzgXJ8ZpPD9Qh8xb_EXS-27">
+        <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="5Qk35PuHXA4OkOokIsUI-1" source="QzgXJ8ZpPD9Qh8xb_EXS-73" target="QzgXJ8ZpPD9Qh8xb_EXS-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5Qk35PuHXA4OkOokIsUI-1" source="QzgXJ8ZpPD9Qh8xb_EXS-76" target="QzgXJ8ZpPD9Qh8xb_EXS-56">
