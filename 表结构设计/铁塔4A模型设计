@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T10:41:51.769Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="HblkwstaTl6g7f8UeLSJ" version="20.4.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-10-18T10:42:57.879Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="1MJHw61X9NpU1kCvJCuq" version="20.4.1" type="github" pages="6">
   <diagram id="yEV5bFC-EWyYp4_EpvXo" name="第 1 页">
     <mxGraphModel dx="1038" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -716,7 +716,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-68" value="说明：&lt;br&gt;一、岗位新建时自动产生角色组，岗位与角色组绑定；岗位删除时也自动删除角色组。角色组不再可以从页面增删改。&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" parent="5Qk35PuHXA4OkOokIsUI-1" vertex="1">
-          <mxGeometry x="649" y="145" width="194" height="111" as="geometry" />
+          <mxGeometry x="656" y="168" width="215" height="107" as="geometry" />
         </mxCell>
         <mxCell id="QzgXJ8ZpPD9Qh8xb_EXS-69" value="岗位角色配置表" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="5Qk35PuHXA4OkOokIsUI-1" vertex="1">
           <mxGeometry x="418" y="273" width="180" height="160" as="geometry" />
