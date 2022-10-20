@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-20T02:20:54.125Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="k5-LqCfgCg3LX2s-s30O" version="20.4.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-20T02:24:35.302Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="3e1B6J5yVqX8wwxWEKqi" version="20.4.1" type="github" pages="3">
   <diagram name="Page-1" id="ad52d381-51e7-2e0d-a935-2d0ddd2fd229">
     <mxGraphModel dx="1038" dy="568" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -462,7 +462,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xrGrGJiD7JFKajzf93_x" name="登录组件">
-    <mxGraphModel dx="1038" dy="568" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1438" dy="568" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -478,8 +478,10 @@
         <mxCell id="vLLqN5FDeFi1wsm0Cuc6-2" value="校验参数" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="217" y="122" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vLLqN5FDeFi1wsm0Cuc6-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vLLqN5FDeFi1wsm0Cuc6-6" target="vLLqN5FDeFi1wsm0Cuc6-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="vLLqN5FDeFi1wsm0Cuc6-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vLLqN5FDeFi1wsm0Cuc6-6" target="vLLqN5FDeFi1wsm0Cuc6-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="276" y="361" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="vLLqN5FDeFi1wsm0Cuc6-10" value="正确" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vLLqN5FDeFi1wsm0Cuc6-9">
           <mxGeometry x="-0.2465" y="-1" relative="1" as="geometry">
@@ -489,8 +491,8 @@
         <mxCell id="vLLqN5FDeFi1wsm0Cuc6-6" value="账号+密码是否正确" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="216" y="222" width="121" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="vLLqN5FDeFi1wsm0Cuc6-8" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="216" y="355" width="120" height="60" as="geometry" />
+        <mxCell id="vLLqN5FDeFi1wsm0Cuc6-12" value="Container" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="363" width="572" height="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
