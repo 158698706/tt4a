@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-20T02:33:03.917Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="jK---bbj1M7otM9La3wR" version="20.4.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-20T02:33:25.567Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="hmEe7JmgbIsap6mY_xqT" version="20.4.1" type="github" pages="3">
   <diagram name="Page-1" id="ad52d381-51e7-2e0d-a935-2d0ddd2fd229">
     <mxGraphModel dx="1038" dy="568" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -508,15 +508,6 @@
         </mxCell>
         <mxCell id="vLLqN5FDeFi1wsm0Cuc6-21" value="登录记录" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="-9.5" y="749" width="572" height="290" as="geometry" />
-        </mxCell>
-        <mxCell id="vLLqN5FDeFi1wsm0Cuc6-22" value="账号登录次数校验" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="vLLqN5FDeFi1wsm0Cuc6-21">
-          <mxGeometry x="57" y="154" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vLLqN5FDeFi1wsm0Cuc6-23" value="密码失败次数校验" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="vLLqN5FDeFi1wsm0Cuc6-21">
-          <mxGeometry x="57" y="69" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vLLqN5FDeFi1wsm0Cuc6-24" value="密码失败次数校验" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="vLLqN5FDeFi1wsm0Cuc6-21">
-          <mxGeometry x="223.5" y="69" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
