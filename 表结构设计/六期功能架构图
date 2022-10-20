@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-20T03:24:57.404Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="uwK1UGVkuyI1N7e_PBw3" version="20.4.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-20T03:25:36.671Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="DkxB2eQtkhRkm3Bc0Rtv" version="20.4.1" type="github" pages="3">
   <diagram name="Page-1" id="ad52d381-51e7-2e0d-a935-2d0ddd2fd229">
     <mxGraphModel dx="1038" dy="568" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -531,6 +531,14 @@
         <mxCell id="vLLqN5FDeFi1wsm0Cuc6-32" value="账号状态正常" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vLLqN5FDeFi1wsm0Cuc6-31">
           <mxGeometry x="-0.35" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLLqN5FDeFi1wsm0Cuc6-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vLLqN5FDeFi1wsm0Cuc6-30" target="vLLqN5FDeFi1wsm0Cuc6-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vLLqN5FDeFi1wsm0Cuc6-41" value="非正常状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vLLqN5FDeFi1wsm0Cuc6-40">
+          <mxGeometry x="-0.6173" y="1" relative="1" as="geometry">
+            <mxPoint x="-19" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vLLqN5FDeFi1wsm0Cuc6-30" value="登录状态判断" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
