@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-20T13:11:50.888Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="lLuRV29I-qOO-A9tU2aO" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-20T13:12:53.070Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="FnGsDrPRJkbTRAjy9WU9" version="20.5.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="radius认证流程">
     <mxGraphModel dx="1038" dy="968" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -221,8 +221,11 @@
         <mxCell id="WovYwZ7lKuSBffZx3q5z-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#330000;" vertex="1" parent="1">
           <mxGeometry x="-654" y="367" width="302" height="99" as="geometry" />
         </mxCell>
-        <mxCell id="WovYwZ7lKuSBffZx3q5z-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;地址池配置：&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="WovYwZ7lKuSBffZx3q5z-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;在线用户及ip关系：&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-654" y="367" width="189" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="WovYwZ7lKuSBffZx3q5z-5" value="已在线用户记录用户ip及ip整数值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-652.25" y="411" width="285.5" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
