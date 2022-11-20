@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-20T13:12:53.070Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="FnGsDrPRJkbTRAjy9WU9" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-20T13:31:42.984Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="ke8fOYoWYDIOMu4B2H0v" version="20.5.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="radius认证流程">
     <mxGraphModel dx="1038" dy="968" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -165,7 +165,7 @@
           <mxGeometry x="-810" y="20" width="130" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ZZ_xCrEKySpLP4FBm0KG-9" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="-650" y="20" width="281" height="80" as="geometry" />
+          <mxGeometry x="-654" y="46" width="281" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZZ_xCrEKySpLP4FBm0KG-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="ZZ_xCrEKySpLP4FBm0KG-9" vertex="1">
           <mxGeometry width="281" height="80" as="geometry" />
@@ -192,7 +192,7 @@
           <mxGeometry width="229.90909090909093" height="40" as="geometry" />
         </mxCell>
         <mxCell id="idOrlxsdQRRryZMIpZSE-2" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="-654" y="148" width="300" height="195" as="geometry" />
+          <mxGeometry x="-654" y="148" width="283" height="195" as="geometry" />
         </mxCell>
         <mxCell id="idOrlxsdQRRryZMIpZSE-3" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;地址池配置：&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="-654" y="148" width="189" height="35" as="geometry" />
@@ -215,17 +215,20 @@
         <mxCell id="idOrlxsdQRRryZMIpZSE-8" value="结束地址数值&lt;br&gt;171084671" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" parent="idOrlxsdQRRryZMIpZSE-9" vertex="1">
           <mxGeometry x="170" y="30" width="85" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WovYwZ7lKuSBffZx3q5z-1" value="地址池配置提前按照整数方法存储开始及结束值&lt;br&gt;设置ip各段，第一段为p1，第二段为p2，第三段为p3，第四端为p4&lt;br&gt;&lt;font color=&quot;#330000&quot;&gt;Ip整数值=p1*256*256*253+p2*256*253+p3*253+p4&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WovYwZ7lKuSBffZx3q5z-1" value="地址池配置提前按照整数方法存储开始及结束值&lt;br&gt;设置ip各段，第一段为p1，第二段为p2，第三段为p3，第四端为p4&lt;br&gt;&lt;font color=&quot;#330000&quot;&gt;Ip整数值 = p1*256*256*253+p2*256*253+p3*253+p4-2&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-646.75" y="191" width="285.5" height="74" as="geometry" />
         </mxCell>
         <mxCell id="WovYwZ7lKuSBffZx3q5z-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#330000;" vertex="1" parent="1">
-          <mxGeometry x="-654" y="367" width="302" height="99" as="geometry" />
+          <mxGeometry x="-654" y="367" width="286" height="99" as="geometry" />
         </mxCell>
         <mxCell id="WovYwZ7lKuSBffZx3q5z-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;在线用户及ip关系：&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-654" y="367" width="189" height="35" as="geometry" />
         </mxCell>
         <mxCell id="WovYwZ7lKuSBffZx3q5z-5" value="已在线用户记录用户ip及ip整数值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-652.25" y="411" width="285.5" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="WovYwZ7lKuSBffZx3q5z-6" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="-152" y="31" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
