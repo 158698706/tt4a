@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-20T13:41:08.230Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="QzwrrzTVSCRnxcPz0E9e" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-20T13:50:07.375Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="EXhK_ulM5A4kr_jfiPL2" version="20.5.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="radius认证流程">
     <mxGraphModel dx="1038" dy="968" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -245,8 +245,24 @@
         <mxCell id="WovYwZ7lKuSBffZx3q5z-9" value="按顺序查找在ip整数值-地址池开始地址-行号+1的值不为0的值" style="whiteSpace=wrap;html=1;fontColor=#330000;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-162" y="237" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WovYwZ7lKuSBffZx3q5z-13" value="可以获取最小值" style="rhombus;whiteSpace=wrap;html=1;fontColor=#330000;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="WovYwZ7lKuSBffZx3q5z-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#330000;" edge="1" parent="1" source="WovYwZ7lKuSBffZx3q5z-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-102" y="504.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WovYwZ7lKuSBffZx3q5z-19" value="最小值为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="WovYwZ7lKuSBffZx3q5z-17">
+          <mxGeometry x="-0.3595" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WovYwZ7lKuSBffZx3q5z-13" value="获取最小值" style="rhombus;whiteSpace=wrap;html=1;fontColor=#330000;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-163.5" y="344.5" width="123" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WovYwZ7lKuSBffZx3q5z-15" value="" style="whiteSpace=wrap;html=1;fontColor=#330000;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="74" y="323" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WovYwZ7lKuSBffZx3q5z-18" value="可以获取最小值" style="rhombus;whiteSpace=wrap;html=1;fontColor=#330000;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-165" y="503" width="123" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
