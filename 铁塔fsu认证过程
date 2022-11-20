@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-20T11:14:23.360Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="Y4KYBP0BgaUTWO4AnQ9Q" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-20T12:20:40.648Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="U-iSXORtmmFl_f6E0yt-" version="20.5.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="radius认证流程">
     <mxGraphModel dx="1038" dy="968" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -214,6 +214,9 @@
         </mxCell>
         <mxCell id="idOrlxsdQRRryZMIpZSE-8" value="结束地址数值&lt;br&gt;171084671" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" parent="idOrlxsdQRRryZMIpZSE-9" vertex="1">
           <mxGeometry x="170" y="30" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WovYwZ7lKuSBffZx3q5z-1" value="地址池配置提前按照整数方法存储开始及结束值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-641.5" y="183" width="263" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
