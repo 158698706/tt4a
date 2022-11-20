@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-20T13:51:25.206Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="7h5DqJ7DqsMEnAAdEMUp" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-20T14:25:08.979Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="EDAhdjQCyioymAxo-OcG" version="20.5.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="radius认证流程">
     <mxGraphModel dx="1038" dy="968" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -157,7 +157,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VnacYemz-RNRGhXluLUo" name="基于数据库ip地址分配算法">
-    <mxGraphModel dx="2238" dy="568" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2065" dy="473" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -242,8 +242,8 @@
         <mxCell id="WovYwZ7lKuSBffZx3q5z-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#330000;" edge="1" parent="1" source="WovYwZ7lKuSBffZx3q5z-9" target="WovYwZ7lKuSBffZx3q5z-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WovYwZ7lKuSBffZx3q5z-9" value="按顺序查找在ip整数值-地址池开始地址-行号+1的值不为0的值" style="whiteSpace=wrap;html=1;fontColor=#330000;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-162" y="237" width="120" height="60" as="geometry" />
+        <mxCell id="WovYwZ7lKuSBffZx3q5z-9" value="设差值=活动ip整数值-地址池开始地址-行号+1&lt;br&gt;按顺序查找差值不为0的值" style="whiteSpace=wrap;html=1;fontColor=#330000;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-172" y="222" width="140" height="75" as="geometry" />
         </mxCell>
         <mxCell id="WovYwZ7lKuSBffZx3q5z-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#330000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WovYwZ7lKuSBffZx3q5z-13" target="WovYwZ7lKuSBffZx3q5z-18">
           <mxGeometry relative="1" as="geometry">
@@ -255,14 +255,44 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="dIRU-6cq87mnGJ5wGpGe-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#330000;" edge="1" parent="1" source="WovYwZ7lKuSBffZx3q5z-13" target="WovYwZ7lKuSBffZx3q5z-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dIRU-6cq87mnGJ5wGpGe-9" value="最小值不为空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="dIRU-6cq87mnGJ5wGpGe-8">
+          <mxGeometry x="-0.1146" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WovYwZ7lKuSBffZx3q5z-13" value="获取最小值" style="rhombus;whiteSpace=wrap;html=1;fontColor=#330000;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-163.5" y="344.5" width="123" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WovYwZ7lKuSBffZx3q5z-15" value="" style="whiteSpace=wrap;html=1;fontColor=#330000;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="74" y="323" width="120" height="60" as="geometry" />
+        <mxCell id="WovYwZ7lKuSBffZx3q5z-15" value="分配地址=最小地址-差值" style="whiteSpace=wrap;html=1;fontColor=#330000;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="118" y="354.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dIRU-6cq87mnGJ5wGpGe-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#330000;" edge="1" parent="1" source="WovYwZ7lKuSBffZx3q5z-18" target="dIRU-6cq87mnGJ5wGpGe-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dIRU-6cq87mnGJ5wGpGe-4" value="相等" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="dIRU-6cq87mnGJ5wGpGe-3">
+          <mxGeometry x="-0.3326" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIRU-6cq87mnGJ5wGpGe-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#330000;" edge="1" parent="1" source="WovYwZ7lKuSBffZx3q5z-18" target="dIRU-6cq87mnGJ5wGpGe-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dIRU-6cq87mnGJ5wGpGe-7" value="不相等" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="dIRU-6cq87mnGJ5wGpGe-6">
+          <mxGeometry x="-0.3346" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="WovYwZ7lKuSBffZx3q5z-18" value="查询区间内已分配地址&lt;br&gt;是否与区间地址数&lt;br&gt;相等" style="rhombus;whiteSpace=wrap;html=1;fontColor=#330000;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-228" y="503" width="253" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dIRU-6cq87mnGJ5wGpGe-2" value="无地址可分配" style="whiteSpace=wrap;html=1;fontColor=#330000;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-162" y="636" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dIRU-6cq87mnGJ5wGpGe-5" value="分配地址=地址池开始值+已分配地址数" style="whiteSpace=wrap;html=1;fontColor=#330000;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="118" y="513" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
