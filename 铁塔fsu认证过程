@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T06:24:12.978Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="fvK4CJTH4lQwDumtvcD-" version="20.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-22T06:24:26.635Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="YE6BW45-k1EoL_1QNXlc" version="20.6.0" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="radius认证流程">
     <mxGraphModel dx="1338" dy="528" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="4IpwQZj42m0zp5sEV3tD-2" value="第三方集中认证——本地3A认证，在过程报文请求，如何获取到账号，如何去根据账号与现有设备做联动，整个的过程" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="14" y="652" width="181" height="122" as="geometry" />
-        </mxCell>
         <mxCell id="4IpwQZj42m0zp5sEV3tD-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4IpwQZj42m0zp5sEV3tD-8" target="4IpwQZj42m0zp5sEV3tD-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
