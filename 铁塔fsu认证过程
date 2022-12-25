@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-25T11:47:48.523Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="41Cw3vrZFlNrZkrmgdUw" version="20.7.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-12-25T13:21:36.233Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="OlNPdEo7WfM2vDjP66CL" version="20.7.4" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="radius认证返回ip流程图">
     <mxGraphModel dx="1149" dy="495" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -437,7 +437,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cbr9Jxfd_pV_ODX2hL8O" name="边缘盒子获取vsr地址图">
-    <mxGraphModel dx="958" dy="413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1641" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -455,8 +455,8 @@
         <mxCell id="zP2FfPyNQH_c6EUILMRq-14" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="zP2FfPyNQH_c6EUILMRq-8">
           <mxGeometry x="70" y="40" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="zP2FfPyNQH_c6EUILMRq-15" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="zP2FfPyNQH_c6EUILMRq-8">
-          <mxGeometry x="55" y="130" width="90" height="50" as="geometry" />
+        <mxCell id="zP2FfPyNQH_c6EUILMRq-15" value="获取VSR IP" style="whiteSpace=wrap;html=1;" vertex="1" parent="zP2FfPyNQH_c6EUILMRq-8">
+          <mxGeometry x="70" y="230" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zP2FfPyNQH_c6EUILMRq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="zP2FfPyNQH_c6EUILMRq-9" target="zP2FfPyNQH_c6EUILMRq-8">
           <mxGeometry relative="1" as="geometry" />
@@ -467,10 +467,77 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zP2FfPyNQH_c6EUILMRq-9" value="动态配置" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="490" y="40" width="610" height="350" as="geometry" />
+          <mxGeometry x="490" y="40" width="700" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="zP2FfPyNQH_c6EUILMRq-17" value="根据账号判定此账号最近" style="whiteSpace=wrap;html=1;" vertex="1" parent="zP2FfPyNQH_c6EUILMRq-9">
-          <mxGeometry x="60" y="40" width="90" height="50" as="geometry" />
+        <mxCell id="zP2FfPyNQH_c6EUILMRq-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="zP2FfPyNQH_c6EUILMRq-9" source="zP2FfPyNQH_c6EUILMRq-18" target="zP2FfPyNQH_c6EUILMRq-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zP2FfPyNQH_c6EUILMRq-29" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zP2FfPyNQH_c6EUILMRq-28">
+          <mxGeometry x="-0.0117" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zP2FfPyNQH_c6EUILMRq-18" value="根据账号&lt;br&gt;判定此账号&lt;br&gt;最近登录的&lt;br&gt;VSR" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="zP2FfPyNQH_c6EUILMRq-9">
+          <mxGeometry x="40" y="40" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zP2FfPyNQH_c6EUILMRq-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="zP2FfPyNQH_c6EUILMRq-9" source="zP2FfPyNQH_c6EUILMRq-19" target="zP2FfPyNQH_c6EUILMRq-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="80" />
+              <mxPoint x="650" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zP2FfPyNQH_c6EUILMRq-26" value="未满" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zP2FfPyNQH_c6EUILMRq-25">
+          <mxGeometry x="0.0744" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zP2FfPyNQH_c6EUILMRq-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="zP2FfPyNQH_c6EUILMRq-9" source="zP2FfPyNQH_c6EUILMRq-19" target="zP2FfPyNQH_c6EUILMRq-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="525" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zP2FfPyNQH_c6EUILMRq-31" value="已满" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zP2FfPyNQH_c6EUILMRq-30">
+          <mxGeometry x="-0.0629" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zP2FfPyNQH_c6EUILMRq-19" value="判断&lt;br&gt;对应地址池IP&lt;br&gt;是否满了" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="zP2FfPyNQH_c6EUILMRq-9">
+          <mxGeometry x="460" y="40" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zP2FfPyNQH_c6EUILMRq-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="zP2FfPyNQH_c6EUILMRq-9" source="zP2FfPyNQH_c6EUILMRq-21" target="zP2FfPyNQH_c6EUILMRq-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zP2FfPyNQH_c6EUILMRq-21" value="获取VSR&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;IP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zP2FfPyNQH_c6EUILMRq-9">
+          <mxGeometry x="250" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zP2FfPyNQH_c6EUILMRq-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zP2FfPyNQH_c6EUILMRq-9" source="zP2FfPyNQH_c6EUILMRq-18" target="zP2FfPyNQH_c6EUILMRq-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zP2FfPyNQH_c6EUILMRq-22" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zP2FfPyNQH_c6EUILMRq-20">
+          <mxGeometry x="-0.2834" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zP2FfPyNQH_c6EUILMRq-24" value="返回获取的VSR IP" style="whiteSpace=wrap;html=1;" vertex="1" parent="zP2FfPyNQH_c6EUILMRq-9">
+          <mxGeometry x="260" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zP2FfPyNQH_c6EUILMRq-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="zP2FfPyNQH_c6EUILMRq-9" source="zP2FfPyNQH_c6EUILMRq-27" target="zP2FfPyNQH_c6EUILMRq-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="230" />
+              <mxPoint x="320" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zP2FfPyNQH_c6EUILMRq-27" value="根据用户与vsr绑定关系获取地址池分配率最低的VSRIP" style="whiteSpace=wrap;html=1;" vertex="1" parent="zP2FfPyNQH_c6EUILMRq-9">
+          <mxGeometry x="250" y="150" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
