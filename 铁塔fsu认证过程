@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-25T11:11:42.608Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="SuVD1L01TJTiik_3ZBsD" version="20.7.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-12-25T11:17:18.918Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="DH_AhfOrQXd1hu7v-XWS" version="20.7.4" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="radius认证返回ip流程图">
     <mxGraphModel dx="1149" dy="495" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -437,7 +437,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cbr9Jxfd_pV_ODX2hL8O" name="边缘盒子获取vsr地址图">
-    <mxGraphModel dx="657" dy="283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="958" dy="413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -449,8 +449,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zP2FfPyNQH_c6EUILMRq-8" value="Container" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="130" y="40" width="200" height="200" as="geometry" />
+        <mxCell id="zP2FfPyNQH_c6EUILMRq-8" value="边缘盒子" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="130" y="40" width="210" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="zP2FfPyNQH_c6EUILMRq-14" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="zP2FfPyNQH_c6EUILMRq-8">
+          <mxGeometry x="70" y="40" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zP2FfPyNQH_c6EUILMRq-15" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="zP2FfPyNQH_c6EUILMRq-8">
+          <mxGeometry x="60" y="130" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zP2FfPyNQH_c6EUILMRq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="zP2FfPyNQH_c6EUILMRq-9" target="zP2FfPyNQH_c6EUILMRq-8">
           <mxGeometry relative="1" as="geometry" />
@@ -461,7 +467,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zP2FfPyNQH_c6EUILMRq-9" value="动态配置" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="490" y="40" width="200" height="200" as="geometry" />
+          <mxGeometry x="490" y="40" width="610" height="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
