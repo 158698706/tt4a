@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T10:12:57.956Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="fbDKS5qvlTawZj-MEKuj" version="20.6.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-12-25T11:04:28.965Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="bDcQn0cGKKvrts9f-oQ6" version="20.7.4" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="radius认证返回ip流程图">
-    <mxGraphModel dx="1055" dy="528" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1149" dy="495" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -433,6 +433,14 @@
         <mxCell id="8SoLmuln7FhI_4UYm7F4-15" value="停止认证&lt;br&gt;返回报错信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="325" width="120" height="60" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cbr9Jxfd_pV_ODX2hL8O" name="边缘盒子获取vsr地址图">
+    <mxGraphModel dx="1149" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
