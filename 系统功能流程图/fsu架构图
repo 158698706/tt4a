@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T02:46:06.769Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="dcbBkYTv5zI5xOEV51c5" version="20.7.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-01-04T02:47:39.046Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="UtbCvxqRK9jKX16vyB9A" version="20.7.4" type="github" pages="8">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1550" dy="503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1513,7 +1513,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="YnTo2_Az8l97kWGUUCDN-1" value="radius认证" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="410" y="60" width="200" height="310" as="geometry" />
+          <mxGeometry x="480" y="60" width="200" height="310" as="geometry" />
         </mxCell>
         <mxCell id="YnTo2_Az8l97kWGUUCDN-2" value="江苏" style="rounded=0;whiteSpace=wrap;html=1;" parent="YnTo2_Az8l97kWGUUCDN-1" vertex="1">
           <mxGeometry x="40" y="40" width="120" height="30" as="geometry" />
@@ -1529,6 +1529,12 @@
         </mxCell>
         <mxCell id="Hr2zFoCyAYC6BYjUTonT-1" value="。。。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YnTo2_Az8l97kWGUUCDN-1">
           <mxGeometry x="40" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr2zFoCyAYC6BYjUTonT-2" value="动态配置（大区）" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="50" y="60" width="200" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr2zFoCyAYC6BYjUTonT-3" value="江苏、&lt;br&gt;浙江、&lt;br&gt;安徽、&lt;br&gt;上海、" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hr2zFoCyAYC6BYjUTonT-2">
+          <mxGeometry x="40" y="50" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
