@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T06:36:12.790Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="ElyPjz3P2G6dPjnJ5_A-" version="20.7.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-01-04T06:38:20.686Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="gdma5SgHuo3dYuqC42pH" version="20.7.4" type="github" pages="9">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1550" dy="503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1026,7 +1026,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="架构图-CANAL版本" id="40uYbdtGx0JRe6Fzn5Sk">
-    <mxGraphModel dx="2153" dy="1032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2153" dy="992" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="iITPwKNVQ_foG9HmwquV-0" />
         <mxCell id="iITPwKNVQ_foG9HmwquV-1" parent="iITPwKNVQ_foG9HmwquV-0" />
@@ -1267,7 +1267,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="架构图-动态配置服务" id="-1HxcOSmXgq_r-jAxOt2">
-    <mxGraphModel dx="2153" dy="1032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2153" dy="992" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rbdx43yv23EVng_1FAUu-0" />
         <mxCell id="rbdx43yv23EVng_1FAUu-1" parent="rbdx43yv23EVng_1FAUu-0" />
