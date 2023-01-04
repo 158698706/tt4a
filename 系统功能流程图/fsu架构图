@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T06:34:50.129Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="tlhQWh62zAolgvt21zr2" version="20.7.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-01-04T06:35:31.981Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="eyX6W2ucjDfyL_7bGQin" version="20.7.4" type="github" pages="9">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1550" dy="503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1411,7 +1411,7 @@
         <mxCell id="jB_iL564u4UVVSuPLM6u-3" value="redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="9MozlpqnDdypOC9b2sfs-3">
           <mxGeometry x="220" y="90" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="07ffdiuwJBILLDMSTgCe-2" value="同步服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9MozlpqnDdypOC9b2sfs-3">
+        <mxCell id="07ffdiuwJBILLDMSTgCe-2" value="数据接收服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9MozlpqnDdypOC9b2sfs-3">
           <mxGeometry x="18" y="42" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9MozlpqnDdypOC9b2sfs-4" value="总部/下沉省" style="swimlane;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="1">
@@ -1426,7 +1426,7 @@
         <mxCell id="jB_iL564u4UVVSuPLM6u-2" value="redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="9MozlpqnDdypOC9b2sfs-4">
           <mxGeometry x="290" y="90" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="07ffdiuwJBILLDMSTgCe-1" value="同步服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9MozlpqnDdypOC9b2sfs-4">
+        <mxCell id="07ffdiuwJBILLDMSTgCe-1" value="数据接收服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9MozlpqnDdypOC9b2sfs-4">
           <mxGeometry x="62" y="55" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
