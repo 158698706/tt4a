@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T09:31:53.778Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="2Dg7aPXe6SblikNxm5xA" version="20.7.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-01-04T09:32:42.520Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="XjAB72Tqi7LEkeEYuUml" version="20.7.4" type="github" pages="9">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1550" dy="503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1267,7 +1267,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="架构图-动态配置服务" id="-1HxcOSmXgq_r-jAxOt2">
-    <mxGraphModel dx="2153" dy="992" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1871" dy="980" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rbdx43yv23EVng_1FAUu-0" />
         <mxCell id="rbdx43yv23EVng_1FAUu-1" parent="rbdx43yv23EVng_1FAUu-0" />
@@ -1342,7 +1342,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rAcaaAzz6_kMblJg9Aro" name="第 5 页">
-    <mxGraphModel dx="910" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="910" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
