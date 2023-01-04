@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T05:38:23.050Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="E6YIhWOGZffqCfK1KNoz" version="20.7.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-01-04T05:43:00.656Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="9fXBQvdo7UMhCDGDNlUQ" version="20.7.4" type="github" pages="9">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1550" dy="503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1267,7 +1267,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="架构图-动态配置服务" id="-1HxcOSmXgq_r-jAxOt2">
-    <mxGraphModel dx="2153" dy="992" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2153" dy="1032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rbdx43yv23EVng_1FAUu-0" />
         <mxCell id="rbdx43yv23EVng_1FAUu-1" parent="rbdx43yv23EVng_1FAUu-0" />
@@ -1374,7 +1374,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="u4DzecFy6h16NpeI-H1n" name="第 9 页">
-    <mxGraphModel dx="1150" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1150" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1390,17 +1390,26 @@
         <mxCell id="9MozlpqnDdypOC9b2sfs-7" value="动态配置服务灾备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9MozlpqnDdypOC9b2sfs-2">
           <mxGeometry x="420" y="50" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="_gjhZrKGyWy-J32QWXTk-1" value="mysql" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="9MozlpqnDdypOC9b2sfs-2">
+          <mxGeometry x="274" y="160" width="100" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="9MozlpqnDdypOC9b2sfs-3" value="下沉省大区" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="360" width="200" height="200" as="geometry" />
+          <mxGeometry x="480" y="360" width="310" height="410" as="geometry" />
         </mxCell>
         <mxCell id="9MozlpqnDdypOC9b2sfs-9" value="动态配置服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9MozlpqnDdypOC9b2sfs-3">
-          <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="110" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_gjhZrKGyWy-J32QWXTk-3" value="mysql" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="9MozlpqnDdypOC9b2sfs-3">
+          <mxGeometry x="120" y="270" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9MozlpqnDdypOC9b2sfs-4" value="总部/下沉省" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="370" width="200" height="200" as="geometry" />
+          <mxGeometry x="40" y="370" width="390" height="400" as="geometry" />
         </mxCell>
         <mxCell id="9MozlpqnDdypOC9b2sfs-8" value="radius认证服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9MozlpqnDdypOC9b2sfs-4">
-          <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="125" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_gjhZrKGyWy-J32QWXTk-2" value="mysql" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="9MozlpqnDdypOC9b2sfs-4">
+          <mxGeometry x="145" y="260" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
