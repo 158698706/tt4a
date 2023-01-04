@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T05:47:02.803Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="QQ_ksxX8HoMz4zAvlmhS" version="20.7.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-01-04T05:52:58.859Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="MudgEUdzEK_EIlla275T" version="20.7.4" type="github" pages="9">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1550" dy="503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1392,6 +1392,9 @@
         </mxCell>
         <mxCell id="_gjhZrKGyWy-J32QWXTk-1" value="mysql" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="9MozlpqnDdypOC9b2sfs-2">
           <mxGeometry x="120" y="160" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R488DeyeoffnInuFH3E7-1" value="redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="9MozlpqnDdypOC9b2sfs-2">
+          <mxGeometry x="400" y="140" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9MozlpqnDdypOC9b2sfs-3" value="下沉省大区" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="360" width="310" height="410" as="geometry" />
