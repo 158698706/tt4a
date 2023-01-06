@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T12:10:08.235Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="IzrfCVaMBw-7s_YNM7Q-" version="20.8.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-01-06T01:56:34.986Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="I-UOlFBEet7BFe4oYl4Q" version="20.8.1" type="github" pages="9">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
-    <mxGraphModel dx="1450" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1690" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1026,7 +1026,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="架构图-CANAL版本" id="40uYbdtGx0JRe6Fzn5Sk">
-    <mxGraphModel dx="1850" dy="970" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2090" dy="970" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="iITPwKNVQ_foG9HmwquV-0" />
         <mxCell id="iITPwKNVQ_foG9HmwquV-1" parent="iITPwKNVQ_foG9HmwquV-0" />
@@ -1160,7 +1160,7 @@
         <mxCell id="iITPwKNVQ_foG9HmwquV-36" value="CANAL" style="rounded=0;whiteSpace=wrap;html=1;" parent="iITPwKNVQ_foG9HmwquV-18" vertex="1">
           <mxGeometry x="44" y="235" width="61" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iITPwKNVQ_foG9HmwquV-37" value="KAFKA" style="whiteSpace=wrap;html=1;rounded=0;" parent="iITPwKNVQ_foG9HmwquV-18" vertex="1">
+        <mxCell id="iITPwKNVQ_foG9HmwquV-37" value="KAFKA/MQ" style="whiteSpace=wrap;html=1;rounded=0;" parent="iITPwKNVQ_foG9HmwquV-18" vertex="1">
           <mxGeometry x="14.5" y="333" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iITPwKNVQ_foG9HmwquV-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="iITPwKNVQ_foG9HmwquV-18" source="iITPwKNVQ_foG9HmwquV-36" target="iITPwKNVQ_foG9HmwquV-37" edge="1">
