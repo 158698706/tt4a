@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-10T01:06:22.999Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="LEXwFXeQ5JVGwt9QXj7r" version="20.8.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-01-10T02:03:55.040Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="3X3IVO1uSZB3h9F34Yzq" version="20.8.1" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="radius认证返回ip流程图">
     <mxGraphModel dx="1150" dy="503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -467,7 +467,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zP2FfPyNQH_c6EUILMRq-9" value="动态配置" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="490" y="40" width="700" height="350" as="geometry" />
+          <mxGeometry x="490" y="40" width="700" height="477" as="geometry" />
         </mxCell>
         <mxCell id="zP2FfPyNQH_c6EUILMRq-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="zP2FfPyNQH_c6EUILMRq-9" source="zP2FfPyNQH_c6EUILMRq-18" target="zP2FfPyNQH_c6EUILMRq-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -525,7 +525,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zP2FfPyNQH_c6EUILMRq-24" value="返回获取的VSR IP" style="whiteSpace=wrap;html=1;" parent="zP2FfPyNQH_c6EUILMRq-9" vertex="1">
+        <mxCell id="-JGc2JzPgIU7js6i5tz9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="zP2FfPyNQH_c6EUILMRq-9" source="zP2FfPyNQH_c6EUILMRq-24" target="-JGc2JzPgIU7js6i5tz9-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zP2FfPyNQH_c6EUILMRq-24" value="获取的VSR IP" style="whiteSpace=wrap;html=1;" parent="zP2FfPyNQH_c6EUILMRq-9" vertex="1">
           <mxGeometry x="260" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zP2FfPyNQH_c6EUILMRq-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="zP2FfPyNQH_c6EUILMRq-9" source="zP2FfPyNQH_c6EUILMRq-27" target="zP2FfPyNQH_c6EUILMRq-24" edge="1">
@@ -539,11 +542,14 @@
         <mxCell id="zP2FfPyNQH_c6EUILMRq-27" value="根据用户与vsr绑定关系获取地址池分配率最低的VSRIP" style="whiteSpace=wrap;html=1;" parent="zP2FfPyNQH_c6EUILMRq-9" vertex="1">
           <mxGeometry x="250" y="150" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="-JGc2JzPgIU7js6i5tz9-1" value="为账号随机产生密码，并更新数据信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="zP2FfPyNQH_c6EUILMRq-9">
+          <mxGeometry x="260" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="bY-VGO-ESfch9-g4AvcO" name="第 6 页">
-    <mxGraphModel dx="1149" dy="495" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1150" dy="503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
