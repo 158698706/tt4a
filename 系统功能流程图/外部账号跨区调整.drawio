@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-05T01:40:00.579Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="oWWk9jJ2vIULF-5E8YC4" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-05T01:43:15.969Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="O_d0eiplRPd1CtUVQ1Wj" version="20.8.16" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1154" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,6 +20,9 @@
         </mxCell>
         <mxCell id="dnr6v99prlty-qJEZTvb-2" value="为区域内外部账号&lt;br&gt;A添加山东区域（待开发）" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
           <mxGeometry x="150" y="30" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dnr6v99prlty-qJEZTvb-22" value="区域申请处理结果查看" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="630" y="50" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-20" value="山东管理员" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" y="150" width="760" height="200" as="geometry" />
@@ -49,14 +52,29 @@
         <mxCell id="dnr6v99prlty-qJEZTvb-6" value="同意" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
           <mxGeometry x="320" y="50" width="80" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="dnr6v99prlty-qJEZTvb-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-20" source="dnr6v99prlty-qJEZTvb-9" target="dnr6v99prlty-qJEZTvb-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dnr6v99prlty-qJEZTvb-9" value="为用户A添加山东区域权限" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
           <mxGeometry x="470" y="60" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="dnr6v99prlty-qJEZTvb-13" value="为用户A添加山东区域权限" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
+        <mxCell id="dnr6v99prlty-qJEZTvb-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-20" source="dnr6v99prlty-qJEZTvb-13" target="dnr6v99prlty-qJEZTvb-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dnr6v99prlty-qJEZTvb-13" value="填写拒绝原因" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
           <mxGeometry x="470" y="140" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dnr6v99prlty-qJEZTvb-18" value="形成申请单处理结果" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
+          <mxGeometry x="630" y="60" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dnr6v99prlty-qJEZTvb-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="dnr6v99prlty-qJEZTvb-2" target="dnr6v99prlty-qJEZTvb-5">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dnr6v99prlty-qJEZTvb-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="dnr6v99prlty-qJEZTvb-18" target="dnr6v99prlty-qJEZTvb-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="704.9999999999998" y="110" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
