@@ -1,26 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T08:16:17.180Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="GuAJ7ojmuZmQAu0NGEOB" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-08T08:17:35.950Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="vsNhPgMVjXL6FXUFk3Me" version="20.8.16" type="github">
   <diagram name="第 1 页" id="5AQuxdkM05kk_FZeY26e">
     <mxGraphModel dx="670" dy="278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dmObhrlyZNTn6bsTrNyk-1" value="人脸识别认证图" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="40" width="480" height="860" as="geometry" />
+        <mxCell id="dmObhrlyZNTn6bsTrNyk-1" value="人脸识别认证图" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="40" width="540" height="860" as="geometry" />
         </mxCell>
         <mxCell id="dmObhrlyZNTn6bsTrNyk-2" value="业务APP" style="swimlane;startSize=20;html=1;" vertex="1" parent="dmObhrlyZNTn6bsTrNyk-1">
-          <mxGeometry y="20" width="120" height="840" as="geometry" />
+          <mxGeometry y="20" width="180" height="840" as="geometry" />
         </mxCell>
-        <mxCell id="dmObhrlyZNTn6bsTrNyk-6" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="dmObhrlyZNTn6bsTrNyk-2">
-          <mxGeometry x="9.999999999999545" y="40" width="100" height="60" as="geometry" />
+        <mxCell id="dmObhrlyZNTn6bsTrNyk-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dmObhrlyZNTn6bsTrNyk-2" source="dmObhrlyZNTn6bsTrNyk-6" target="dmObhrlyZNTn6bsTrNyk-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmObhrlyZNTn6bsTrNyk-6" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="dmObhrlyZNTn6bsTrNyk-2">
+          <mxGeometry x="65" y="40" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dmObhrlyZNTn6bsTrNyk-7" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="dmObhrlyZNTn6bsTrNyk-2">
+          <mxGeometry x="40" y="100" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dmObhrlyZNTn6bsTrNyk-3" value="4A认证页面" style="swimlane;startSize=20;html=1;" vertex="1" parent="dmObhrlyZNTn6bsTrNyk-1">
-          <mxGeometry x="120" y="20" width="120" height="840" as="geometry" />
+          <mxGeometry x="180" y="20" width="120" height="840" as="geometry" />
         </mxCell>
         <mxCell id="dmObhrlyZNTn6bsTrNyk-4" value="AI平台" style="swimlane;startSize=20;html=1;" vertex="1" parent="dmObhrlyZNTn6bsTrNyk-1">
-          <mxGeometry x="240" y="20" width="120" height="840" as="geometry" />
+          <mxGeometry x="300" y="20" width="120" height="840" as="geometry" />
         </mxCell>
         <mxCell id="dmObhrlyZNTn6bsTrNyk-5" value="电子签章" style="swimlane;startSize=20;html=1;" vertex="1" parent="dmObhrlyZNTn6bsTrNyk-1">
-          <mxGeometry x="360" y="20" width="120" height="840" as="geometry" />
+          <mxGeometry x="420" y="20" width="120" height="840" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
