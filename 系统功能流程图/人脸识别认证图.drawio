@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T05:55:05.088Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="gVd4NfFiT9gGacfsmhPB" version="20.8.18" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-09T05:55:18.574Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="6-ze8EE3TuTXAgc45rEN" version="20.8.18" type="github" pages="3">
   <diagram name="对接签章系统" id="5AQuxdkM05kk_FZeY26e">
     <mxGraphModel dx="1071" dy="592" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -227,7 +227,7 @@
         <mxCell id="szfg3iRW3wdg9Us7tqIp-0" />
         <mxCell id="szfg3iRW3wdg9Us7tqIp-1" parent="szfg3iRW3wdg9Us7tqIp-0" />
         <mxCell id="szfg3iRW3wdg9Us7tqIp-2" value="实名认证流程图" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="szfg3iRW3wdg9Us7tqIp-1">
-          <mxGeometry x="140" y="40" width="440" height="336" as="geometry" />
+          <mxGeometry x="140" y="40" width="436" height="336" as="geometry" />
         </mxCell>
         <mxCell id="szfg3iRW3wdg9Us7tqIp-11" value="4A管理页面" style="swimlane;startSize=20;html=1;" vertex="1" parent="szfg3iRW3wdg9Us7tqIp-2">
           <mxGeometry y="20" width="198" height="316" as="geometry" />
@@ -239,7 +239,7 @@
           <mxGeometry x="27" y="46.5" width="120" height="140.5" as="geometry" />
         </mxCell>
         <mxCell id="szfg3iRW3wdg9Us7tqIp-14" value="AI平台" style="swimlane;startSize=20;html=1;" vertex="1" parent="szfg3iRW3wdg9Us7tqIp-2">
-          <mxGeometry x="198" y="20" width="242" height="316" as="geometry" />
+          <mxGeometry x="198" y="20" width="238" height="316" as="geometry" />
         </mxCell>
         <mxCell id="szfg3iRW3wdg9Us7tqIp-15" value="AI能力" style="swimlane;" vertex="1" parent="szfg3iRW3wdg9Us7tqIp-14">
           <mxGeometry x="31" y="65" width="194" height="200" as="geometry" />
