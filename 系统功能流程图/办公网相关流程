@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T10:37:53.281Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="24vlYGBaeKrF5DBGliPW" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-25T10:38:05.012Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="Uo5YAFd1rwNmAoPu5G85" version="20.8.23" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="743" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,10 +102,10 @@
           <mxGeometry x="347" y="546" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yUyAnADvf-akPPtTde6P-0" value="准入系统&lt;br&gt;操作或接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="70" y="626" width="80" height="36" as="geometry" />
+          <mxGeometry x="120" y="640" width="80" height="36" as="geometry" />
         </mxCell>
         <mxCell id="yUyAnADvf-akPPtTde6P-1" value="办公网&lt;br&gt;页面或能力" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="70" y="682" width="80" height="34" as="geometry" />
+          <mxGeometry x="120" y="696" width="80" height="34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
