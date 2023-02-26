@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-26T02:37:06.627Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="EnhT3fQ5QLocb6JqmrqT" version="20.8.23" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-26T02:37:31.280Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="9lhK0Uvs8MH1hXWeMypD" version="20.8.23" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="统一页面方案">
-    <mxGraphModel dx="910" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="910" dy="503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -101,10 +101,10 @@
         <mxCell id="jHjdd1m3hMJCdybBIiwI-26" value="准入系统进入接口" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="347" y="546" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yUyAnADvf-akPPtTde6P-0" value="准入系统&lt;br&gt;操作或接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="yUyAnADvf-akPPtTde6P-0" value="准入系统&lt;br&gt;操作或接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="120" y="640" width="80" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="yUyAnADvf-akPPtTde6P-1" value="办公网&lt;br&gt;页面或能力" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="yUyAnADvf-akPPtTde6P-1" value="办公网&lt;br&gt;页面或能力" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="120" y="696" width="80" height="34" as="geometry" />
         </mxCell>
       </root>
@@ -115,62 +115,62 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-7" value="4A" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-7" value="4A" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="160" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="hN7kunjeTAqmACSTGB_--1" value="4A内部账号&amp;amp;密码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ja6GrseiiZBylEQ4e0RJ-7">
+        <mxCell id="hN7kunjeTAqmACSTGB_--1" value="4A内部账号&amp;amp;密码" style="rounded=0;whiteSpace=wrap;html=1;" parent="Ja6GrseiiZBylEQ4e0RJ-7" vertex="1">
           <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-12" value="办公网" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-12" value="办公网" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="240" y="40" width="160" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-13" value="4A内部账号&amp;amp;密码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ja6GrseiiZBylEQ4e0RJ-12">
+        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-13" value="4A内部账号&amp;amp;密码" style="rounded=0;whiteSpace=wrap;html=1;" parent="Ja6GrseiiZBylEQ4e0RJ-12" vertex="1">
           <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-23" value="认证日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ja6GrseiiZBylEQ4e0RJ-12">
+        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-23" value="认证日志" style="rounded=0;whiteSpace=wrap;html=1;" parent="Ja6GrseiiZBylEQ4e0RJ-12" vertex="1">
           <mxGeometry x="19" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-14" value="LDAP/KAFAKA" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-14" value="LDAP/KAFAKA" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="460" y="40" width="160" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-15" value="4A内部账号&amp;amp;密码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ja6GrseiiZBylEQ4e0RJ-14">
+        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-15" value="4A内部账号&amp;amp;密码" style="rounded=0;whiteSpace=wrap;html=1;" parent="Ja6GrseiiZBylEQ4e0RJ-14" vertex="1">
           <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-22" value="认证日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ja6GrseiiZBylEQ4e0RJ-14">
+        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-22" value="认证日志" style="rounded=0;whiteSpace=wrap;html=1;" parent="Ja6GrseiiZBylEQ4e0RJ-14" vertex="1">
           <mxGeometry x="20" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-16" value="终端准入" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-16" value="终端准入" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="720" y="40" width="160" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-17" value="4A内部账号&amp;amp;密码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ja6GrseiiZBylEQ4e0RJ-16">
+        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-17" value="4A内部账号&amp;amp;密码" style="rounded=0;whiteSpace=wrap;html=1;" parent="Ja6GrseiiZBylEQ4e0RJ-16" vertex="1">
           <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-24" value="认证日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ja6GrseiiZBylEQ4e0RJ-16">
+        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-24" value="认证日志" style="rounded=0;whiteSpace=wrap;html=1;" parent="Ja6GrseiiZBylEQ4e0RJ-16" vertex="1">
           <mxGeometry x="20" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hN7kunjeTAqmACSTGB_--1" target="Ja6GrseiiZBylEQ4e0RJ-13">
+        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hN7kunjeTAqmACSTGB_--1" target="Ja6GrseiiZBylEQ4e0RJ-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ja6GrseiiZBylEQ4e0RJ-13" target="Ja6GrseiiZBylEQ4e0RJ-15">
+        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ja6GrseiiZBylEQ4e0RJ-13" target="Ja6GrseiiZBylEQ4e0RJ-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ja6GrseiiZBylEQ4e0RJ-15" target="Ja6GrseiiZBylEQ4e0RJ-17">
+        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ja6GrseiiZBylEQ4e0RJ-15" target="Ja6GrseiiZBylEQ4e0RJ-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-21" value="消费" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ja6GrseiiZBylEQ4e0RJ-20">
+        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-21" value="消费" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Ja6GrseiiZBylEQ4e0RJ-20" vertex="1" connectable="0">
           <mxGeometry x="-0.2753" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ja6GrseiiZBylEQ4e0RJ-24" target="Ja6GrseiiZBylEQ4e0RJ-22">
+        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ja6GrseiiZBylEQ4e0RJ-24" target="Ja6GrseiiZBylEQ4e0RJ-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-27" value="上报" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ja6GrseiiZBylEQ4e0RJ-25">
+        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-27" value="上报" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Ja6GrseiiZBylEQ4e0RJ-25" vertex="1" connectable="0">
           <mxGeometry x="0.2468" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ja6GrseiiZBylEQ4e0RJ-22" target="Ja6GrseiiZBylEQ4e0RJ-23">
+        <mxCell id="Ja6GrseiiZBylEQ4e0RJ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ja6GrseiiZBylEQ4e0RJ-22" target="Ja6GrseiiZBylEQ4e0RJ-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
