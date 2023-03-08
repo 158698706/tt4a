@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-08T12:59:53.879Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="tQOd7H4ifNzCbdBp8dxF" version="21.0.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-03-08T13:01:13.374Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="nNKt5GU6wXtbKubDWxPY" version="21.0.2" type="github" pages="10">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1450" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1453,7 +1453,7 @@
         </mxCell>
         <mxCell id="CXgRWjgYVvhSQaq2bm9q-33" value="下沉省主节点访问异常情况下&lt;br&gt;访问中心备份节点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="CXgRWjgYVvhSQaq2bm9q-32" vertex="1" connectable="0">
           <mxGeometry x="0.1962" y="1" relative="1" as="geometry">
-            <mxPoint x="7" y="-95" as="offset" />
+            <mxPoint x="10" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hOMmSvv3PQzaXhVxUU-v-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="OjpNlgtZqxMlXlv4foNj-1" target="hOMmSvv3PQzaXhVxUU-v-1">
@@ -1461,7 +1461,7 @@
         </mxCell>
         <mxCell id="hOMmSvv3PQzaXhVxUU-v-5" value="备用节点异常继续&lt;br&gt;使用直接通过备用VSR认证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hOMmSvv3PQzaXhVxUU-v-2">
           <mxGeometry x="-0.2215" y="1" relative="1" as="geometry">
-            <mxPoint x="-4" y="131" as="offset" />
+            <mxPoint x="-6" y="187" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OjpNlgtZqxMlXlv4foNj-1" value="边缘网关" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -1534,7 +1534,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="842" y="-51" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="856" y="498" />
+              <mxPoint x="856" y="478" />
               <mxPoint x="856" y="3" />
             </Array>
           </mxGeometry>
@@ -1549,7 +1549,7 @@
             <mxPoint x="842" y="49.00000000000023" as="targetPoint" />
             <Array as="points">
               <mxPoint x="791" y="21" />
-              <mxPoint x="791" y="468" />
+              <mxPoint x="791" y="448" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1572,7 +1572,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CXgRWjgYVvhSQaq2bm9q-15" value="RADIU认证服务" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="496" y="335" width="200" height="200" as="geometry" />
+          <mxGeometry x="496" y="315" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="CXgRWjgYVvhSQaq2bm9q-16" value="服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="CXgRWjgYVvhSQaq2bm9q-15" vertex="1">
           <mxGeometry x="38" y="43" width="120" height="60" as="geometry" />
@@ -1608,7 +1608,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CXgRWjgYVvhSQaq2bm9q-31" value="智能运维节点-中心节点（备）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="191" y="565" width="273" height="48" as="geometry" />
+          <mxGeometry x="196" y="642" width="273" height="48" as="geometry" />
         </mxCell>
         <mxCell id="hOMmSvv3PQzaXhVxUU-v-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;shape=link;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="hOMmSvv3PQzaXhVxUU-v-1" target="CXgRWjgYVvhSQaq2bm9q-15">
           <mxGeometry relative="1" as="geometry" />
@@ -1619,7 +1619,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hOMmSvv3PQzaXhVxUU-v-1" value="备用VSR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="20" y="658" width="273" height="48" as="geometry" />
+          <mxGeometry x="23" y="719" width="273" height="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
