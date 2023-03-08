@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-08T10:12:57.049Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="nudHxaH06a8pIYoZjdkk" version="20.8.23" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-03-08T10:15:48.812Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="P70J7GIdojg6CQjAtZao" version="20.8.23" type="github" pages="10">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1450" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1443,6 +1443,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="CXgRWjgYVvhSQaq2bm9q-27" value="7、到VSR认证接入内网" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CXgRWjgYVvhSQaq2bm9q-23">
+          <mxGeometry x="-0.1957" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OjpNlgtZqxMlXlv4foNj-1" value="边缘网关" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-53" y="-35" width="198" height="302" as="geometry" />
         </mxCell>
@@ -1565,14 +1570,29 @@
         <mxCell id="CXgRWjgYVvhSQaq2bm9q-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="CXgRWjgYVvhSQaq2bm9q-21" target="OjpNlgtZqxMlXlv4foNj-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="CXgRWjgYVvhSQaq2bm9q-30" value="10、返回认证结果及&lt;br&gt;内网IP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CXgRWjgYVvhSQaq2bm9q-24">
+          <mxGeometry x="0.1595" y="3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CXgRWjgYVvhSQaq2bm9q-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="CXgRWjgYVvhSQaq2bm9q-21" target="CXgRWjgYVvhSQaq2bm9q-16">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CXgRWjgYVvhSQaq2bm9q-28" value="8、通过账号密码到&lt;br&gt;radius服务认证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CXgRWjgYVvhSQaq2bm9q-25">
+          <mxGeometry x="-0.4649" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="CXgRWjgYVvhSQaq2bm9q-21" value="VSR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="252" y="299" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CXgRWjgYVvhSQaq2bm9q-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="CXgRWjgYVvhSQaq2bm9q-16" target="CXgRWjgYVvhSQaq2bm9q-21">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CXgRWjgYVvhSQaq2bm9q-29" value="9\返回边缘网关可使用的内网IP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CXgRWjgYVvhSQaq2bm9q-26">
+          <mxGeometry x="0.0062" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
