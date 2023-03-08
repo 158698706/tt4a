@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-08T08:55:06.716Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="0uZM-83K_bTlfAzpNlhn" version="20.8.23" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-03-08T08:58:21.004Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="ome6fMvguC7jQRd7k_rY" version="20.8.23" type="github" pages="10">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1690" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2ZGYdSWFpOb-0iMEOBAg" name="表结构图">
-    <mxGraphModel dx="1438" dy="576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1690" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -567,7 +567,7 @@
         <mxCell id="R-048NNywqq3F2h3oj8G-13" value="......" style="rounded=0;whiteSpace=wrap;html=1;" parent="R-048NNywqq3F2h3oj8G-3" vertex="1">
           <mxGeometry x="14" y="159" width="96" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="R-048NNywqq3F2h3oj8G-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="R-048NNywqq3F2h3oj8G-14" target="5OQA7fGUhZK_yrap1rAv-3" edge="1">
+        <mxCell id="R-048NNywqq3F2h3oj8G-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="R-048NNywqq3F2h3oj8G-14" target="5OQA7fGUhZK_yrap1rAv-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R-048NNywqq3F2h3oj8G-14" value="fsu组2" style="swimlane;" parent="1" vertex="1">
@@ -1432,10 +1432,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="H8nhx1kvPZH1GpFPtoQV" name="前置服务高可用">
-    <mxGraphModel dx="1290" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1690" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OjpNlgtZqxMlXlv4foNj-1" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-98" y="80" width="200" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
