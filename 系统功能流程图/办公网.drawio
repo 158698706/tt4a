@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T06:49:41.112Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="74TTZF_SCS4ZrafCa9yc" version="21.1.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-30T06:50:40.666Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="Zg4GH-jZg8EFdZyrZ9kc" version="21.1.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="方案一">
     <mxGraphModel dx="1041" dy="632" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,8 +52,8 @@
         <mxCell id="JnwnjsweZAxiL3DcM_pp-11" value="本地密码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="JnwnjsweZAxiL3DcM_pp-9">
           <mxGeometry x="40" y="70" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1Zy8I95tH8bVo6ZfM0J7-0" value="4A、办公网、LDAP服务均在集团端&lt;br&gt;准入为总部及各省份部署一个" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="333" y="491" width="238" height="80" as="geometry" />
+        <mxCell id="1Zy8I95tH8bVo6ZfM0J7-0" value="4A、办公网、LDAP服务均在集团端&lt;br&gt;&lt;br&gt;准入为总部及各省份单点部署" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="333" y="476" width="238" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
