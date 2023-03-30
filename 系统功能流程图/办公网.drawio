@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T06:17:49.587Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="jNYQJORAgVraxNPDNao5" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-30T06:32:51.087Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="4vcD4vx8hoh9GiFIKSGj" version="21.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="方案一">
     <mxGraphModel dx="885" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,11 +21,31 @@
         <mxCell id="JnwnjsweZAxiL3DcM_pp-3" value="授权（账号+角色）" style="whiteSpace=wrap;html=1;" vertex="1" parent="JnwnjsweZAxiL3DcM_pp-0">
           <mxGeometry x="40" y="94" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JnwnjsweZAxiL3DcM_pp-1" value="办公网" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="110" y="350" width="200" height="200" as="geometry" />
+        <mxCell id="JnwnjsweZAxiL3DcM_pp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JnwnjsweZAxiL3DcM_pp-1" target="JnwnjsweZAxiL3DcM_pp-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="370" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="JnwnjsweZAxiL3DcM_pp-6" value="账号&lt;br&gt;账号名+角色" style="whiteSpace=wrap;html=1;" vertex="1" parent="JnwnjsweZAxiL3DcM_pp-1">
-          <mxGeometry x="40" y="70" width="120" height="60" as="geometry" />
+        <mxCell id="JnwnjsweZAxiL3DcM_pp-1" value="办公网" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="290" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="JnwnjsweZAxiL3DcM_pp-6" value="账号信息&lt;br&gt;（账号名、角色、账号状态、更新时间）" style="whiteSpace=wrap;html=1;" vertex="1" parent="JnwnjsweZAxiL3DcM_pp-1">
+          <mxGeometry x="15" y="50" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JnwnjsweZAxiL3DcM_pp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JnwnjsweZAxiL3DcM_pp-8" target="JnwnjsweZAxiL3DcM_pp-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JnwnjsweZAxiL3DcM_pp-8" value="LDAP服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="500" y="315" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="JnwnjsweZAxiL3DcM_pp-9" value="准入" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="485" y="40" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="JnwnjsweZAxiL3DcM_pp-10" value="账号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="JnwnjsweZAxiL3DcM_pp-9">
+          <mxGeometry x="40" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JnwnjsweZAxiL3DcM_pp-11" value="本地密码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="JnwnjsweZAxiL3DcM_pp-9">
+          <mxGeometry x="40" y="70" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
