@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T06:44:10.318Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="PyXeAVStl74o2mA43w7y" version="21.1.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-30T06:46:08.330Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="hkG4Fubp0J1ADhxwhZI6" version="21.1.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="方案一">
     <mxGraphModel dx="1041" dy="592" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,13 +12,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JnwnjsweZAxiL3DcM_pp-0" value="4A" style="swimlane;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="JnwnjsweZAxiL3DcM_pp-0" value="4A" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="110" y="40" width="200" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="JnwnjsweZAxiL3DcM_pp-2" value="账号" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="JnwnjsweZAxiL3DcM_pp-0">
+        <mxCell id="JnwnjsweZAxiL3DcM_pp-2" value="账号" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JnwnjsweZAxiL3DcM_pp-0">
           <mxGeometry x="40" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JnwnjsweZAxiL3DcM_pp-3" value="授权（账号+角色）" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="JnwnjsweZAxiL3DcM_pp-0">
+        <mxCell id="JnwnjsweZAxiL3DcM_pp-3" value="授权（账号+角色）" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JnwnjsweZAxiL3DcM_pp-0">
           <mxGeometry x="40" y="94" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JnwnjsweZAxiL3DcM_pp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JnwnjsweZAxiL3DcM_pp-1" target="JnwnjsweZAxiL3DcM_pp-8">
@@ -94,11 +94,27 @@
         <mxCell id="gzJVZgs-s2d4PNE7a_cd-13" value="准入" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="gzJVZgs-s2d4PNE7a_cd-1">
           <mxGeometry x="445.5" y="64" width="279" height="143" as="geometry" />
         </mxCell>
-        <mxCell id="71vWFSvSrYJ8WRcZiGr5-0" value="认证" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gzJVZgs-s2d4PNE7a_cd-13">
+        <mxCell id="71vWFSvSrYJ8WRcZiGr5-0" value="登录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gzJVZgs-s2d4PNE7a_cd-13">
           <mxGeometry x="31" y="56" width="91" height="60" as="geometry" />
         </mxCell>
         <mxCell id="71vWFSvSrYJ8WRcZiGr5-1" value="改密" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gzJVZgs-s2d4PNE7a_cd-13">
-          <mxGeometry x="157" y="56" width="91" height="60" as="geometry" />
+          <mxGeometry x="157" y="56" width="91" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="71vWFSvSrYJ8WRcZiGr5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gzJVZgs-s2d4PNE7a_cd-1" source="71vWFSvSrYJ8WRcZiGr5-0" target="gzJVZgs-s2d4PNE7a_cd-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="71vWFSvSrYJ8WRcZiGr5-3" value="到LDAP认证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="71vWFSvSrYJ8WRcZiGr5-2">
+          <mxGeometry x="-0.2774" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="71vWFSvSrYJ8WRcZiGr5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gzJVZgs-s2d4PNE7a_cd-1" source="71vWFSvSrYJ8WRcZiGr5-1" target="gzJVZgs-s2d4PNE7a_cd-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="71vWFSvSrYJ8WRcZiGr5-5" value="同步密码到LDAP服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="71vWFSvSrYJ8WRcZiGr5-4">
+          <mxGeometry x="-0.4598" y="3" relative="1" as="geometry">
+            <mxPoint y="11" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
