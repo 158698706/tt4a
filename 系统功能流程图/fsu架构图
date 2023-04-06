@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T05:50:51.938Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="dtFqzMZslanI4ATOo8qZ" version="21.1.2" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2023-04-06T05:58:22.318Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="YKNGrgvPp05HV_Ejm_Q0" version="21.1.2" type="github" pages="14">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1450" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2088,13 +2088,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WVBqAwGg1EVPspAXPx3D-18" value="根据账号创建可登录VPN的&lt;br&gt;运维账号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVBqAwGg1EVPspAXPx3D-17">
+        <mxCell id="WVBqAwGg1EVPspAXPx3D-18" value="根据账号创建&lt;br&gt;可登录VPN的运维账号&lt;br&gt;有效期3天" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVBqAwGg1EVPspAXPx3D-17">
           <mxGeometry x="-0.0916" y="-3" relative="1" as="geometry">
             <mxPoint x="1" y="8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WVBqAwGg1EVPspAXPx3D-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WVBqAwGg1EVPspAXPx3D-6">
           <mxGeometry x="15" y="79" width="10" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="WVBqAwGg1EVPspAXPx3D-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WVBqAwGg1EVPspAXPx3D-6">
+          <mxGeometry x="15" y="269" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WVBqAwGg1EVPspAXPx3D-8" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1" source="WVBqAwGg1EVPspAXPx3D-7" target="WVBqAwGg1EVPspAXPx3D-9">
           <mxGeometry relative="1" as="geometry">
@@ -2129,14 +2132,22 @@
         </mxCell>
         <mxCell id="WVBqAwGg1EVPspAXPx3D-25" value="为账号授权运维人员角色" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVBqAwGg1EVPspAXPx3D-24">
           <mxGeometry x="-0.2638" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="11" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WVBqAwGg1EVPspAXPx3D-23" value="4A管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="-384" y="4" width="30" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="WVBqAwGg1EVPspAXPx3D-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WVBqAwGg1EVPspAXPx3D-26" target="WVBqAwGg1EVPspAXPx3D-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVBqAwGg1EVPspAXPx3D-31" value="为运维账号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVBqAwGg1EVPspAXPx3D-30">
+          <mxGeometry x="-0.5433" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WVBqAwGg1EVPspAXPx3D-26" value="省分运维管理人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-384" y="181" width="30" height="60" as="geometry" />
+          <mxGeometry x="-384" y="194" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
