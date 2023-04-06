@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T05:58:22.318Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="YKNGrgvPp05HV_Ejm_Q0" version="21.1.2" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2023-04-06T06:09:45.524Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="Y8YwAJ927vkjGGAAEc2O" version="21.1.2" type="github" pages="14">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1450" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2066,18 +2066,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kWhMcD-s7o0vdvYfoZpu" name="运维账号流程">
-    <mxGraphModel dx="1675" dy="834" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1850" dy="921" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="WVBqAwGg1EVPspAXPx3D-5" value="4A" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
-          <mxGeometry x="-206" y="-85" width="40" height="452" as="geometry" />
+          <mxGeometry x="-206" y="-85" width="40" height="494" as="geometry" />
         </mxCell>
         <mxCell id="WVBqAwGg1EVPspAXPx3D-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WVBqAwGg1EVPspAXPx3D-5">
           <mxGeometry x="15" y="79" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WVBqAwGg1EVPspAXPx3D-6" value="保活" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
-          <mxGeometry x="31" y="-85" width="40" height="452" as="geometry" />
+          <mxGeometry x="31" y="-85" width="40" height="515" as="geometry" />
         </mxCell>
         <mxCell id="WVBqAwGg1EVPspAXPx3D-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;entryX=1.033;entryY=0.737;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WVBqAwGg1EVPspAXPx3D-6" source="WVBqAwGg1EVPspAXPx3D-9" target="WVBqAwGg1EVPspAXPx3D-9">
           <mxGeometry relative="1" as="geometry">
@@ -2097,7 +2097,19 @@
           <mxGeometry x="15" y="79" width="10" height="123" as="geometry" />
         </mxCell>
         <mxCell id="WVBqAwGg1EVPspAXPx3D-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WVBqAwGg1EVPspAXPx3D-6">
-          <mxGeometry x="15" y="269" width="10" height="80" as="geometry" />
+          <mxGeometry x="15" y="255" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WVBqAwGg1EVPspAXPx3D-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;entryX=1;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WVBqAwGg1EVPspAXPx3D-6" source="WVBqAwGg1EVPspAXPx3D-34" target="WVBqAwGg1EVPspAXPx3D-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="152" y="472" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="188" y="392" />
+              <mxPoint x="188" y="484" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVBqAwGg1EVPspAXPx3D-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WVBqAwGg1EVPspAXPx3D-6">
+          <mxGeometry x="15" y="381" width="10" height="123" as="geometry" />
         </mxCell>
         <mxCell id="WVBqAwGg1EVPspAXPx3D-8" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1" source="WVBqAwGg1EVPspAXPx3D-7" target="WVBqAwGg1EVPspAXPx3D-9">
           <mxGeometry relative="1" as="geometry">
@@ -2110,10 +2122,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WVBqAwGg1EVPspAXPx3D-19" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
-          <mxGeometry x="319" y="-85" width="20" height="457" as="geometry" />
+          <mxGeometry x="319" y="-85" width="20" height="509" as="geometry" />
         </mxCell>
         <mxCell id="WVBqAwGg1EVPspAXPx3D-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WVBqAwGg1EVPspAXPx3D-19">
-          <mxGeometry x="5" y="131" width="10" height="80" as="geometry" />
+          <mxGeometry x="5" y="131" width="10" height="235" as="geometry" />
         </mxCell>
         <mxCell id="WVBqAwGg1EVPspAXPx3D-21" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1" source="WVBqAwGg1EVPspAXPx3D-9" target="WVBqAwGg1EVPspAXPx3D-20">
           <mxGeometry relative="1" as="geometry">
@@ -2138,16 +2150,29 @@
         <mxCell id="WVBqAwGg1EVPspAXPx3D-23" value="4A管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="-384" y="4" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WVBqAwGg1EVPspAXPx3D-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WVBqAwGg1EVPspAXPx3D-26" target="WVBqAwGg1EVPspAXPx3D-29">
+        <mxCell id="WVBqAwGg1EVPspAXPx3D-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WVBqAwGg1EVPspAXPx3D-26" target="WVBqAwGg1EVPspAXPx3D-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WVBqAwGg1EVPspAXPx3D-31" value="为运维账号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVBqAwGg1EVPspAXPx3D-30">
+        <mxCell id="WVBqAwGg1EVPspAXPx3D-31" value="为运维账号设置可登录VPN&lt;br&gt;设置有效期" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVBqAwGg1EVPspAXPx3D-30">
           <mxGeometry x="-0.5433" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="96" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WVBqAwGg1EVPspAXPx3D-26" value="省分运维管理人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-384" y="194" width="30" height="60" as="geometry" />
+          <mxGeometry x="-384" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WVBqAwGg1EVPspAXPx3D-32" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1" source="WVBqAwGg1EVPspAXPx3D-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="324" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVBqAwGg1EVPspAXPx3D-33" value="发送新的运维密码、&lt;br&gt;有效期到用户手机中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WVBqAwGg1EVPspAXPx3D-32">
+          <mxGeometry x="-0.0821" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WVBqAwGg1EVPspAXPx3D-36" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;1、当校验运维账号超过效期，设置账号状态为无效&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 重置运维账号密码&lt;br&gt;2、运维账号超过有效期未退出，给出告警&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;spacingLeft=10;spacingTop=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="-12" y="304" width="292" height="83" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
