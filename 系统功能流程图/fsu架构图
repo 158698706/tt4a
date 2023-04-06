@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T01:31:56.390Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="797Yx5WvwW8rjxiezQkZ" version="21.1.2" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-04-06T01:35:36.474Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="X_DLKTwys3COITUhj4uH" version="21.1.2" type="github" pages="13">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1450" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1977,8 +1977,8 @@
         <mxCell id="LH8uv14UW8lVoxmVNVgd-24" value="数据&lt;br&gt;是否存在" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="LH8uv14UW8lVoxmVNVgd-2">
           <mxGeometry x="71" y="151" width="84" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="LH8uv14UW8lVoxmVNVgd-28" value="遵照返回报文" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="LH8uv14UW8lVoxmVNVgd-2">
-          <mxGeometry x="19" y="269" width="66" height="27" as="geometry" />
+        <mxCell id="LH8uv14UW8lVoxmVNVgd-28" value="组装返回报文" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="LH8uv14UW8lVoxmVNVgd-2">
+          <mxGeometry x="14" y="269" width="75" height="35" as="geometry" />
         </mxCell>
         <mxCell id="LH8uv14UW8lVoxmVNVgd-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shape=flexArrow;startArrow=block;" edge="1" parent="LH8uv14UW8lVoxmVNVgd-2" source="LH8uv14UW8lVoxmVNVgd-31" target="LH8uv14UW8lVoxmVNVgd-34">
           <mxGeometry relative="1" as="geometry" />
@@ -2011,8 +2011,21 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="LH8uv14UW8lVoxmVNVgd-38" value="下发数据同步命令" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="LH8uv14UW8lVoxmVNVgd-2">
-          <mxGeometry x="108" y="461" width="120" height="60" as="geometry" />
+        <mxCell id="LH8uv14UW8lVoxmVNVgd-45" value="4.4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LH8uv14UW8lVoxmVNVgd-41">
+          <mxGeometry x="-0.828" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LH8uv14UW8lVoxmVNVgd-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="LH8uv14UW8lVoxmVNVgd-2" source="LH8uv14UW8lVoxmVNVgd-38" target="LH8uv14UW8lVoxmVNVgd-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LH8uv14UW8lVoxmVNVgd-48" value="4.3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LH8uv14UW8lVoxmVNVgd-46">
+          <mxGeometry x="0.0967" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LH8uv14UW8lVoxmVNVgd-38" value="返回认证成功结果&lt;br&gt;同时下发数据同步命令" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="LH8uv14UW8lVoxmVNVgd-2">
+          <mxGeometry x="108" y="461" width="136" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LH8uv14UW8lVoxmVNVgd-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LH8uv14UW8lVoxmVNVgd-6" target="LH8uv14UW8lVoxmVNVgd-8">
           <mxGeometry relative="1" as="geometry" />
@@ -2027,6 +2040,14 @@
         </mxCell>
         <mxCell id="LH8uv14UW8lVoxmVNVgd-17" value="FSU" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-210" y="453" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LH8uv14UW8lVoxmVNVgd-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LH8uv14UW8lVoxmVNVgd-28" target="LH8uv14UW8lVoxmVNVgd-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LH8uv14UW8lVoxmVNVgd-50" value="返回认证结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LH8uv14UW8lVoxmVNVgd-49">
+          <mxGeometry x="-0.3025" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
