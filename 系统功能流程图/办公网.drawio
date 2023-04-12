@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T08:38:53.423Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="cnT5d1w-hUe9k_1ASInu" version="21.1.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-12T08:41:48.642Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="PXqPkHQQWAPTFs2-N61S" version="21.1.5" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="方案一">
     <mxGraphModel dx="1688" dy="562" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -141,6 +141,9 @@
       <root>
         <mxCell id="gzJVZgs-s2d4PNE7a_cd-0" />
         <mxCell id="gzJVZgs-s2d4PNE7a_cd-1" parent="gzJVZgs-s2d4PNE7a_cd-0" />
+        <mxCell id="PEqD8qJqmmBCuqm4q5_F-0" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="gzJVZgs-s2d4PNE7a_cd-1">
+          <mxGeometry x="397" y="-33" width="392" height="503" as="geometry" />
+        </mxCell>
         <mxCell id="FXqDv6Qu5ZG_4nlIirOe-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;" vertex="1" parent="gzJVZgs-s2d4PNE7a_cd-1">
           <mxGeometry x="28" y="-31" width="342" height="501" as="geometry" />
         </mxCell>
@@ -181,7 +184,7 @@
           <mxGeometry x="500" y="315" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="gzJVZgs-s2d4PNE7a_cd-13" value="准入" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="gzJVZgs-s2d4PNE7a_cd-1" vertex="1">
-          <mxGeometry x="445.5" y="64" width="279" height="143" as="geometry" />
+          <mxGeometry x="445.5" y="31" width="291.5" height="221" as="geometry" />
         </mxCell>
         <mxCell id="71vWFSvSrYJ8WRcZiGr5-0" value="登录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="gzJVZgs-s2d4PNE7a_cd-13" vertex="1">
           <mxGeometry x="31" y="56" width="91" height="60" as="geometry" />
@@ -210,6 +213,9 @@
         </mxCell>
         <mxCell id="DynlmW4XeTy6ykmGNvia-0" value="集 团 侧" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18;" vertex="1" parent="gzJVZgs-s2d4PNE7a_cd-1">
           <mxGeometry x="113.5" y="-15" width="193" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C9LWx0VFPsO8jMiBLst0-0" value="总部/各省分网" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="gzJVZgs-s2d4PNE7a_cd-1">
+          <mxGeometry x="529" y="-17.5" width="150" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
