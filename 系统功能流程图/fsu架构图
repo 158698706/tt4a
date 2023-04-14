@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T02:05:00.720Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="OGXFuRDGzXZ_8TumhbxN" version="21.1.5" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2023-04-14T09:34:00.927Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="HcPkQlTRlGislR8aN_JF" version="21.1.7" type="github" pages="14">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
-    <mxGraphModel dx="1550" dy="503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1310" dy="458" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1889,7 +1889,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="04-FAbmw2HsWL898pywD" name="终端设备数据流向图">
-    <mxGraphModel dx="1550" dy="503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1310" dy="458" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2066,10 +2066,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kWhMcD-s7o0vdvYfoZpu" name="运维账号流程">
-    <mxGraphModel dx="1950" dy="903" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1822" dy="858" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WVBqAwGg1EVPspAXPx3D-38" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#00ff80;gradientColor=none;opacity=20;strokeColor=#400000;strokeWidth=2;fillColor=#D4E1F5;" parent="1" vertex="1">
+          <mxGeometry x="-481" y="-14" width="826" height="152" as="geometry" />
+        </mxCell>
         <mxCell id="WVBqAwGg1EVPspAXPx3D-5" value="4A" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" parent="1" vertex="1">
           <mxGeometry x="-206" y="-85" width="40" height="494" as="geometry" />
         </mxCell>
@@ -2088,9 +2091,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WVBqAwGg1EVPspAXPx3D-18" value="根据账号创建&lt;br&gt;可登录VPN的运维账号&lt;br&gt;有效期3天" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WVBqAwGg1EVPspAXPx3D-17" vertex="1" connectable="0">
+        <mxCell id="WVBqAwGg1EVPspAXPx3D-18" value="根据账号创建可登录VPN的运维账号&lt;br&gt;账号可登录管理区域范围内&lt;br&gt;对应机房的所有VPN" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WVBqAwGg1EVPspAXPx3D-17" vertex="1" connectable="0">
           <mxGeometry x="-0.0916" y="-3" relative="1" as="geometry">
-            <mxPoint x="1" y="8" as="offset" />
+            <mxPoint x="48" y="10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WVBqAwGg1EVPspAXPx3D-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="WVBqAwGg1EVPspAXPx3D-6" vertex="1">
@@ -2127,18 +2130,6 @@
         <mxCell id="WVBqAwGg1EVPspAXPx3D-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="WVBqAwGg1EVPspAXPx3D-19" vertex="1">
           <mxGeometry x="5" y="131" width="10" height="235" as="geometry" />
         </mxCell>
-        <mxCell id="WVBqAwGg1EVPspAXPx3D-21" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" parent="1" source="WVBqAwGg1EVPspAXPx3D-9" target="WVBqAwGg1EVPspAXPx3D-20" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="188" y="103" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WVBqAwGg1EVPspAXPx3D-22" value="发送运维密码、有效期到用户手机中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WVBqAwGg1EVPspAXPx3D-21" vertex="1" connectable="0">
-          <mxGeometry x="-0.2164" relative="1" as="geometry">
-            <mxPoint x="29" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="WVBqAwGg1EVPspAXPx3D-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WVBqAwGg1EVPspAXPx3D-23" target="WVBqAwGg1EVPspAXPx3D-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -2173,9 +2164,6 @@
         </mxCell>
         <mxCell id="WVBqAwGg1EVPspAXPx3D-36" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;1、当校验运维账号超过效期，设置账号状态为无效&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 重置运维账号密码&lt;br&gt;2、运维账号超过有效期未退出，给出告警&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;spacingLeft=10;spacingTop=0;spacing=0;" parent="1" vertex="1">
           <mxGeometry x="-12" y="304" width="292" height="83" as="geometry" />
-        </mxCell>
-        <mxCell id="WVBqAwGg1EVPspAXPx3D-38" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#00ff80;gradientColor=none;opacity=20;strokeColor=#400000;strokeWidth=2;fillColor=#D4E1F5;" parent="1" vertex="1">
-          <mxGeometry x="-481" y="-14" width="826" height="152" as="geometry" />
         </mxCell>
         <mxCell id="WVBqAwGg1EVPspAXPx3D-39" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#00ff80;gradientColor=none;opacity=20;strokeColor=#330000;strokeWidth=2;fillColor=#D4E1F5;" parent="1" vertex="1">
           <mxGeometry x="-481" y="150" width="833" height="122" as="geometry" />
