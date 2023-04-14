@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T06:12:10.279Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="x_yywdDz1hrBoNQuNUBR" version="21.1.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-14T06:14:19.882Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="3g3hjSZp1ZRYeYmVjCJY" version="21.1.7" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="方案一">
     <mxGraphModel dx="1550" dy="503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -272,7 +272,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sdK7kQNHXuGbN1i58bf3-29" value="下载安装" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="sdK7kQNHXuGbN1i58bf3-29" value="下载并&lt;br&gt;安装成功" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="305.5" y="465" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sdK7kQNHXuGbN1i58bf3-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sdK7kQNHXuGbN1i58bf3-31" target="sdK7kQNHXuGbN1i58bf3-34">
