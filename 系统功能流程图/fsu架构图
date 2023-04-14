@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T10:03:28.281Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="bXj-NnrRlZRWQ4UkEc7V" version="21.1.7" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-04-14T10:17:28.749Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="cothLNLjKhfDDlb67Uax" version="21.1.7" type="github" pages="15">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1310" dy="458" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2184,12 +2184,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="x2AkVNn-O9HwJ7UWgbyh" name="radius认证流程">
-    <mxGraphModel dx="1422" dy="458" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1602" dy="139" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0NPA7iPhxMkxYIqNakf9-1" value="集团" style="swimlane;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="217" width="605" height="158" as="geometry" />
+          <mxGeometry x="592" y="402" width="149" height="574" as="geometry" />
         </mxCell>
         <mxCell id="0NPA7iPhxMkxYIqNakf9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="0NPA7iPhxMkxYIqNakf9-1" target="0NPA7iPhxMkxYIqNakf9-5">
           <mxGeometry relative="1" as="geometry">
@@ -2201,6 +2201,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="364" y="91" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0NPA7iPhxMkxYIqNakf9-51" value="4A认证服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0NPA7iPhxMkxYIqNakf9-1">
+          <mxGeometry x="14.5" y="142" width="120" height="83" as="geometry" />
         </mxCell>
         <mxCell id="0NPA7iPhxMkxYIqNakf9-7" value="下沉省" style="swimlane;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-50" y="402" width="607" height="574" as="geometry" />
@@ -2248,7 +2251,7 @@
         <mxCell id="0NPA7iPhxMkxYIqNakf9-24" value="判断用户类型" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0NPA7iPhxMkxYIqNakf9-7">
           <mxGeometry x="71" y="151" width="84" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="0NPA7iPhxMkxYIqNakf9-47" value="使用账号密码" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="0NPA7iPhxMkxYIqNakf9-7">
+        <mxCell id="0NPA7iPhxMkxYIqNakf9-47" value="使用传输的&lt;br&gt;账号+密码(加密值)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="0NPA7iPhxMkxYIqNakf9-7">
           <mxGeometry x="372" y="147" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0NPA7iPhxMkxYIqNakf9-50" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="0NPA7iPhxMkxYIqNakf9-7">
@@ -2264,6 +2267,22 @@
         </mxCell>
         <mxCell id="0NPA7iPhxMkxYIqNakf9-44" value="FSU" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-210" y="453" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0NPA7iPhxMkxYIqNakf9-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="0NPA7iPhxMkxYIqNakf9-47" target="0NPA7iPhxMkxYIqNakf9-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0NPA7iPhxMkxYIqNakf9-54" value="认证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0NPA7iPhxMkxYIqNakf9-52">
+          <mxGeometry x="-0.2432" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0NPA7iPhxMkxYIqNakf9-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="0NPA7iPhxMkxYIqNakf9-51" target="0NPA7iPhxMkxYIqNakf9-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0NPA7iPhxMkxYIqNakf9-55" value="返回认证结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0NPA7iPhxMkxYIqNakf9-53">
+          <mxGeometry x="-0.1507" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
