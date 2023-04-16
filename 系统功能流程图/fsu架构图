@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-16T17:33:16.064Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="9ss28B3Efaop53H4GwPo" version="21.1.8" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2023-04-16T17:44:01.851Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="veNmp22MH83XVo2X1nN_" version="21.1.8" type="github" pages="17">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1310" dy="503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1833,7 +1833,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EZPTMlJXWNcW5jsaAvoa" name="表对象关系图">
-    <mxGraphModel dx="1050" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="910" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1889,7 +1889,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="04-FAbmw2HsWL898pywD" name="终端设备数据流向图">
-    <mxGraphModel dx="1450" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1310" dy="503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2066,7 +2066,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kWhMcD-s7o0vdvYfoZpu" name="运维账号流程">
-    <mxGraphModel dx="1822" dy="858" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1710" dy="903" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2371,6 +2371,37 @@
         </mxCell>
         <mxCell id="636OLK9TfMZrix5eSOZM-6" value="VPN扩展可控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="203" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="636OLK9TfMZrix5eSOZM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="636OLK9TfMZrix5eSOZM-13" target="636OLK9TfMZrix5eSOZM-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="636OLK9TfMZrix5eSOZM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="636OLK9TfMZrix5eSOZM-13" target="636OLK9TfMZrix5eSOZM-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="71" y="400" />
+              <mxPoint x="-112" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="636OLK9TfMZrix5eSOZM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="636OLK9TfMZrix5eSOZM-13" target="636OLK9TfMZrix5eSOZM-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="71" y="400" />
+              <mxPoint x="254" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="636OLK9TfMZrix5eSOZM-13" value="FSU可控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="11" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="636OLK9TfMZrix5eSOZM-14" value="FSU安全可控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-172" y="441" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="636OLK9TfMZrix5eSOZM-15" value="FSU使用地址可控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="11" y="441" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="636OLK9TfMZrix5eSOZM-16" value="FSU下线可控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="194" y="441" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
