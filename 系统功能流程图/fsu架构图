@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-16T18:00:15.654Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="SeJoUpKjKXMxkNRbxtxT" version="21.1.8" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2023-04-17T15:51:33.282Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="gHcJj2qWAKfWBJ9dCgr1" version="21.1.8" type="github" pages="19">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1310" dy="503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2449,6 +2449,53 @@
         </mxCell>
         <mxCell id="bAIE59O2sZgiSWrTVOcA-19" value="。。。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="bAIE59O2sZgiSWrTVOcA-5">
           <mxGeometry x="37" y="145" width="88" height="27" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0jTbjLuuZQHlN30mrdIF" name="第 19 页">
+    <mxGraphModel dx="1522" dy="537" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NYcsk2CWd6-dzIfX5PJp-1" value="各环节日志采集" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-185" y="51" width="146" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="NYcsk2CWd6-dzIfX5PJp-2" value="FSU日志" style="whiteSpace=wrap;html=1;flipV=1;" vertex="1" parent="NYcsk2CWd6-dzIfX5PJp-1">
+          <mxGeometry x="24" y="35" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NYcsk2CWd6-dzIfX5PJp-3" value="VPN日志" style="whiteSpace=wrap;html=1;flipV=1;" vertex="1" parent="NYcsk2CWd6-dzIfX5PJp-1">
+          <mxGeometry x="26" y="112" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NYcsk2CWd6-dzIfX5PJp-4" value="注册机日志" style="whiteSpace=wrap;html=1;flipV=1;" vertex="1" parent="NYcsk2CWd6-dzIfX5PJp-1">
+          <mxGeometry x="26" y="150" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NYcsk2CWd6-dzIfX5PJp-5" value="采集机日志" style="whiteSpace=wrap;html=1;flipV=1;" vertex="1" parent="NYcsk2CWd6-dzIfX5PJp-1">
+          <mxGeometry x="24" y="189" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NYcsk2CWd6-dzIfX5PJp-6" value="无缝切换服务日志" style="whiteSpace=wrap;html=1;flipV=1;" vertex="1" parent="NYcsk2CWd6-dzIfX5PJp-1">
+          <mxGeometry x="24" y="227" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NYcsk2CWd6-dzIfX5PJp-7" value="FSU上网日志" style="whiteSpace=wrap;html=1;flipV=1;" vertex="1" parent="NYcsk2CWd6-dzIfX5PJp-1">
+          <mxGeometry x="24" y="76" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NYcsk2CWd6-dzIfX5PJp-8" value="..." style="whiteSpace=wrap;html=1;flipV=1;" vertex="1" parent="NYcsk2CWd6-dzIfX5PJp-1">
+          <mxGeometry x="23" y="265" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NYcsk2CWd6-dzIfX5PJp-9" value="各环节日志标准化" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="68" y="53" width="146" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="NYcsk2CWd6-dzIfX5PJp-10" value="终端类日志" style="whiteSpace=wrap;html=1;flipV=1;" vertex="1" parent="NYcsk2CWd6-dzIfX5PJp-9">
+          <mxGeometry x="24" y="35" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NYcsk2CWd6-dzIfX5PJp-11" value="VPN日志" style="whiteSpace=wrap;html=1;flipV=1;" vertex="1" parent="NYcsk2CWd6-dzIfX5PJp-9">
+          <mxGeometry x="26" y="112" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NYcsk2CWd6-dzIfX5PJp-12" value="辅助服务日志" style="whiteSpace=wrap;html=1;flipV=1;" vertex="1" parent="NYcsk2CWd6-dzIfX5PJp-9">
+          <mxGeometry x="26" y="188" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NYcsk2CWd6-dzIfX5PJp-16" value="..." style="whiteSpace=wrap;html=1;flipV=1;" vertex="1" parent="NYcsk2CWd6-dzIfX5PJp-9">
+          <mxGeometry x="23" y="265" width="100" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
