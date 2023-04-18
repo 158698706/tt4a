@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-18T01:16:26.409Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="K0Mtf_Rp3kijifX-36GK" version="21.1.8" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2023-04-18T01:33:11.480Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="_eYmRiqtWrSUquihVAbZ" version="21.1.8" type="github" pages="21">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1310" dy="503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2193,20 +2193,29 @@
     </mxGraphModel>
   </diagram>
   <diagram id="x2AkVNn-O9HwJ7UWgbyh" name="radius认证流程">
-    <mxGraphModel dx="1471" dy="232" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1700" dy="367" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0NPA7iPhxMkxYIqNakf9-1" value="集团" style="swimlane;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="592" y="402" width="149" height="505" as="geometry" />
+          <mxGeometry x="592" y="402" width="223" height="505" as="geometry" />
         </mxCell>
         <mxCell id="0NPA7iPhxMkxYIqNakf9-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;" parent="0NPA7iPhxMkxYIqNakf9-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="364" y="91" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0NPA7iPhxMkxYIqNakf9-51" value="4A认证服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="0NPA7iPhxMkxYIqNakf9-1" vertex="1">
-          <mxGeometry x="14.5" y="142" width="120" height="83" as="geometry" />
+        <mxCell id="W_CgwXu5w9xYMnpH_PSZ-1" value="4A" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="0NPA7iPhxMkxYIqNakf9-1">
+          <mxGeometry x="17" y="103" width="200" height="298" as="geometry" />
+        </mxCell>
+        <mxCell id="W_CgwXu5w9xYMnpH_PSZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;startArrow=block;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="W_CgwXu5w9xYMnpH_PSZ-1" source="W_CgwXu5w9xYMnpH_PSZ-3" target="W_CgwXu5w9xYMnpH_PSZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_CgwXu5w9xYMnpH_PSZ-3" value="4A认证服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="W_CgwXu5w9xYMnpH_PSZ-1">
+          <mxGeometry x="31" y="44" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W_CgwXu5w9xYMnpH_PSZ-4" value="账号密码管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="W_CgwXu5w9xYMnpH_PSZ-1">
+          <mxGeometry x="31" y="182" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0NPA7iPhxMkxYIqNakf9-7" value="下沉省/总部集团" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="-166" y="402" width="723" height="574" as="geometry" />
@@ -2290,16 +2299,20 @@
         <mxCell id="0NPA7iPhxMkxYIqNakf9-44" value="FSU/运维账号" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-286" y="453" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0NPA7iPhxMkxYIqNakf9-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="0NPA7iPhxMkxYIqNakf9-47" target="0NPA7iPhxMkxYIqNakf9-51" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="0NPA7iPhxMkxYIqNakf9-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="0NPA7iPhxMkxYIqNakf9-47" target="W_CgwXu5w9xYMnpH_PSZ-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="606.5" y="564.7500000000001" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="0NPA7iPhxMkxYIqNakf9-54" value="认证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0NPA7iPhxMkxYIqNakf9-52" vertex="1" connectable="0">
           <mxGeometry x="-0.2432" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0NPA7iPhxMkxYIqNakf9-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;dashed=1;" parent="1" source="0NPA7iPhxMkxYIqNakf9-51" target="0NPA7iPhxMkxYIqNakf9-47" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="0NPA7iPhxMkxYIqNakf9-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;dashed=1;" parent="1" source="W_CgwXu5w9xYMnpH_PSZ-3" target="0NPA7iPhxMkxYIqNakf9-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="606.5" y="606.2500000000001" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="0NPA7iPhxMkxYIqNakf9-55" value="返回认证结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0NPA7iPhxMkxYIqNakf9-53" vertex="1" connectable="0">
           <mxGeometry x="-0.1507" y="-2" relative="1" as="geometry">
@@ -2586,6 +2599,14 @@
         <mxCell id="l4LN6SOx8X0UF9o9_Flf-28" value="登录VPN时，VPN采用RADIUS协议认证&lt;br&gt;自建RADIUS协议服务，对登录VPN的账号账号认证" style="whiteSpace=wrap;html=1;align=left;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="580" y="101" width="152" height="77" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="o_nSeJ2SSkzUPh0Cf9P8" name="第 21 页">
+    <mxGraphModel dx="910" dy="537" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
