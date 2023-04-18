@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T16:36:21.955Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="JpKggz46uiJUn77qRvQj" version="21.1.8" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2023-04-18T00:13:38.291Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="VUNKFYYrDepxX7mz2olQ" version="21.1.8" type="github" pages="20">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1310" dy="503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2521,40 +2521,40 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="l4LN6SOx8X0UF9o9_Flf-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-68" y="16" width="261" height="119" as="geometry" />
+          <mxGeometry x="-36" y="16" width="229" height="119" as="geometry" />
         </mxCell>
         <mxCell id="l4LN6SOx8X0UF9o9_Flf-1" value="各环节日志采集（链路涉及面）" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-35" y="-13" width="222.5" height="330" as="geometry" />
+          <mxGeometry x="-35" y="-13" width="228.5" height="330" as="geometry" />
         </mxCell>
         <mxCell id="l4LN6SOx8X0UF9o9_Flf-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="l4LN6SOx8X0UF9o9_Flf-1">
-          <mxGeometry x="-32.5" y="152" width="261" height="119" as="geometry" />
+          <mxGeometry y="152" width="228.5" height="119" as="geometry" />
         </mxCell>
-        <mxCell id="l4LN6SOx8X0UF9o9_Flf-2" value="FSU/运维账号日志" style="whiteSpace=wrap;html=1;flipV=1;" vertex="1" parent="l4LN6SOx8X0UF9o9_Flf-1">
-          <mxGeometry x="41" y="40" width="102" height="30" as="geometry" />
+        <mxCell id="l4LN6SOx8X0UF9o9_Flf-2" value="FSU/运维账号日志" style="whiteSpace=wrap;html=1;flipV=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="l4LN6SOx8X0UF9o9_Flf-1">
+          <mxGeometry x="81" y="40" width="102" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l4LN6SOx8X0UF9o9_Flf-3" value="VPN日志" style="whiteSpace=wrap;html=1;flipV=1;" vertex="1" parent="l4LN6SOx8X0UF9o9_Flf-1">
-          <mxGeometry x="41" y="117" width="102" height="30" as="geometry" />
+        <mxCell id="l4LN6SOx8X0UF9o9_Flf-3" value="VPN日志" style="whiteSpace=wrap;html=1;flipV=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="l4LN6SOx8X0UF9o9_Flf-1">
+          <mxGeometry x="81" y="117" width="102" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l4LN6SOx8X0UF9o9_Flf-4" value="注册机日志" style="whiteSpace=wrap;html=1;flipV=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="l4LN6SOx8X0UF9o9_Flf-1">
-          <mxGeometry x="41" y="155" width="102" height="30" as="geometry" />
+          <mxGeometry x="81" y="155" width="102" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l4LN6SOx8X0UF9o9_Flf-5" value="采集机日志" style="whiteSpace=wrap;html=1;flipV=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="l4LN6SOx8X0UF9o9_Flf-1">
-          <mxGeometry x="41" y="193" width="102" height="30" as="geometry" />
+          <mxGeometry x="81" y="193" width="102" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l4LN6SOx8X0UF9o9_Flf-6" value="无缝切换服务日志" style="whiteSpace=wrap;html=1;flipV=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="l4LN6SOx8X0UF9o9_Flf-1">
-          <mxGeometry x="41" y="232" width="102" height="30" as="geometry" />
+          <mxGeometry x="81" y="232" width="102" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l4LN6SOx8X0UF9o9_Flf-7" value="FSU上网计费日志" style="whiteSpace=wrap;html=1;flipV=1;" vertex="1" parent="l4LN6SOx8X0UF9o9_Flf-1">
-          <mxGeometry x="41" y="78" width="102" height="30" as="geometry" />
+        <mxCell id="l4LN6SOx8X0UF9o9_Flf-7" value="FSU上网计费日志" style="whiteSpace=wrap;html=1;flipV=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="l4LN6SOx8X0UF9o9_Flf-1">
+          <mxGeometry x="81" y="78" width="102" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l4LN6SOx8X0UF9o9_Flf-8" value="..." style="whiteSpace=wrap;html=1;flipV=1;" vertex="1" parent="l4LN6SOx8X0UF9o9_Flf-1">
-          <mxGeometry x="41" y="270" width="102" height="30" as="geometry" />
+          <mxGeometry x="81" y="270" width="102" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l4LN6SOx8X0UF9o9_Flf-12" value="可以获取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="l4LN6SOx8X0UF9o9_Flf-1">
-          <mxGeometry x="-32.5" y="154" width="49" height="117" as="geometry" />
+        <mxCell id="l4LN6SOx8X0UF9o9_Flf-12" value="可以获取" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="l4LN6SOx8X0UF9o9_Flf-1">
+          <mxGeometry x="16" y="162" width="23" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="l4LN6SOx8X0UF9o9_Flf-10" value="无法获取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-68" y="16" width="49" height="117" as="geometry" />
+        <mxCell id="l4LN6SOx8X0UF9o9_Flf-10" value="无法获取" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-19" y="25.5" width="23" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
