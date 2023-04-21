@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-18T02:59:12.542Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="c2wMkebA5ufjVRwAdcKX" version="21.1.8" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2023-04-21T08:48:41.236Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="Dkq741iXsg4LUJ8_APHC" version="21.1.9" type="github" pages="21">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
-    <mxGraphModel dx="1310" dy="503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1450" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1432,7 +1432,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="H8nhx1kvPZH1GpFPtoQV" name="前置服务高可用">
-    <mxGraphModel dx="1450" dy="970" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1900" dy="1214" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1631,7 +1631,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="前置服务高可用V2" id="QuflhJx0lhmfixE6itsI">
-    <mxGraphModel dx="1450" dy="970" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1313" dy="925" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="3ODsI95KCTsnw2gn4WbE-0" />
         <mxCell id="3ODsI95KCTsnw2gn4WbE-1" parent="3ODsI95KCTsnw2gn4WbE-0" />
@@ -1716,9 +1716,9 @@
             <mxPoint x="144" y="103" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3ODsI95KCTsnw2gn4WbE-32" value="6、返回VSR公网地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3ODsI95KCTsnw2gn4WbE-31" vertex="1" connectable="0">
+        <mxCell id="3ODsI95KCTsnw2gn4WbE-32" value="6、返回VSR公网地址、分配的密码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3ODsI95KCTsnw2gn4WbE-31" vertex="1" connectable="0">
           <mxGeometry x="0.0912" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="2" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8ibrHDA4UAAqkNag52_T-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;shape=flexArrow;startArrow=block;dashed=1;" parent="3ODsI95KCTsnw2gn4WbE-1" source="3ODsI95KCTsnw2gn4WbE-33" target="8ibrHDA4UAAqkNag52_T-0" edge="1">
