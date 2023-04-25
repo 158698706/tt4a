@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-25T12:05:43.628Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="Egpt-b3yiYx1yQihDLzW" version="21.2.1" type="github" pages="24">
+<mxfile host="app.diagrams.net" modified="2023-04-25T12:09:06.178Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="uN4gMUaxvdRMXKyDwJUw" version="21.2.1" type="github" pages="24">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1450" dy="521" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2473,66 +2473,6 @@
       <root>
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-0" />
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-1" parent="6_pyae1zjnZ-9YVdNH6F-0" />
-        <mxCell id="6_pyae1zjnZ-9YVdNH6F-2" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="6_pyae1zjnZ-9YVdNH6F-1">
-          <mxGeometry x="389" y="-608" width="667" height="382" as="geometry" />
-        </mxCell>
-        <mxCell id="6_pyae1zjnZ-9YVdNH6F-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="6_pyae1zjnZ-9YVdNH6F-2">
-          <mxGeometry y="32" width="667" height="350" as="geometry" />
-        </mxCell>
-        <mxCell id="6_pyae1zjnZ-9YVdNH6F-5" value="运监系统" style="swimlane;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="6_pyae1zjnZ-9YVdNH6F-2">
-          <mxGeometry x="421" y="108" width="200" height="253" as="geometry" />
-        </mxCell>
-        <mxCell id="6_pyae1zjnZ-9YVdNH6F-6" value="FSU/边缘网关" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="6_pyae1zjnZ-9YVdNH6F-5">
-          <mxGeometry x="40" y="41" width="118" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="6_pyae1zjnZ-9YVdNH6F-7" value="KAFKA集群" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="6_pyae1zjnZ-9YVdNH6F-2">
-          <mxGeometry x="498" y="268" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="6_pyae1zjnZ-9YVdNH6F-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="6_pyae1zjnZ-9YVdNH6F-2" source="6_pyae1zjnZ-9YVdNH6F-6" target="6_pyae1zjnZ-9YVdNH6F-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="520" y="249" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="520" y="232" />
-              <mxPoint x="520" y="232" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6_pyae1zjnZ-9YVdNH6F-9" value="实时同步&amp;amp;&lt;br&gt;每天全量同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="6_pyae1zjnZ-9YVdNH6F-8">
-          <mxGeometry x="-0.181" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6_pyae1zjnZ-9YVdNH6F-10" value="radius认证集团门户" style="swimlane;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="6_pyae1zjnZ-9YVdNH6F-2">
-          <mxGeometry x="38" y="122" width="218" height="212" as="geometry" />
-        </mxCell>
-        <mxCell id="6_pyae1zjnZ-9YVdNH6F-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="6_pyae1zjnZ-9YVdNH6F-10" source="6_pyae1zjnZ-9YVdNH6F-13" target="6_pyae1zjnZ-9YVdNH6F-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6_pyae1zjnZ-9YVdNH6F-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="6_pyae1zjnZ-9YVdNH6F-10" source="6_pyae1zjnZ-9YVdNH6F-13" target="6_pyae1zjnZ-9YVdNH6F-15">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="75" y="114" />
-              <mxPoint x="49" y="114" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6_pyae1zjnZ-9YVdNH6F-13" value="同步服务" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="6_pyae1zjnZ-9YVdNH6F-10">
-          <mxGeometry x="43" y="44" width="120" height="44" as="geometry" />
-        </mxCell>
-        <mxCell id="6_pyae1zjnZ-9YVdNH6F-14" value="集团数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="6_pyae1zjnZ-9YVdNH6F-10">
-          <mxGeometry x="123" y="122" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="6_pyae1zjnZ-9YVdNH6F-15" value="认证kafka集群" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="6_pyae1zjnZ-9YVdNH6F-10">
-          <mxGeometry x="23" y="139" width="51" height="51" as="geometry" />
-        </mxCell>
-        <mxCell id="6_pyae1zjnZ-9YVdNH6F-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="6_pyae1zjnZ-9YVdNH6F-2" source="6_pyae1zjnZ-9YVdNH6F-7" target="6_pyae1zjnZ-9YVdNH6F-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6_pyae1zjnZ-9YVdNH6F-17" value="消息消费" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="6_pyae1zjnZ-9YVdNH6F-16">
-          <mxGeometry x="0.3286" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="6_pyae1zjnZ-9YVdNH6F-1">
           <mxGeometry x="-95" y="-159" width="1234" height="687" as="geometry" />
         </mxCell>
@@ -2771,13 +2711,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6_pyae1zjnZ-9YVdNH6F-72" value="下沉省数据接收服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6_pyae1zjnZ-9YVdNH6F-1">
+        <mxCell id="6_pyae1zjnZ-9YVdNH6F-72" value="同步服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6_pyae1zjnZ-9YVdNH6F-1">
           <mxGeometry x="892" y="-134" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6_pyae1zjnZ-9YVdNH6F-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6_pyae1zjnZ-9YVdNH6F-1" source="6_pyae1zjnZ-9YVdNH6F-15" target="6_pyae1zjnZ-9YVdNH6F-72">
+        <mxCell id="6_pyae1zjnZ-9YVdNH6F-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="6_pyae1zjnZ-9YVdNH6F-1" source="6_pyae1zjnZ-9YVdNH6F-7" target="6_pyae1zjnZ-9YVdNH6F-72">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="476" y="-188" />
+              <mxPoint x="914" y="-280" />
+              <mxPoint x="914" y="-188" />
               <mxPoint x="1100" y="-188" />
               <mxPoint x="1100" y="-104" />
             </Array>
@@ -2790,6 +2731,29 @@
         </mxCell>
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-75" value="负载VIP(虚拟地址)&lt;br&gt;（lvs+keepalive+nginx）" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="6_pyae1zjnZ-9YVdNH6F-1">
           <mxGeometry x="387" y="56" width="126" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="6_pyae1zjnZ-9YVdNH6F-5" value="运监系统" style="swimlane;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="6_pyae1zjnZ-9YVdNH6F-1">
+          <mxGeometry x="810" y="-500" width="200" height="253" as="geometry" />
+        </mxCell>
+        <mxCell id="6_pyae1zjnZ-9YVdNH6F-6" value="FSU/边缘网关" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="6_pyae1zjnZ-9YVdNH6F-5">
+          <mxGeometry x="40" y="41" width="118" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="6_pyae1zjnZ-9YVdNH6F-7" value="KAFKA集群" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="6_pyae1zjnZ-9YVdNH6F-1">
+          <mxGeometry x="887" y="-340" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6_pyae1zjnZ-9YVdNH6F-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="6_pyae1zjnZ-9YVdNH6F-1" source="6_pyae1zjnZ-9YVdNH6F-6" target="6_pyae1zjnZ-9YVdNH6F-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="909" y="-359" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="917" y="-361" />
+              <mxPoint x="917" y="-361" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_pyae1zjnZ-9YVdNH6F-9" value="实时同步&amp;amp;&lt;br&gt;每天全量同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="6_pyae1zjnZ-9YVdNH6F-8">
+          <mxGeometry x="-0.181" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
