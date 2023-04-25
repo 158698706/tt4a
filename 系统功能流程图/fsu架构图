@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-25T12:33:49.197Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="zOROkCayjdJBhSeZKBT8" version="21.2.1" type="github" pages="24">
+<mxfile host="app.diagrams.net" modified="2023-04-25T12:37:05.200Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="rFs99cS4yP_n4XkgOuEJ" version="21.2.1" type="github" pages="24">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1450" dy="521" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3529,15 +3529,21 @@
     </mxGraphModel>
   </diagram>
   <diagram id="o_nSeJ2SSkzUPh0Cf9P8" name="第 21 页">
-    <mxGraphModel dx="1400" dy="318" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1675" dy="463" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="sfFzJ83p0VHRuySs-iLh-1" value="FSU" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="-443" y="351" width="100" height="448" as="geometry" />
         </mxCell>
+        <mxCell id="Y6sBjOHYZmS9sa427146-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sfFzJ83p0VHRuySs-iLh-1">
+          <mxGeometry x="45" y="272" width="10" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="sfFzJ83p0VHRuySs-iLh-2" value="VPN" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="-277" y="351" width="100" height="444" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6sBjOHYZmS9sa427146-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sfFzJ83p0VHRuySs-iLh-2">
+          <mxGeometry x="45" y="268" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sfFzJ83p0VHRuySs-iLh-3" value="RADIUS认证" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="-92" y="351" width="100" height="440" as="geometry" />
@@ -3545,18 +3551,19 @@
         <mxCell id="sfFzJ83p0VHRuySs-iLh-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sfFzJ83p0VHRuySs-iLh-3">
           <mxGeometry x="45" y="80" width="10" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="Y6sBjOHYZmS9sa427146-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;entryX=1.003;entryY=0.441;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="sfFzJ83p0VHRuySs-iLh-3" source="sfFzJ83p0VHRuySs-iLh-7" target="sfFzJ83p0VHRuySs-iLh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6sBjOHYZmS9sa427146-11" value="使用FSUID作为FSU的默认密码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y6sBjOHYZmS9sa427146-10">
+          <mxGeometry x="-0.0318" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="sfFzJ83p0VHRuySs-iLh-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sfFzJ83p0VHRuySs-iLh-3">
           <mxGeometry x="47" y="173" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sfFzJ83p0VHRuySs-iLh-10" value="self call" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="sfFzJ83p0VHRuySs-iLh-9" parent="sfFzJ83p0VHRuySs-iLh-3" source="sfFzJ83p0VHRuySs-iLh-7">
-          <mxGeometry x="0.0361" y="3" relative="1" as="geometry">
-            <mxPoint x="52" y="153" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="82" y="152" />
-              <mxPoint x="82" y="183" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="Y6sBjOHYZmS9sa427146-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sfFzJ83p0VHRuySs-iLh-3">
+          <mxGeometry x="45" y="263" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sfFzJ83p0VHRuySs-iLh-4" value="运监" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="79" y="347" width="100" height="441" as="geometry" />
@@ -3571,6 +3578,17 @@
           <mxGeometry x="0.2153" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6sBjOHYZmS9sa427146-16" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1" source="Y6sBjOHYZmS9sa427146-12" target="Y6sBjOHYZmS9sa427146-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6sBjOHYZmS9sa427146-17" value="FSUID+密码认证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y6sBjOHYZmS9sa427146-16">
+          <mxGeometry x="-0.2521" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6sBjOHYZmS9sa427146-19" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1" source="Y6sBjOHYZmS9sa427146-15" target="Y6sBjOHYZmS9sa427146-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
