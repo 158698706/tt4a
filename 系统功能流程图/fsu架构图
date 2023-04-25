@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-25T12:49:58.587Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="p20CYKnNMtv4FGB_gOJ9" version="21.2.1" type="github" pages="24">
+<mxfile host="app.diagrams.net" modified="2023-04-25T12:51:24.023Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="KrQneshGdjfRF5v2d9Bl" version="21.2.1" type="github" pages="24">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1450" dy="521" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3551,7 +3551,7 @@
         </mxCell>
         <mxCell id="Y6sBjOHYZmS9sa427146-39" value="下次使用新密码认证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y6sBjOHYZmS9sa427146-38">
           <mxGeometry x="-0.0179" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-22" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Y6sBjOHYZmS9sa427146-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="sfFzJ83p0VHRuySs-iLh-1">
@@ -3678,20 +3678,20 @@
         <mxCell id="Y6sBjOHYZmS9sa427146-37" value="更新密码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-386" y="881" width="66" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Y6sBjOHYZmS9sa427146-42" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="Y6sBjOHYZmS9sa427146-42" value="" style="endArrow=none;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-525" y="583" as="sourcePoint" />
             <mxPoint x="267" y="581" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Y6sBjOHYZmS9sa427146-43" value="FSU密码初始化" style="shape=rect;strokeWidth=2;fontStyle=1;html=1;whiteSpace=wrap;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-638" y="441" width="117" height="42" as="geometry" />
+          <mxGeometry x="-645" y="513" width="117" height="42" as="geometry" />
         </mxCell>
         <mxCell id="Y6sBjOHYZmS9sa427146-44" value="" style="align=left;html=1;verticalAlign=middle;labelPosition=right;verticalLabelPosition=middle;labelBackgroundColor=none;fontSize=10" connectable="0" vertex="1" parent="Y6sBjOHYZmS9sa427146-43">
           <mxGeometry x="117" y="21" as="geometry" />
         </mxCell>
         <mxCell id="Y6sBjOHYZmS9sa427146-45" value="FSU登录成功后密码重置" style="shape=rect;strokeWidth=2;fontStyle=1;html=1;whiteSpace=wrap;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-645" y="717" width="117" height="42" as="geometry" />
+          <mxGeometry x="-638" y="624" width="117" height="42" as="geometry" />
         </mxCell>
         <mxCell id="Y6sBjOHYZmS9sa427146-46" value="" style="align=left;html=1;verticalAlign=middle;labelPosition=right;verticalLabelPosition=middle;labelBackgroundColor=none;fontSize=10" connectable="0" vertex="1" parent="Y6sBjOHYZmS9sa427146-45">
           <mxGeometry x="117" y="21" as="geometry" />
