@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-25T06:58:09.967Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="MTNB0g1NjnDVGPaZp8hA" version="21.2.1" type="github" pages="23">
+<mxfile host="app.diagrams.net" modified="2023-04-25T07:25:35.674Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="DqfNMcEme2lPJXixmaAG" version="21.2.1" type="github" pages="23">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1450" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2129,7 +2129,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="前置服务高可用V4" id="aTXbzfOzyK3WDnHGJrXZ">
-    <mxGraphModel dx="1450" dy="1370" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1635" dy="1471" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="yFp1JjzLvExOtzlgKbpX-0" />
         <mxCell id="yFp1JjzLvExOtzlgKbpX-1" parent="yFp1JjzLvExOtzlgKbpX-0" />
@@ -2181,6 +2181,8 @@
             <Array as="points">
               <mxPoint x="1095" y="209" />
               <mxPoint x="1095" y="3" />
+              <mxPoint x="810" y="3" />
+              <mxPoint x="810" y="1" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2193,15 +2195,17 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1012" y="89" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="821" y="21" />
-              <mxPoint x="821" y="120" />
+              <mxPoint x="810" y="123" />
+              <mxPoint x="810" y="21" />
+              <mxPoint x="897" y="21" />
+              <mxPoint x="897" y="120" />
               <mxPoint x="974" y="120" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yFp1JjzLvExOtzlgKbpX-15" value="3、获取VSR认证地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yFp1JjzLvExOtzlgKbpX-14">
           <mxGeometry x="-0.2804" relative="1" as="geometry">
-            <mxPoint y="44" as="offset" />
+            <mxPoint x="78" y="47" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yFp1JjzLvExOtzlgKbpX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="yFp1JjzLvExOtzlgKbpX-1" source="yFp1JjzLvExOtzlgKbpX-41">
@@ -2287,21 +2291,18 @@
           <mxGeometry x="69" y="38" width="53" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yFp1JjzLvExOtzlgKbpX-37" value="智能运维节点（主）" style="swimlane;fillColor=default;swimlaneFillColor=none;strokeColor=default;" vertex="1" parent="yFp1JjzLvExOtzlgKbpX-1">
-          <mxGeometry x="458" y="-96" width="268" height="266" as="geometry" />
+          <mxGeometry x="458" y="-96" width="330" height="380" as="geometry" />
         </mxCell>
         <mxCell id="yFp1JjzLvExOtzlgKbpX-38" value="前置服务2" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="yFp1JjzLvExOtzlgKbpX-37">
-          <mxGeometry x="85" y="146" width="120" height="36" as="geometry" />
+          <mxGeometry x="98" y="287" width="120" height="36" as="geometry" />
         </mxCell>
         <mxCell id="yFp1JjzLvExOtzlgKbpX-39" value="。。。" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="yFp1JjzLvExOtzlgKbpX-37">
-          <mxGeometry x="87" y="201" width="120" height="36" as="geometry" />
+          <mxGeometry x="98" y="334" width="120" height="36" as="geometry" />
         </mxCell>
         <mxCell id="yFp1JjzLvExOtzlgKbpX-40" value="前置服务1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="yFp1JjzLvExOtzlgKbpX-37">
-          <mxGeometry x="87" y="90" width="120" height="36" as="geometry" />
+          <mxGeometry x="87" y="36" width="211" height="244" as="geometry" />
         </mxCell>
-        <mxCell id="yFp1JjzLvExOtzlgKbpX-41" value="负载VIP(虚拟地址)&lt;br&gt;（lvs+keepalive+nginx）" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="yFp1JjzLvExOtzlgKbpX-37">
-          <mxGeometry x="-85" y="169" width="126" height="59" as="geometry" />
-        </mxCell>
-        <mxCell id="yFp1JjzLvExOtzlgKbpX-42" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yFp1JjzLvExOtzlgKbpX-1" target="yFp1JjzLvExOtzlgKbpX-40">
+        <mxCell id="yFp1JjzLvExOtzlgKbpX-42" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="yFp1JjzLvExOtzlgKbpX-1" target="yFp1JjzLvExOtzlgKbpX-40" source="yFp1JjzLvExOtzlgKbpX-41">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="472" y="74" as="sourcePoint" />
           </mxGeometry>
@@ -2314,6 +2315,11 @@
         <mxCell id="yFp1JjzLvExOtzlgKbpX-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.559;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;curved=1;" edge="1" parent="yFp1JjzLvExOtzlgKbpX-1" source="yFp1JjzLvExOtzlgKbpX-40">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="445" y="76" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="591" y="-80" />
+              <mxPoint x="419" y="-80" />
+              <mxPoint x="419" y="76" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yFp1JjzLvExOtzlgKbpX-45" value="5、通过Nginx透传" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yFp1JjzLvExOtzlgKbpX-44">
@@ -2420,6 +2426,9 @@
           <mxGeometry x="0.3286" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="yFp1JjzLvExOtzlgKbpX-41" value="负载VIP(虚拟地址)&lt;br&gt;（lvs+keepalive+nginx）" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="yFp1JjzLvExOtzlgKbpX-1">
+          <mxGeometry x="387" y="56" width="126" height="59" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
