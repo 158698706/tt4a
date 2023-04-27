@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-27T02:01:03.764Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="tmRmyvm_iqdol8l8PP34" version="21.2.1" type="github" pages="25">
+<mxfile host="app.diagrams.net" modified="2023-04-27T02:02:03.100Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="x8tumKKxSirlHHcqLYTG" version="21.2.1" type="github" pages="25">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1450" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3718,6 +3718,20 @@
         </mxCell>
         <mxCell id="ve-e_SX77a_quLSgBNtH-4" value="运维人员" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-1">
           <mxGeometry x="-649" y="361" width="60" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="ve-e_SX77a_quLSgBNtH-6" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;entryX=0;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1kEkYYCicrqT4BlvbpzJ-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-614" y="463" as="sourcePoint" />
+            <mxPoint x="-331" y="463" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ve-e_SX77a_quLSgBNtH-7" value="登录FSU的web服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ve-e_SX77a_quLSgBNtH-6">
+          <mxGeometry x="-0.2636" relative="1" as="geometry">
+            <mxPoint x="1" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ve-e_SX77a_quLSgBNtH-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-1">
+          <mxGeometry x="-624" y="441" width="10" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
