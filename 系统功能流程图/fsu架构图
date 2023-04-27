@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-27T05:37:41.502Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="XBFTAaJMI4IpuECmqWtm" version="21.2.1" type="github" pages="26">
+<mxfile host="app.diagrams.net" modified="2023-04-27T05:38:12.205Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="Rv6-d7125N2WAVNAnlr6" version="21.2.1" type="github" pages="26">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1450" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3841,7 +3841,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="23" id="YCi0xws74iwvnzBCXw9N">
-    <mxGraphModel dx="2200" dy="695" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1267" dy="232" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="90Q8xD3mUNjBX0GHs6Ti-0" />
         <mxCell id="90Q8xD3mUNjBX0GHs6Ti-1" parent="90Q8xD3mUNjBX0GHs6Ti-0" />
@@ -3968,7 +3968,7 @@
             <mxPoint x="182" y="820.6470588235295" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ALiHgQBPA3XvaMnzPVyR-15" value="使用账号+令牌登录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ALiHgQBPA3XvaMnzPVyR-14">
+        <mxCell id="ALiHgQBPA3XvaMnzPVyR-15" value="调用VPN认证&lt;br&gt;使用账号+令牌登录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ALiHgQBPA3XvaMnzPVyR-14">
           <mxGeometry x="-0.2694" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
