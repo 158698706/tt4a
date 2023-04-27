@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-27T01:52:31.264Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="wx6Idt1siVefovBXsiBK" version="21.2.1" type="github" pages="25">
+<mxfile host="app.diagrams.net" modified="2023-04-27T02:01:03.764Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="tmRmyvm_iqdol8l8PP34" version="21.2.1" type="github" pages="25">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1450" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3704,168 +3704,20 @@
       <root>
         <mxCell id="1kEkYYCicrqT4BlvbpzJ-0" />
         <mxCell id="1kEkYYCicrqT4BlvbpzJ-1" parent="1kEkYYCicrqT4BlvbpzJ-0" />
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-2" value="FSU" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-1">
-          <mxGeometry x="-443" y="351" width="100" height="620" as="geometry" />
+        <mxCell id="1kEkYYCicrqT4BlvbpzJ-2" value="FSU WEB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-1">
+          <mxGeometry x="-376" y="351" width="100" height="620" as="geometry" />
         </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-2">
-          <mxGeometry x="45" y="272" width="10" height="80" as="geometry" />
+        <mxCell id="ve-e_SX77a_quLSgBNtH-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-2">
+          <mxGeometry x="45" y="96" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="1kEkYYCicrqT4BlvbpzJ-2" source="1kEkYYCicrqT4BlvbpzJ-6" target="1kEkYYCicrqT4BlvbpzJ-3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-30" y="572" />
-              <mxPoint x="-30" y="420" />
-              <mxPoint x="-28" y="420" />
-              <mxPoint x="-28" y="312" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-5" value="下次使用新密码认证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1kEkYYCicrqT4BlvbpzJ-4">
-          <mxGeometry x="-0.0179" y="1" relative="1" as="geometry">
-            <mxPoint y="-22" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-2">
-          <mxGeometry x="45" y="488" width="10" height="112" as="geometry" />
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-7" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1kEkYYCicrqT4BlvbpzJ-2" source="1kEkYYCicrqT4BlvbpzJ-6" target="1kEkYYCicrqT4BlvbpzJ-6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="97" y="549" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-2">
-          <mxGeometry x="45" y="272" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-9" value="VPN" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-1">
-          <mxGeometry x="-277" y="351" width="100" height="628" as="geometry" />
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-9">
-          <mxGeometry x="45" y="268" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-11" value="RADIUS认证" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-1">
+        <mxCell id="1kEkYYCicrqT4BlvbpzJ-11" value="4A认证" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-1">
           <mxGeometry x="-92" y="351" width="100" height="677" as="geometry" />
         </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-11">
-          <mxGeometry x="45" y="80" width="10" height="80" as="geometry" />
+        <mxCell id="ve-e_SX77a_quLSgBNtH-3" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-1">
+          <mxGeometry x="-629" y="351" width="20" height="612" as="geometry" />
         </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;entryX=1.003;entryY=0.441;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1kEkYYCicrqT4BlvbpzJ-11" source="1kEkYYCicrqT4BlvbpzJ-12" target="1kEkYYCicrqT4BlvbpzJ-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-14" value="使用FSUID作为FSU的默认密码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1kEkYYCicrqT4BlvbpzJ-13">
-          <mxGeometry x="-0.0318" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-11">
-          <mxGeometry x="47" y="173" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-16" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1kEkYYCicrqT4BlvbpzJ-11" source="1kEkYYCicrqT4BlvbpzJ-19" target="1kEkYYCicrqT4BlvbpzJ-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="1kEkYYCicrqT4BlvbpzJ-11" source="1kEkYYCicrqT4BlvbpzJ-19" target="1kEkYYCicrqT4BlvbpzJ-21">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="75" y="356" />
-              <mxPoint x="75" y="435" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-18" value="重置密码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1kEkYYCicrqT4BlvbpzJ-17">
-          <mxGeometry x="-0.0748" y="-1" relative="1" as="geometry">
-            <mxPoint x="10" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-11">
-          <mxGeometry x="45" y="260" width="10" height="121" as="geometry" />
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="1kEkYYCicrqT4BlvbpzJ-11" source="1kEkYYCicrqT4BlvbpzJ-19" target="1kEkYYCicrqT4BlvbpzJ-19">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="112" y="341" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-11">
-          <mxGeometry x="45" y="404" width="10" height="61" as="geometry" />
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-22" value="运监" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-1">
-          <mxGeometry x="79" y="347" width="100" height="592" as="geometry" />
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-22">
-          <mxGeometry x="45" y="74" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-22">
-          <mxGeometry x="45" y="417" width="10" height="141" as="geometry" />
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-25" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1kEkYYCicrqT4BlvbpzJ-1" source="1kEkYYCicrqT4BlvbpzJ-23" target="1kEkYYCicrqT4BlvbpzJ-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-26" value="添加FSU" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1kEkYYCicrqT4BlvbpzJ-25">
-          <mxGeometry x="0.2153" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-27" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1kEkYYCicrqT4BlvbpzJ-1" source="1kEkYYCicrqT4BlvbpzJ-3" target="1kEkYYCicrqT4BlvbpzJ-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-28" value="FSUID+密码认证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1kEkYYCicrqT4BlvbpzJ-27">
-          <mxGeometry x="-0.2521" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-29" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1kEkYYCicrqT4BlvbpzJ-1" source="1kEkYYCicrqT4BlvbpzJ-10" target="1kEkYYCicrqT4BlvbpzJ-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-30" value="透传账号+密码认证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1kEkYYCicrqT4BlvbpzJ-29">
-          <mxGeometry x="-0.3257" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-31" value="认证成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-1">
-          <mxGeometry x="-17" y="674" width="66" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-32" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1kEkYYCicrqT4BlvbpzJ-1" source="1kEkYYCicrqT4BlvbpzJ-21" target="1kEkYYCicrqT4BlvbpzJ-24">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="46" y="805" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-33" value="推送新密码到运监" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1kEkYYCicrqT4BlvbpzJ-32">
-          <mxGeometry x="-0.2245" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-34" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1kEkYYCicrqT4BlvbpzJ-1" source="1kEkYYCicrqT4BlvbpzJ-24" target="1kEkYYCicrqT4BlvbpzJ-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-35" value="推送FSU" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1kEkYYCicrqT4BlvbpzJ-34">
-          <mxGeometry x="0.1078" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-36" value="更新密码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-1">
-          <mxGeometry x="-386" y="881" width="66" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-37" value="" style="endArrow=none;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1kEkYYCicrqT4BlvbpzJ-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-525" y="583" as="sourcePoint" />
-            <mxPoint x="267" y="581" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-38" value="FSU密码初始化" style="shape=rect;strokeWidth=2;fontStyle=1;html=1;whiteSpace=wrap;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-1">
-          <mxGeometry x="-645" y="513" width="117" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-39" value="" style="align=left;html=1;verticalAlign=middle;labelPosition=right;verticalLabelPosition=middle;labelBackgroundColor=none;fontSize=10" connectable="0" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-38">
-          <mxGeometry x="117" y="21" as="geometry" />
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-40" value="FSU登录成功后密码重置" style="shape=rect;strokeWidth=2;fontStyle=1;html=1;whiteSpace=wrap;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-1">
-          <mxGeometry x="-638" y="624" width="117" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="1kEkYYCicrqT4BlvbpzJ-41" value="" style="align=left;html=1;verticalAlign=middle;labelPosition=right;verticalLabelPosition=middle;labelBackgroundColor=none;fontSize=10" connectable="0" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-40">
-          <mxGeometry x="117" y="21" as="geometry" />
+        <mxCell id="ve-e_SX77a_quLSgBNtH-4" value="运维人员" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1kEkYYCicrqT4BlvbpzJ-1">
+          <mxGeometry x="-649" y="361" width="60" height="22" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
