@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-28T08:24:47.864Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="xfAlHyVvYjcSQ95xI8r3" version="21.2.3" type="github" pages="28">
+<mxfile host="app.diagrams.net" modified="2023-04-28T09:58:03.980Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="-eFOQLmDV9kF2BVCWAax" version="21.2.3" type="github" pages="28">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1450" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4251,7 +4251,7 @@
         <mxCell id="1myxpn8qtHII1tVnkXr5-5" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="-Lur2pJQPsxuVpqAGMTZ-1" source="1myxpn8qtHII1tVnkXr5-4" target="-Lur2pJQPsxuVpqAGMTZ-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1myxpn8qtHII1tVnkXr5-6" value="选择需要运维的资源&lt;br&gt;如FSUweb" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1myxpn8qtHII1tVnkXr5-5">
+        <mxCell id="1myxpn8qtHII1tVnkXr5-6" value="选择需要运维资源&lt;br&gt;的省份" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1myxpn8qtHII1tVnkXr5-5">
           <mxGeometry x="0.1176" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -4264,8 +4264,8 @@
             <mxPoint x="-320" y="752" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="-319" y="752" />
-              <mxPoint x="-319" y="773" />
-              <mxPoint x="-266" y="773" />
+              <mxPoint x="-319" y="754" />
+              <mxPoint x="-266" y="754" />
               <mxPoint x="-266" y="809" />
             </Array>
             <mxPoint x="-315" y="782" as="targetPoint" />
