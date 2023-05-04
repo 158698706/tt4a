@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-04T12:04:43.396Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="cOWxgRG_qWVKJrRCGnQ2" version="21.2.3" type="github" pages="28">
+<mxfile host="app.diagrams.net" modified="2023-05-04T12:05:00.752Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="ywukeEfanv2m7us_MM7a" version="21.2.3" type="github" pages="28">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1450" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4140,7 +4140,7 @@
         <mxCell id="7H4TTqmlvTicsaYSDiqV-0" value="已登录或从4A单点跳转的页面" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="tD5ykDbWuCiZjlz5SqnF-1">
           <mxGeometry x="-343" y="189" width="190" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="dIny1wALQI3MpaKQ6DEK-5" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="tD5ykDbWuCiZjlz5SqnF-1">
+        <mxCell id="dIny1wALQI3MpaKQ6DEK-5" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="tD5ykDbWuCiZjlz5SqnF-1" target="itsNwxwC5DrOYeTAWOVS-17">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="394" y="560" as="targetPoint" />
             <mxPoint x="-322" y="560" as="sourcePoint" />
