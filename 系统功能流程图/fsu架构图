@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-05T09:06:01.260Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="nyzgnGFW7buk6DoL0nFO" version="21.2.7" type="github" pages="29">
+<mxfile host="app.diagrams.net" modified="2023-05-05T09:23:10.067Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="hN8ga7rpNT3DVzXl0Pfn" version="21.2.7" type="github" pages="30">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1450" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3252,7 +3252,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="radius认证流程2" id="8vpzoPbuL1jLgiBjJ2zX">
-    <mxGraphModel dx="1635" dy="613" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="820" dy="208" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="5MU6yryzP1cuJm3Hr7PW-0" />
         <mxCell id="5MU6yryzP1cuJm3Hr7PW-1" parent="5MU6yryzP1cuJm3Hr7PW-0" />
@@ -4409,7 +4409,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="云终端" id="KKj_f9TIvziudDWj4FBI">
-    <mxGraphModel dx="1850" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1850" dy="521" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="-Lur2pJQPsxuVpqAGMTZ-0" />
         <mxCell id="-Lur2pJQPsxuVpqAGMTZ-1" parent="-Lur2pJQPsxuVpqAGMTZ-0" />
@@ -4580,6 +4580,32 @@
           <mxGeometry x="0.3094" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ic4FokLixwmepab0xSPe" name="第 30 页">
+    <mxGraphModel dx="250" dy="521" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="alGOexPlutzYkRNpXpMA-1" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/user.svg;imageBorder=none;imageBackground=none;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="310" width="157" height="424.33" as="geometry" />
+        </mxCell>
+        <mxCell id="alGOexPlutzYkRNpXpMA-2" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/writer.svg;" vertex="1" parent="1">
+          <mxGeometry x="1266" y="304" width="409.92" height="427" as="geometry" />
+        </mxCell>
+        <mxCell id="alGOexPlutzYkRNpXpMA-3" value="" style="shape=mxgraph.signs.nature.maple_leaf;html=1;pointerEvents=1;fillColor=#0080ff;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="451" width="88" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="alGOexPlutzYkRNpXpMA-4" value="" style="shape=mxgraph.signs.transportation.4_wheeler;html=1;pointerEvents=1;fillColor=#a20025;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1214" y="882" width="98" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="alGOexPlutzYkRNpXpMA-5" value="" style="shape=mxgraph.signs.transportation.uneven_road;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="1053" y="888" width="99" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="alGOexPlutzYkRNpXpMA-6" value="" style="shape=mxgraph.signs.transportation.train_3;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="1388" y="887" width="99" height="62" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
