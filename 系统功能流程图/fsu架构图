@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-05T08:59:38.188Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="Ukb4O1LYtLdj1ctRTsWN" version="21.2.7" type="github" pages="29">
+<mxfile host="app.diagrams.net" modified="2023-05-05T09:06:01.260Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="nyzgnGFW7buk6DoL0nFO" version="21.2.7" type="github" pages="29">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1450" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3433,7 +3433,7 @@
             <mxPoint x="-5" y="104" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R-BXiQBfSbpk1j2B1NGG-0" value="&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;FSU&lt;/span&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/wiring_hub.svg;" vertex="1" parent="5MU6yryzP1cuJm3Hr7PW-1">
+        <mxCell id="R-BXiQBfSbpk1j2B1NGG-0" value="&lt;span style=&quot;background-color: rgb(148, 203, 255);&quot;&gt;FSU&lt;/span&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/wiring_hub.svg;" vertex="1" parent="5MU6yryzP1cuJm3Hr7PW-1">
           <mxGeometry x="-104" y="311" width="50" height="34" as="geometry" />
         </mxCell>
         <mxCell id="R-BXiQBfSbpk1j2B1NGG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.009;entryY=0.341;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="5MU6yryzP1cuJm3Hr7PW-1" source="R-BXiQBfSbpk1j2B1NGG-2" target="5MU6yryzP1cuJm3Hr7PW-6">
@@ -3457,7 +3457,7 @@
             <mxPoint x="204" y="-60" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R-BXiQBfSbpk1j2B1NGG-2" value="&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;运维人员&lt;/span&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/user.svg;" vertex="1" parent="5MU6yryzP1cuJm3Hr7PW-1">
+        <mxCell id="R-BXiQBfSbpk1j2B1NGG-2" value="&lt;span style=&quot;background-color: rgb(148, 228, 255);&quot;&gt;运维人员&lt;/span&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/user.svg;" vertex="1" parent="5MU6yryzP1cuJm3Hr7PW-1">
           <mxGeometry x="314" y="227" width="18.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="R-BXiQBfSbpk1j2B1NGG-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="5MU6yryzP1cuJm3Hr7PW-1" source="R-BXiQBfSbpk1j2B1NGG-13" target="R-BXiQBfSbpk1j2B1NGG-16">
