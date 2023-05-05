@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-05T09:23:10.067Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="hN8ga7rpNT3DVzXl0Pfn" version="21.2.7" type="github" pages="30">
+<mxfile host="app.diagrams.net" modified="2023-05-05T09:25:09.200Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="SH0Ivi-KHel6x-pzpWLB" version="21.2.7" type="github" pages="30">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1450" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4601,11 +4601,20 @@
         <mxCell id="alGOexPlutzYkRNpXpMA-4" value="" style="shape=mxgraph.signs.transportation.4_wheeler;html=1;pointerEvents=1;fillColor=#a20025;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1214" y="882" width="98" height="71" as="geometry" />
         </mxCell>
-        <mxCell id="alGOexPlutzYkRNpXpMA-5" value="" style="shape=mxgraph.signs.transportation.uneven_road;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;" vertex="1" parent="1">
+        <mxCell id="alGOexPlutzYkRNpXpMA-5" value="" style="shape=mxgraph.signs.transportation.uneven_road;html=1;pointerEvents=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1053" y="888" width="99" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="alGOexPlutzYkRNpXpMA-6" value="" style="shape=mxgraph.signs.transportation.train_3;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;" vertex="1" parent="1">
+        <mxCell id="alGOexPlutzYkRNpXpMA-6" value="" style="shape=mxgraph.signs.transportation.train_3;html=1;pointerEvents=1;fillColor=#d80073;strokeColor=#A50040;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1388" y="887" width="99" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="alGOexPlutzYkRNpXpMA-7" value="" style="shape=mxgraph.signs.travel.customs;html=1;pointerEvents=1;fillColor=#d80073;strokeColor=#A50040;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1554" y="872" width="99" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="alGOexPlutzYkRNpXpMA-8" value="" style="shape=mxgraph.signs.travel.escalator_down;html=1;pointerEvents=1;fillColor=#6a00ff;strokeColor=#3700CC;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1213" y="1007" width="99" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="alGOexPlutzYkRNpXpMA-9" value="" style="shape=mxgraph.signs.travel.escalator_up;html=1;pointerEvents=1;fillColor=#6a00ff;strokeColor=#3700CC;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1388" y="1006" width="99" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
