@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-05-07T08:51:05.982Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="SyYLIXVWAN1HP5_ZX_u_" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-07T08:51:21.439Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="pMn4iUSF8j_OrIoB4jP1" version="21.2.9" type="github">
   <diagram name="第 1 页" id="u7Jji5mMenKv8Isd1NBa">
     <mxGraphModel dx="1050" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bBQcrzJ0wetSz3DqeEru-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bBQcrzJ0wetSz3DqeEru-1" target="bBQcrzJ0wetSz3DqeEru-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bBQcrzJ0wetSz3DqeEru-1" value="公共库" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="80" y="70" width="290" height="390" as="geometry" />
         </mxCell>
@@ -39,6 +42,9 @@
         </mxCell>
         <mxCell id="bBQcrzJ0wetSz3DqeEru-13" value="。。。" style="whiteSpace=wrap;html=1;" vertex="1" parent="bBQcrzJ0wetSz3DqeEru-1">
           <mxGeometry x="40" y="340" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bBQcrzJ0wetSz3DqeEru-14" value="设备管理中台" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="535" y="235" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
