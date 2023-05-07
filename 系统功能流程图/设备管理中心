@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-05-07T08:44:04.382Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" version="21.2.9" etag="bbw8cvK2bBelMPHi0-K-" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-07T08:51:05.982Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="SyYLIXVWAN1HP5_ZX_u_" version="21.2.9" type="github">
   <diagram name="第 1 页" id="u7Jji5mMenKv8Isd1NBa">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bBQcrzJ0wetSz3DqeEru-1" value="公共库" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="290" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="bBQcrzJ0wetSz3DqeEru-2" value="站址" style="whiteSpace=wrap;html=1;" vertex="1" parent="bBQcrzJ0wetSz3DqeEru-1">
+          <mxGeometry x="30" y="40" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bBQcrzJ0wetSz3DqeEru-3" value="机房" style="whiteSpace=wrap;html=1;" vertex="1" parent="bBQcrzJ0wetSz3DqeEru-1">
+          <mxGeometry x="160" y="40" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bBQcrzJ0wetSz3DqeEru-4" value="信号塔" style="whiteSpace=wrap;html=1;" vertex="1" parent="bBQcrzJ0wetSz3DqeEru-1">
+          <mxGeometry x="30" y="100" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bBQcrzJ0wetSz3DqeEru-5" value="FSU" style="whiteSpace=wrap;html=1;" vertex="1" parent="bBQcrzJ0wetSz3DqeEru-1">
+          <mxGeometry x="160" y="100" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bBQcrzJ0wetSz3DqeEru-6" value="边缘网关" style="whiteSpace=wrap;html=1;" vertex="1" parent="bBQcrzJ0wetSz3DqeEru-1">
+          <mxGeometry x="30" y="160" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bBQcrzJ0wetSz3DqeEru-8" value="摄像头" style="whiteSpace=wrap;html=1;" vertex="1" parent="bBQcrzJ0wetSz3DqeEru-1">
+          <mxGeometry x="160" y="160" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bBQcrzJ0wetSz3DqeEru-9" value="水浸" style="whiteSpace=wrap;html=1;" vertex="1" parent="bBQcrzJ0wetSz3DqeEru-1">
+          <mxGeometry x="30" y="280" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bBQcrzJ0wetSz3DqeEru-10" value="油机" style="whiteSpace=wrap;html=1;" vertex="1" parent="bBQcrzJ0wetSz3DqeEru-1">
+          <mxGeometry x="160" y="280" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bBQcrzJ0wetSz3DqeEru-11" value="红外" style="whiteSpace=wrap;html=1;" vertex="1" parent="bBQcrzJ0wetSz3DqeEru-1">
+          <mxGeometry x="30" y="220" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bBQcrzJ0wetSz3DqeEru-12" value="烟感" style="whiteSpace=wrap;html=1;" vertex="1" parent="bBQcrzJ0wetSz3DqeEru-1">
+          <mxGeometry x="160" y="220" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bBQcrzJ0wetSz3DqeEru-13" value="。。。" style="whiteSpace=wrap;html=1;" vertex="1" parent="bBQcrzJ0wetSz3DqeEru-1">
+          <mxGeometry x="40" y="340" width="200" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
