@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-19T08:08:14.988Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="yvzk6IcXJ3bIfkz4CYsl" version="21.3.0" type="github" pages="31">
+<mxfile host="app.diagrams.net" modified="2023-05-19T08:08:48.699Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="HD9YUxmqs4X5dYSBYTKb" version="21.3.0" type="github" pages="31">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1450" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2759,7 +2759,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="前置服务高可用下沉节点" id="sNn-HNFICZ1mrtYpvq9q">
-    <mxGraphModel dx="1450" dy="1370" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1713" dy="1513" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4qQ45-qA7hXW3x3QDr5J-0" />
         <mxCell id="4qQ45-qA7hXW3x3QDr5J-1" parent="4qQ45-qA7hXW3x3QDr5J-0" />
@@ -2970,8 +2970,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="445" y="76" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="591" y="-80" />
-              <mxPoint x="419" y="-80" />
+              <mxPoint x="531" y="-60" />
+              <mxPoint x="531" y="-33" />
+              <mxPoint x="419" y="-33" />
               <mxPoint x="419" y="76" />
             </Array>
           </mxGeometry>
