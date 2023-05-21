@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-19T08:53:58.096Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="K0eZxOzz-lvRGVAMg4wV" version="21.3.0" type="github" pages="31">
+<mxfile host="app.diagrams.net" modified="2023-05-21T03:45:46.753Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="UZcZEX5r7cVrOffv9DTn" version="20.4.1" type="github" pages="31">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
-    <mxGraphModel dx="1450" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1582" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1026,7 +1026,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="架构图-CANAL版本" id="40uYbdtGx0JRe6Fzn5Sk">
-    <mxGraphModel dx="2090" dy="970" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1982" dy="1014" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="iITPwKNVQ_foG9HmwquV-0" />
         <mxCell id="iITPwKNVQ_foG9HmwquV-1" parent="iITPwKNVQ_foG9HmwquV-0" />
@@ -2469,7 +2469,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="前置服务高可用中心节点" id="bYEwUOLX-NyLTL-RU6ZM">
-    <mxGraphModel dx="1900" dy="1614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1385" dy="1312" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-0" />
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-1" parent="6_pyae1zjnZ-9YVdNH6F-0" />
@@ -2642,11 +2642,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6_pyae1zjnZ-9YVdNH6F-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="6_pyae1zjnZ-9YVdNH6F-53" source="6_pyae1zjnZ-9YVdNH6F-61" target="6_pyae1zjnZ-9YVdNH6F-63" edge="1">
+        <mxCell id="6_pyae1zjnZ-9YVdNH6F-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="6_pyae1zjnZ-9YVdNH6F-53" source="6_pyae1zjnZ-9YVdNH6F-61" target="6_pyae1zjnZ-9YVdNH6F-63" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="188" y="155" />
-              <mxPoint x="188" y="108" />
+              <mxPoint x="141" y="108" />
               <mxPoint x="123" y="108" />
               <mxPoint x="123" y="77" />
             </Array>
@@ -2654,7 +2653,7 @@
         </mxCell>
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-60" value="AIOT类型" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6_pyae1zjnZ-9YVdNH6F-59" vertex="1" connectable="0">
           <mxGeometry x="-0.432" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-61" value="判断fsu类型" style="rhombus;whiteSpace=wrap;html=1;" parent="6_pyae1zjnZ-9YVdNH6F-53" vertex="1">
