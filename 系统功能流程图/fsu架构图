@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-21T05:41:10.977Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="PRs_8e73jlSQgiX1Y-FF" version="20.4.1" type="github" pages="31">
+<mxfile host="app.diagrams.net" modified="2023-05-21T05:42:41.811Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="tSaxvA1YaApN8EF8nO2c" version="20.4.1" type="github" pages="31">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1582" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2753,7 +2753,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wp7v9E9G-Kpb6agpe9IU-0" value="设备接入类型&lt;br&gt;（运监/AIOT）" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="6_pyae1zjnZ-9YVdNH6F-5">
+        <mxCell id="wp7v9E9G-Kpb6agpe9IU-0" value="接入类型&lt;br&gt;（运监/AIOT）" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="6_pyae1zjnZ-9YVdNH6F-5">
           <mxGeometry x="44" y="180" width="106" height="59" as="geometry" />
         </mxCell>
       </root>
