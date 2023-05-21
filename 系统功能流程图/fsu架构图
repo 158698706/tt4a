@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-21T05:42:41.811Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="tSaxvA1YaApN8EF8nO2c" version="20.4.1" type="github" pages="31">
+<mxfile host="app.diagrams.net" modified="2023-05-21T05:44:02.664Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="siL5bwc5pttqTcZxwsv9" version="20.4.1" type="github" pages="31">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1582" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2469,7 +2469,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="前置服务高可用中心节点" id="bYEwUOLX-NyLTL-RU6ZM">
-    <mxGraphModel dx="1244" dy="839" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="963" dy="692" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-0" />
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-1" parent="6_pyae1zjnZ-9YVdNH6F-0" />
@@ -2479,7 +2479,7 @@
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="6_pyae1zjnZ-9YVdNH6F-1" source="6_pyae1zjnZ-9YVdNH6F-23" target="6_pyae1zjnZ-9YVdNH6F-42" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="291" y="141" />
+              <mxPoint x="331" y="141" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2489,7 +2489,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-23" value="边缘网关" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="6_pyae1zjnZ-9YVdNH6F-1" vertex="1">
-          <mxGeometry x="-53" y="-35" width="198" height="302" as="geometry" />
+          <mxGeometry x="-13" y="-35" width="198" height="302" as="geometry" />
         </mxCell>
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-24" value="动态分配服务地址（主）" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="6_pyae1zjnZ-9YVdNH6F-23" vertex="1">
           <mxGeometry x="35" y="73" width="135" height="45" as="geometry" />
@@ -2541,8 +2541,7 @@
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;dashed=1;" parent="6_pyae1zjnZ-9YVdNH6F-1" source="6_pyae1zjnZ-9YVdNH6F-75" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="373" y="116" />
-              <mxPoint x="259" y="116" />
+              <mxPoint x="259" y="100" />
               <mxPoint x="259" y="103" />
             </Array>
             <mxPoint x="144" y="103" as="targetPoint" />
@@ -2550,7 +2549,7 @@
         </mxCell>
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-33" value="6、返回VSR公网地址、分配的密码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6_pyae1zjnZ-9YVdNH6F-32" vertex="1" connectable="0">
           <mxGeometry x="0.0912" y="2" relative="1" as="geometry">
-            <mxPoint x="2" y="3" as="offset" />
+            <mxPoint x="14" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;shape=flexArrow;startArrow=block;dashed=1;" parent="6_pyae1zjnZ-9YVdNH6F-1" source="6_pyae1zjnZ-9YVdNH6F-36" target="6_pyae1zjnZ-9YVdNH6F-47" edge="1">
@@ -2584,7 +2583,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-42" value="VSR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="6_pyae1zjnZ-9YVdNH6F-1" vertex="1">
-          <mxGeometry x="201" y="299" width="120" height="60" as="geometry" />
+          <mxGeometry x="241" y="299" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;dashed=1;" parent="6_pyae1zjnZ-9YVdNH6F-1" source="6_pyae1zjnZ-9YVdNH6F-37" target="6_pyae1zjnZ-9YVdNH6F-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
