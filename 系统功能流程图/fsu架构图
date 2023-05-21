@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-21T03:45:46.753Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="UZcZEX5r7cVrOffv9DTn" version="20.4.1" type="github" pages="31">
+<mxfile host="app.diagrams.net" modified="2023-05-21T05:37:14.666Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="1zjSNWUbZGN2jQh6qb7Z" version="20.4.1" type="github" pages="31">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
     <mxGraphModel dx="1582" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2734,8 +2734,8 @@
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-5" value="运监系统" style="swimlane;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="6_pyae1zjnZ-9YVdNH6F-1" vertex="1">
           <mxGeometry x="810" y="-500" width="200" height="253" as="geometry" />
         </mxCell>
-        <mxCell id="6_pyae1zjnZ-9YVdNH6F-6" value="FSU/边缘网关" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="6_pyae1zjnZ-9YVdNH6F-5" vertex="1">
-          <mxGeometry x="40" y="41" width="118" height="38" as="geometry" />
+        <mxCell id="6_pyae1zjnZ-9YVdNH6F-6" value="边缘网关" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="6_pyae1zjnZ-9YVdNH6F-5" vertex="1">
+          <mxGeometry x="44" y="41" width="118" height="38" as="geometry" />
         </mxCell>
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-7" value="KAFKA集群" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="6_pyae1zjnZ-9YVdNH6F-1" vertex="1">
           <mxGeometry x="887" y="-340" width="60" height="60" as="geometry" />
@@ -2753,6 +2753,9 @@
           <mxGeometry x="-0.181" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wp7v9E9G-Kpb6agpe9IU-0" value="设备接入类型&lt;br&gt;（运监/AIOT）" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="6_pyae1zjnZ-9YVdNH6F-1">
+          <mxGeometry x="668" y="-432" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
