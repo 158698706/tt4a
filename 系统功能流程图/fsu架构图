@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T01:43:57.789Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="3MDg4BjuCZxkfHzjDmT0" version="20.4.1" type="github" pages="31">
+<mxfile host="app.diagrams.net" modified="2023-05-23T07:45:28.396Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="iee9hVigBevxcYbnz3YM" version="21.3.2" type="github" pages="31">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
-    <mxGraphModel dx="1582" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1690" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1631,7 +1631,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="前置服务高可用V2" id="QuflhJx0lhmfixE6itsI">
-    <mxGraphModel dx="1450" dy="970" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1690" dy="921" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="3ODsI95KCTsnw2gn4WbE-0" />
         <mxCell id="3ODsI95KCTsnw2gn4WbE-1" parent="3ODsI95KCTsnw2gn4WbE-0" />
@@ -2469,7 +2469,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="前置服务高可用中心节点" id="bYEwUOLX-NyLTL-RU6ZM">
-    <mxGraphModel dx="2089" dy="1207" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1137" dy="698" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-0" />
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-1" parent="6_pyae1zjnZ-9YVdNH6F-0" />
@@ -2655,7 +2655,7 @@
             <mxPoint y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6_pyae1zjnZ-9YVdNH6F-61" value="判断fsu类型" style="rhombus;whiteSpace=wrap;html=1;" parent="6_pyae1zjnZ-9YVdNH6F-53" vertex="1">
+        <mxCell id="6_pyae1zjnZ-9YVdNH6F-61" value="判断接入类型" style="rhombus;whiteSpace=wrap;html=1;" parent="6_pyae1zjnZ-9YVdNH6F-53" vertex="1">
           <mxGeometry x="101" y="115" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-62" value="运监关联VPN&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;及注册机、采集机" style="whiteSpace=wrap;html=1;" parent="6_pyae1zjnZ-9YVdNH6F-53" vertex="1">
@@ -2752,14 +2752,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wp7v9E9G-Kpb6agpe9IU-0" value="接入类型&lt;br&gt;（运监/AIOT）" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="6_pyae1zjnZ-9YVdNH6F-5">
+        <mxCell id="wp7v9E9G-Kpb6agpe9IU-0" value="接入类型&lt;br&gt;（运监/AIOT）" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="6_pyae1zjnZ-9YVdNH6F-5" vertex="1">
           <mxGeometry x="44" y="180" width="106" height="59" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="前置服务高可用下沉节点" id="sNn-HNFICZ1mrtYpvq9q">
-    <mxGraphModel dx="2764" dy="1530" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1690" dy="921" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4qQ45-qA7hXW3x3QDr5J-0" />
         <mxCell id="4qQ45-qA7hXW3x3QDr5J-1" parent="4qQ45-qA7hXW3x3QDr5J-0" />
@@ -2948,7 +2948,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4qQ45-qA7hXW3x3QDr5J-42" value="判断fsu类型" style="rhombus;whiteSpace=wrap;html=1;" parent="4qQ45-qA7hXW3x3QDr5J-34" vertex="1">
+        <mxCell id="4qQ45-qA7hXW3x3QDr5J-42" value="判断接入类型" style="rhombus;whiteSpace=wrap;html=1;" parent="4qQ45-qA7hXW3x3QDr5J-34" vertex="1">
           <mxGeometry x="101" y="115" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4qQ45-qA7hXW3x3QDr5J-43" value="运监关联VPN&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;及注册机、采集机" style="whiteSpace=wrap;html=1;" parent="4qQ45-qA7hXW3x3QDr5J-34" vertex="1">
@@ -3016,7 +3016,7 @@
             <mxPoint x="11" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_IR7pGz1hpUVaGNDFJ73-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="4qQ45-qA7hXW3x3QDr5J-1" source="4qQ45-qA7hXW3x3QDr5J-53" target="4qQ45-qA7hXW3x3QDr5J-59">
+        <mxCell id="_IR7pGz1hpUVaGNDFJ73-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="4qQ45-qA7hXW3x3QDr5J-1" source="4qQ45-qA7hXW3x3QDr5J-53" target="4qQ45-qA7hXW3x3QDr5J-59" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1088" y="-136" />
@@ -3025,7 +3025,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_IR7pGz1hpUVaGNDFJ73-1" value="消息消费" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_IR7pGz1hpUVaGNDFJ73-0">
+        <mxCell id="_IR7pGz1hpUVaGNDFJ73-1" value="消息消费" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_IR7pGz1hpUVaGNDFJ73-0" vertex="1" connectable="0">
           <mxGeometry x="0.1538" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
