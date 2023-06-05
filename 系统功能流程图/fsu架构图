@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T07:45:28.396Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="iee9hVigBevxcYbnz3YM" version="21.3.2" type="github" pages="31">
+<mxfile host="app.diagrams.net" modified="2023-06-05T05:32:43.395Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="HQPwdNV3-TUVp91qRVqB" version="21.3.5" type="github" pages="31">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
-    <mxGraphModel dx="1690" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1267,7 +1267,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="架构图-动态配置服务" id="-1HxcOSmXgq_r-jAxOt2">
-    <mxGraphModel dx="2090" dy="970" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1950" dy="903" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rbdx43yv23EVng_1FAUu-0" />
         <mxCell id="rbdx43yv23EVng_1FAUu-1" parent="rbdx43yv23EVng_1FAUu-0" />
@@ -1432,7 +1432,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="H8nhx1kvPZH1GpFPtoQV" name="前置服务高可用">
-    <mxGraphModel dx="1450" dy="970" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="903" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2759,7 +2759,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="前置服务高可用下沉节点" id="sNn-HNFICZ1mrtYpvq9q">
-    <mxGraphModel dx="1690" dy="921" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1753" dy="939" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4qQ45-qA7hXW3x3QDr5J-0" />
         <mxCell id="4qQ45-qA7hXW3x3QDr5J-1" parent="4qQ45-qA7hXW3x3QDr5J-0" />
@@ -3037,7 +3037,7 @@
           <mxGeometry x="387" y="56" width="126" height="59" as="geometry" />
         </mxCell>
         <mxCell id="4qQ45-qA7hXW3x3QDr5J-57" value="运监系统" style="swimlane;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="4qQ45-qA7hXW3x3QDr5J-1" vertex="1">
-          <mxGeometry x="1284" y="-120" width="200" height="253" as="geometry" />
+          <mxGeometry x="1284" y="-120" width="200" height="275" as="geometry" />
         </mxCell>
         <mxCell id="4qQ45-qA7hXW3x3QDr5J-58" value="FSU/边缘网关" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="4qQ45-qA7hXW3x3QDr5J-57" vertex="1">
           <mxGeometry x="40" y="41" width="118" height="38" as="geometry" />
