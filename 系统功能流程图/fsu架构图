@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-20T06:20:55.650Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="4Ogr03sbVrs_69-zEcT5" version="21.3.8" type="github" pages="32">
+<mxfile host="app.diagrams.net" modified="2023-08-15T01:28:47.042Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="S75AemfENHitGVwVqhif" version="21.6.7" type="github" pages="32">
   <diagram id="vb7q-L_Wf_gkKWzCJb-T" name="架构图">
-    <mxGraphModel dx="1690" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1860" dy="653" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,7 +61,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2ZGYdSWFpOb-0iMEOBAg" name="表结构图">
-    <mxGraphModel dx="1450" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1860" dy="653" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -435,7 +435,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AYprVP21snyfP4NdhHET" name="数据流图">
-    <mxGraphModel dx="1850" dy="521" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2260" dy="653" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -629,7 +629,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5fLC0dgFp3HHU2b1iGo0" name="架构图-1">
-    <mxGraphModel dx="1690" dy="970" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1860" dy="1053" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -823,7 +823,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="架构图-2" id="NxpPSkG1dGZ-KHTCYLkD">
-    <mxGraphModel dx="2090" dy="970" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2260" dy="1053" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="25OB4ex4ckE4pXie6LXU-0" />
         <mxCell id="25OB4ex4ckE4pXie6LXU-1" parent="25OB4ex4ckE4pXie6LXU-0" />
@@ -1026,7 +1026,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="架构图-CANAL版本" id="40uYbdtGx0JRe6Fzn5Sk">
-    <mxGraphModel dx="1982" dy="1014" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2260" dy="1053" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="iITPwKNVQ_foG9HmwquV-0" />
         <mxCell id="iITPwKNVQ_foG9HmwquV-1" parent="iITPwKNVQ_foG9HmwquV-0" />
@@ -1267,7 +1267,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="架构图-动态配置服务" id="-1HxcOSmXgq_r-jAxOt2">
-    <mxGraphModel dx="1950" dy="903" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2260" dy="1053" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rbdx43yv23EVng_1FAUu-0" />
         <mxCell id="rbdx43yv23EVng_1FAUu-1" parent="rbdx43yv23EVng_1FAUu-0" />
@@ -1342,7 +1342,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rAcaaAzz6_kMblJg9Aro" name="第 5 页">
-    <mxGraphModel dx="1290" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1460" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1374,7 +1374,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="u4DzecFy6h16NpeI-H1n" name="第 9 页">
-    <mxGraphModel dx="1290" dy="970" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1460" dy="1053" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1432,7 +1432,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="H8nhx1kvPZH1GpFPtoQV" name="前置服务高可用">
-    <mxGraphModel dx="1550" dy="903" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1860" dy="1053" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1631,7 +1631,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="前置服务高可用V2" id="QuflhJx0lhmfixE6itsI">
-    <mxGraphModel dx="1690" dy="921" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1860" dy="1053" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="3ODsI95KCTsnw2gn4WbE-0" />
         <mxCell id="3ODsI95KCTsnw2gn4WbE-1" parent="3ODsI95KCTsnw2gn4WbE-0" />
@@ -1833,7 +1833,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="前置服务高可用V3" id="7316wI9EeTVSqXmNG46W">
-    <mxGraphModel dx="1450" dy="1370" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1860" dy="1453" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="IaVEFWzsDvKqcXXWQM6D-0" />
         <mxCell id="IaVEFWzsDvKqcXXWQM6D-1" parent="IaVEFWzsDvKqcXXWQM6D-0" />
@@ -2129,7 +2129,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="前置服务高可用V4" id="aTXbzfOzyK3WDnHGJrXZ">
-    <mxGraphModel dx="1450" dy="1370" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1860" dy="1453" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="yFp1JjzLvExOtzlgKbpX-0" />
         <mxCell id="yFp1JjzLvExOtzlgKbpX-1" parent="yFp1JjzLvExOtzlgKbpX-0" />
@@ -2469,7 +2469,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="前置服务高可用中心节点" id="bYEwUOLX-NyLTL-RU6ZM">
-    <mxGraphModel dx="1137" dy="698" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1860" dy="1053" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-0" />
         <mxCell id="6_pyae1zjnZ-9YVdNH6F-1" parent="6_pyae1zjnZ-9YVdNH6F-0" />
@@ -3240,7 +3240,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EZPTMlJXWNcW5jsaAvoa" name="表对象关系图">
-    <mxGraphModel dx="1050" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1460" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3296,7 +3296,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="04-FAbmw2HsWL898pywD" name="终端设备数据流向图">
-    <mxGraphModel dx="1450" dy="556" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1860" dy="653" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3373,10 +3373,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LH8uv14UW8lVoxmVNVgd-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="LH8uv14UW8lVoxmVNVgd-2" source="LH8uv14UW8lVoxmVNVgd-24" target="LH8uv14UW8lVoxmVNVgd-31" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="LH8uv14UW8lVoxmVNVgd-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="LH8uv14UW8lVoxmVNVgd-2" source="LH8uv14UW8lVoxmVNVgd-24" target="LH8uv14UW8lVoxmVNVgd-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="266" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="276" y="177" />
+              <mxPoint x="276" y="267" />
+              <mxPoint x="600" y="267" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="LH8uv14UW8lVoxmVNVgd-33" value="4.2、不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LH8uv14UW8lVoxmVNVgd-32" vertex="1" connectable="0">
+        <mxCell id="LH8uv14UW8lVoxmVNVgd-33" value="4.2、不存在 ；&lt;br&gt;从数据库中查询并加载到redis" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LH8uv14UW8lVoxmVNVgd-32" vertex="1" connectable="0">
           <mxGeometry x="-0.2604" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -3387,41 +3394,21 @@
         <mxCell id="LH8uv14UW8lVoxmVNVgd-28" value="组装返回报文" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="LH8uv14UW8lVoxmVNVgd-2" vertex="1">
           <mxGeometry x="105" y="269" width="75" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="LH8uv14UW8lVoxmVNVgd-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shape=flexArrow;startArrow=block;fillColor=#f8cecc;strokeColor=#b85450;" parent="LH8uv14UW8lVoxmVNVgd-2" source="LH8uv14UW8lVoxmVNVgd-31" target="LH8uv14UW8lVoxmVNVgd-34" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LH8uv14UW8lVoxmVNVgd-51" value="4.3、获取数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LH8uv14UW8lVoxmVNVgd-35" vertex="1" connectable="0">
-          <mxGeometry x="-0.1465" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="LH8uv14UW8lVoxmVNVgd-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="LH8uv14UW8lVoxmVNVgd-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="266" y="312" as="sourcePoint" />
+            <mxPoint x="267" y="355" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LH8uv14UW8lVoxmVNVgd-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="LH8uv14UW8lVoxmVNVgd-2" source="LH8uv14UW8lVoxmVNVgd-31" target="LH8uv14UW8lVoxmVNVgd-36" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LH8uv14UW8lVoxmVNVgd-31" value="获取运监C库数据" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="LH8uv14UW8lVoxmVNVgd-2" vertex="1">
-          <mxGeometry x="224" y="270" width="84" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="LH8uv14UW8lVoxmVNVgd-34" value="运监下沉数据库&lt;br&gt;（MONGODB）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" parent="LH8uv14UW8lVoxmVNVgd-2" vertex="1">
-          <mxGeometry x="439" y="312" width="122" height="86" as="geometry" />
-        </mxCell>
-        <mxCell id="LH8uv14UW8lVoxmVNVgd-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="LH8uv14UW8lVoxmVNVgd-2" source="LH8uv14UW8lVoxmVNVgd-36" target="LH8uv14UW8lVoxmVNVgd-38" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="LH8uv14UW8lVoxmVNVgd-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="LH8uv14UW8lVoxmVNVgd-2" target="LH8uv14UW8lVoxmVNVgd-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="267" y="408" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="LH8uv14UW8lVoxmVNVgd-40" value="4.5、存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LH8uv14UW8lVoxmVNVgd-39" vertex="1" connectable="0">
           <mxGeometry x="-0.3449" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="LH8uv14UW8lVoxmVNVgd-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="LH8uv14UW8lVoxmVNVgd-2" source="LH8uv14UW8lVoxmVNVgd-36" target="LH8uv14UW8lVoxmVNVgd-28" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LH8uv14UW8lVoxmVNVgd-53" value="不存在&lt;br&gt;4.4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LH8uv14UW8lVoxmVNVgd-52" vertex="1" connectable="0">
-          <mxGeometry x="-0.6681" relative="1" as="geometry">
-            <mxPoint x="-8" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LH8uv14UW8lVoxmVNVgd-36" value="数据&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;是否存在" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="LH8uv14UW8lVoxmVNVgd-2" vertex="1">
-          <mxGeometry x="227" y="355" width="80" height="53" as="geometry" />
         </mxCell>
         <mxCell id="LH8uv14UW8lVoxmVNVgd-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="LH8uv14UW8lVoxmVNVgd-2" source="LH8uv14UW8lVoxmVNVgd-38" target="LH8uv14UW8lVoxmVNVgd-8" edge="1">
           <mxGeometry relative="1" as="geometry">
