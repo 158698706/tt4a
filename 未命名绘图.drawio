@@ -72,7 +72,7 @@
         <mxCell id="kxCucHEOc0CbrLCYkEG3-5" value="平台登录前端页面" style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="-180" y="95" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kxCucHEOc0CbrLCYkEG3-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kxCucHEOc0CbrLCYkEG3-7" target="kxCucHEOc0CbrLCYkEG3-9">
+        <mxCell id="kxCucHEOc0CbrLCYkEG3-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kxCucHEOc0CbrLCYkEG3-7" target="kxCucHEOc0CbrLCYkEG3-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kxCucHEOc0CbrLCYkEG3-14" value="需要二次认证的情况下&lt;div&gt;发送短信&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kxCucHEOc0CbrLCYkEG3-13">
@@ -83,11 +83,16 @@
         <mxCell id="kxCucHEOc0CbrLCYkEG3-7" value="平台后端服务" style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="20" y="95" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kxCucHEOc0CbrLCYkEG3-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kxCucHEOc0CbrLCYkEG3-9" target="kxCucHEOc0CbrLCYkEG3-16">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="kxCucHEOc0CbrLCYkEG3-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kxCucHEOc0CbrLCYkEG3-9" target="kxCucHEOc0CbrLCYkEG3-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="331" y="125" />
+              <mxPoint x="331" y="249" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="kxCucHEOc0CbrLCYkEG3-9" value="短信后端服务" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="27" y="206" width="120" height="60" as="geometry" />
+          <mxGeometry x="191" y="95" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kxCucHEOc0CbrLCYkEG3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.177;exitY=-0.043;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kxCucHEOc0CbrLCYkEG3-7" target="kxCucHEOc0CbrLCYkEG3-7">
           <mxGeometry relative="1" as="geometry">
@@ -116,7 +121,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kxCucHEOc0CbrLCYkEG3-16" value="短信组件" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="27" y="346" width="120" height="60" as="geometry" />
+          <mxGeometry x="31" y="221" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kxCucHEOc0CbrLCYkEG3-21" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;" vertex="1" parent="1">
           <mxGeometry x="-263" y="120" width="18" height="30" as="geometry" />
