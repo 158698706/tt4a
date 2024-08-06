@@ -66,7 +66,7 @@
         <mxCell id="kxCucHEOc0CbrLCYkEG3-2" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-245" y="95" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kxCucHEOc0CbrLCYkEG3-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kxCucHEOc0CbrLCYkEG3-5" target="kxCucHEOc0CbrLCYkEG3-7">
+        <mxCell id="kxCucHEOc0CbrLCYkEG3-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.159;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kxCucHEOc0CbrLCYkEG3-5" target="kxCucHEOc0CbrLCYkEG3-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kxCucHEOc0CbrLCYkEG3-5" value="平台登录前端页面" style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
@@ -83,16 +83,17 @@
         <mxCell id="kxCucHEOc0CbrLCYkEG3-7" value="平台后端服务" style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="20" y="95" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="kxCucHEOc0CbrLCYkEG3-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kxCucHEOc0CbrLCYkEG3-9" target="kxCucHEOc0CbrLCYkEG3-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kxCucHEOc0CbrLCYkEG3-9" value="短信后端服务" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="27" y="206" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kxCucHEOc0CbrLCYkEG3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kxCucHEOc0CbrLCYkEG3-7" target="kxCucHEOc0CbrLCYkEG3-7">
+        <mxCell id="kxCucHEOc0CbrLCYkEG3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.177;exitY=-0.043;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kxCucHEOc0CbrLCYkEG3-7" target="kxCucHEOc0CbrLCYkEG3-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="80" y="22" />
-              <mxPoint x="160" y="22" />
-              <mxPoint x="160" y="68" />
-              <mxPoint x="110" y="68" />
+              <mxPoint x="41" y="45" />
+              <mxPoint x="110" y="45" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -100,6 +101,25 @@
           <mxGeometry x="-0.0061" y="1" relative="1" as="geometry">
             <mxPoint x="13" y="-3" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="kxCucHEOc0CbrLCYkEG3-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kxCucHEOc0CbrLCYkEG3-16" target="kxCucHEOc0CbrLCYkEG3-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kxCucHEOc0CbrLCYkEG3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.427;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kxCucHEOc0CbrLCYkEG3-16" target="kxCucHEOc0CbrLCYkEG3-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-237.93100080818965" y="281.1034651131466" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kxCucHEOc0CbrLCYkEG3-20" value="发送短信" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kxCucHEOc0CbrLCYkEG3-19">
+          <mxGeometry x="-0.078" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kxCucHEOc0CbrLCYkEG3-16" value="短信组件" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="27" y="346" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kxCucHEOc0CbrLCYkEG3-21" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;" vertex="1" parent="1">
+          <mxGeometry x="-263" y="120" width="18" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
