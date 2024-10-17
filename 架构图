@@ -784,7 +784,7 @@
           <mxGeometry x="19" y="105" width="64" height="40" as="geometry" />
         </mxCell>
         <mxCell id="egH2C4DO-BhIFMcbvu8n-52" value="服务治理" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="XGrNAILXnyLxlfcTDw94-1">
-          <mxGeometry x="722" y="15" width="122" height="681" as="geometry" />
+          <mxGeometry x="722" y="18" width="122" height="681" as="geometry" />
         </mxCell>
         <mxCell id="egH2C4DO-BhIFMcbvu8n-48" value="微服务化" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="egH2C4DO-BhIFMcbvu8n-52">
           <mxGeometry x="25" y="53" width="72" height="100" as="geometry" />
