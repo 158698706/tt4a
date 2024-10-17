@@ -545,7 +545,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="功能架构图-20241017" id="u1fdzUMJH_Ht5VGAd5fS">
-    <mxGraphModel dx="1823" dy="557" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="XGrNAILXnyLxlfcTDw94-0" />
         <mxCell id="XGrNAILXnyLxlfcTDw94-1" parent="XGrNAILXnyLxlfcTDw94-0" />
@@ -687,7 +687,7 @@
         <mxCell id="XGrNAILXnyLxlfcTDw94-39" value="账号密码短信认证" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XGrNAILXnyLxlfcTDw94-37">
           <mxGeometry x="12" y="99" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="egH2C4DO-BhIFMcbvu8n-0" value="人脸认证" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="XGrNAILXnyLxlfcTDw94-37">
+        <mxCell id="egH2C4DO-BhIFMcbvu8n-0" value="人脸生物认证" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="XGrNAILXnyLxlfcTDw94-37">
           <mxGeometry x="82" y="41" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="egH2C4DO-BhIFMcbvu8n-1" value="微信/支付宝认证" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="XGrNAILXnyLxlfcTDw94-37">
