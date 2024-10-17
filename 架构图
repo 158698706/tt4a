@@ -696,10 +696,10 @@
         <mxCell id="XGrNAILXnyLxlfcTDw94-40" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.71;dx=17.2;direction=north;notch=0;fontSize=14;" vertex="1" parent="XGrNAILXnyLxlfcTDw94-1">
           <mxGeometry x="324" y="565" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XGrNAILXnyLxlfcTDw94-41" value="统一门户" style="swimlane;fontSize=14;" vertex="1" parent="XGrNAILXnyLxlfcTDw94-1">
+        <mxCell id="XGrNAILXnyLxlfcTDw94-41" value="统一门户" style="swimlane;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XGrNAILXnyLxlfcTDw94-1">
           <mxGeometry x="-264" y="18" width="920" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="XGrNAILXnyLxlfcTDw94-42" value="运营管理" style="swimlane;fontSize=14;" vertex="1" parent="XGrNAILXnyLxlfcTDw94-41">
+        <mxCell id="XGrNAILXnyLxlfcTDw94-42" value="运营管理" style="swimlane;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XGrNAILXnyLxlfcTDw94-41">
           <mxGeometry x="487" y="34" width="389" height="103" as="geometry" />
         </mxCell>
         <mxCell id="XGrNAILXnyLxlfcTDw94-43" value="我的应用" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XGrNAILXnyLxlfcTDw94-42">
@@ -708,7 +708,7 @@
         <mxCell id="XGrNAILXnyLxlfcTDw94-44" value="我的菜单" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XGrNAILXnyLxlfcTDw94-42">
           <mxGeometry x="203" y="45" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XGrNAILXnyLxlfcTDw94-45" value="4A门户" style="swimlane;fontSize=14;" vertex="1" parent="XGrNAILXnyLxlfcTDw94-41">
+        <mxCell id="XGrNAILXnyLxlfcTDw94-45" value="4A门户" style="swimlane;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XGrNAILXnyLxlfcTDw94-41">
           <mxGeometry x="19" y="34" width="442" height="103" as="geometry" />
         </mxCell>
         <mxCell id="XGrNAILXnyLxlfcTDw94-46" value="我的应用" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XGrNAILXnyLxlfcTDw94-45">
