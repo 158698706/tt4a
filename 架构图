@@ -667,7 +667,7 @@
           <mxGeometry x="830" y="40" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="egH2C4DO-BhIFMcbvu8n-15" value="统一待办（内网门户）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XGrNAILXnyLxlfcTDw94-27">
-          <mxGeometry x="20" y="40" width="80" height="40" as="geometry" />
+          <mxGeometry x="20" y="40" width="91" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XGrNAILXnyLxlfcTDw94-34" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.71;dx=17.2;direction=south;notch=0;fontSize=14;" vertex="1" parent="XGrNAILXnyLxlfcTDw94-1">
           <mxGeometry x="-147" y="565" width="70" height="30" as="geometry" />
