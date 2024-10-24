@@ -127,14 +127,53 @@
         <mxCell id="tl2X360h2x0PGL_qt8CD-36" value="登录" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;" vertex="1" parent="1">
           <mxGeometry x="-226" y="548" width="665" height="454" as="geometry" />
         </mxCell>
-        <mxCell id="tl2X360h2x0PGL_qt8CD-37" value="4A" style="swimlane;startSize=20;" vertex="1" parent="tl2X360h2x0PGL_qt8CD-36">
+        <mxCell id="tl2X360h2x0PGL_qt8CD-37" value="用户" style="swimlane;startSize=20;" vertex="1" parent="tl2X360h2x0PGL_qt8CD-36">
           <mxGeometry x="20" width="215" height="454" as="geometry" />
         </mxCell>
-        <mxCell id="tl2X360h2x0PGL_qt8CD-46" value="业务门户" style="swimlane;startSize=20;" vertex="1" parent="tl2X360h2x0PGL_qt8CD-36">
+        <mxCell id="tl2X360h2x0PGL_qt8CD-53" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="tl2X360h2x0PGL_qt8CD-37">
+          <mxGeometry x="87" y="60" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tl2X360h2x0PGL_qt8CD-46" value="4A" style="swimlane;startSize=20;" vertex="1" parent="tl2X360h2x0PGL_qt8CD-36">
           <mxGeometry x="235" width="215" height="454" as="geometry" />
+        </mxCell>
+        <mxCell id="tl2X360h2x0PGL_qt8CD-57" value="运营管理/UAC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tl2X360h2x0PGL_qt8CD-46">
+          <mxGeometry x="43.00064568014707" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tl2X360h2x0PGL_qt8CD-64" value="令牌校验接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tl2X360h2x0PGL_qt8CD-46">
+          <mxGeometry x="47.5" y="162" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tl2X360h2x0PGL_qt8CD-52" value="业务门户" style="swimlane;startSize=20;" vertex="1" parent="tl2X360h2x0PGL_qt8CD-36">
           <mxGeometry x="450" width="215" height="454" as="geometry" />
+        </mxCell>
+        <mxCell id="tl2X360h2x0PGL_qt8CD-63" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="tl2X360h2x0PGL_qt8CD-52" source="tl2X360h2x0PGL_qt8CD-59" target="tl2X360h2x0PGL_qt8CD-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tl2X360h2x0PGL_qt8CD-59" value="单点登录接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tl2X360h2x0PGL_qt8CD-52">
+          <mxGeometry x="47.5" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tl2X360h2x0PGL_qt8CD-62" value="本地校验后，到4A校验令牌" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tl2X360h2x0PGL_qt8CD-52">
+          <mxGeometry x="47.5" y="162" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tl2X360h2x0PGL_qt8CD-56" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="tl2X360h2x0PGL_qt8CD-36" source="tl2X360h2x0PGL_qt8CD-53" target="tl2X360h2x0PGL_qt8CD-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295.4706456801471" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tl2X360h2x0PGL_qt8CD-58" value="登录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="tl2X360h2x0PGL_qt8CD-56">
+          <mxGeometry x="-0.2133" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tl2X360h2x0PGL_qt8CD-60" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="tl2X360h2x0PGL_qt8CD-36" source="tl2X360h2x0PGL_qt8CD-57" target="tl2X360h2x0PGL_qt8CD-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tl2X360h2x0PGL_qt8CD-61" value="携带令牌单点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="tl2X360h2x0PGL_qt8CD-60">
+          <mxGeometry x="-0.4455" y="-1" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tl2X360h2x0PGL_qt8CD-65" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="tl2X360h2x0PGL_qt8CD-36" source="tl2X360h2x0PGL_qt8CD-62" target="tl2X360h2x0PGL_qt8CD-64">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
