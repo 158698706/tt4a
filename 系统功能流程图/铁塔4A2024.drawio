@@ -68,7 +68,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="88SXGziZwdDba_L5Cj1P" name="业务门户对接">
-    <mxGraphModel dx="1124" dy="819" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1450" dy="1007" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -211,8 +211,8 @@
         <mxCell id="AkpTzgFuBffepSGeuKdB-11" value="用户" style="swimlane;startSize=20;" vertex="1" parent="AkpTzgFuBffepSGeuKdB-10">
           <mxGeometry x="20" width="215" height="475" as="geometry" />
         </mxCell>
-        <mxCell id="AkpTzgFuBffepSGeuKdB-38" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="AkpTzgFuBffepSGeuKdB-11">
-          <mxGeometry x="85" y="29" width="20" height="501" as="geometry" />
+        <mxCell id="AkpTzgFuBffepSGeuKdB-46" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="AkpTzgFuBffepSGeuKdB-11">
+          <mxGeometry x="78" y="40" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AkpTzgFuBffepSGeuKdB-13" value="4A" style="swimlane;startSize=20;" vertex="1" parent="AkpTzgFuBffepSGeuKdB-10">
           <mxGeometry x="235" width="215" height="475" as="geometry" />
@@ -264,7 +264,7 @@
         <mxCell id="AkpTzgFuBffepSGeuKdB-41" value="获取令牌" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="AkpTzgFuBffepSGeuKdB-28">
           <mxGeometry x="51" y="264" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AkpTzgFuBffepSGeuKdB-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="AkpTzgFuBffepSGeuKdB-10">
+        <mxCell id="AkpTzgFuBffepSGeuKdB-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="AkpTzgFuBffepSGeuKdB-10" source="AkpTzgFuBffepSGeuKdB-46">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="496.5" y="72.81313703284263" as="targetPoint" />
             <mxPoint x="114.81034482758605" y="72.81313703284263" as="sourcePoint" />
