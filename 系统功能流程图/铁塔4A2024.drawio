@@ -68,7 +68,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="88SXGziZwdDba_L5Cj1P" name="业务门户对接">
-    <mxGraphModel dx="1690" dy="1007" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="900" dy="689" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,19 +94,19 @@
           <mxGeometry y="104" width="158" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tl2X360h2x0PGL_qt8CD-28" value="用户信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="tl2X360h2x0PGL_qt8CD-11" vertex="1">
-          <mxGeometry x="70" y="190" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tl2X360h2x0PGL_qt8CD-29" value="外部组织信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="tl2X360h2x0PGL_qt8CD-11" vertex="1">
-          <mxGeometry x="70" y="268" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="215" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tl2X360h2x0PGL_qt8CD-34" value="系统密钥" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="tl2X360h2x0PGL_qt8CD-11" vertex="1">
-          <mxGeometry x="70" y="351" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="303" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4r4z4rgb_aVx6LmdE7Qg-1" value="菜单url&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="tl2X360h2x0PGL_qt8CD-11">
+          <mxGeometry x="51" y="168" width="158" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tl2X360h2x0PGL_qt8CD-12" value="业务门户" style="swimlane;startSize=20;" parent="tl2X360h2x0PGL_qt8CD-10" vertex="1">
           <mxGeometry x="344" width="302" height="454" as="geometry" />
         </mxCell>
         <mxCell id="tl2X360h2x0PGL_qt8CD-30" value="本地数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="tl2X360h2x0PGL_qt8CD-12" vertex="1">
-          <mxGeometry x="101" y="190" width="120" height="60" as="geometry" />
+          <mxGeometry x="101" y="215" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tl2X360h2x0PGL_qt8CD-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="tl2X360h2x0PGL_qt8CD-10" source="tl2X360h2x0PGL_qt8CD-18" target="tl2X360h2x0PGL_qt8CD-30" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -116,9 +116,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tl2X360h2x0PGL_qt8CD-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="tl2X360h2x0PGL_qt8CD-10" source="tl2X360h2x0PGL_qt8CD-28" target="tl2X360h2x0PGL_qt8CD-30" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="tl2X360h2x0PGL_qt8CD-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="tl2X360h2x0PGL_qt8CD-10" source="tl2X360h2x0PGL_qt8CD-29" target="tl2X360h2x0PGL_qt8CD-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tl2X360h2x0PGL_qt8CD-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="tl2X360h2x0PGL_qt8CD-10" source="tl2X360h2x0PGL_qt8CD-34" target="tl2X360h2x0PGL_qt8CD-30" edge="1">
