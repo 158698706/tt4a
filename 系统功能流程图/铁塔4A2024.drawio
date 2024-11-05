@@ -68,7 +68,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="88SXGziZwdDba_L5Cj1P" name="业务门户对接">
-    <mxGraphModel dx="900" dy="689" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1000" dy="747" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -119,7 +119,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tl2X360h2x0PGL_qt8CD-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="tl2X360h2x0PGL_qt8CD-10" source="tl2X360h2x0PGL_qt8CD-34" target="tl2X360h2x0PGL_qt8CD-30" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="599" y="333" />
+              <mxPoint x="599" y="245" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="tl2X360h2x0PGL_qt8CD-36" value="登录/统一入口登录" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;" parent="1" vertex="1">
           <mxGeometry x="-236" y="477" width="665" height="450" as="geometry" />
