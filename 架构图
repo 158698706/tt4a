@@ -1304,13 +1304,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="RQNmcqIDVSjj3sl6Dkxr-1" value="人力资源系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="-116" y="8" width="100" height="477" as="geometry" />
+          <mxGeometry x="-116" y="8" width="100" height="427" as="geometry" />
         </mxCell>
         <mxCell id="RQNmcqIDVSjj3sl6Dkxr-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;" parent="RQNmcqIDVSjj3sl6Dkxr-1" vertex="1">
           <mxGeometry x="45" y="84" width="10" height="292" as="geometry" />
         </mxCell>
         <mxCell id="RQNmcqIDVSjj3sl6Dkxr-2" value="4A系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="99" y="8" width="100" height="482" as="geometry" />
+          <mxGeometry x="99" y="8" width="100" height="435" as="geometry" />
         </mxCell>
         <mxCell id="RQNmcqIDVSjj3sl6Dkxr-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;" parent="RQNmcqIDVSjj3sl6Dkxr-2" vertex="1">
           <mxGeometry x="45" y="108" width="10" height="263" as="geometry" />
@@ -1344,7 +1344,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RQNmcqIDVSjj3sl6Dkxr-3" value="各业务系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="314" y="8" width="100" height="485" as="geometry" />
+          <mxGeometry x="314" y="8" width="100" height="432" as="geometry" />
         </mxCell>
         <mxCell id="1Su-Z5GhdicjGRSp3B2g-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="RQNmcqIDVSjj3sl6Dkxr-3">
           <mxGeometry x="45" y="231" width="10" height="80" as="geometry" />
@@ -1385,13 +1385,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1Su-Z5GhdicjGRSp3B2g-10" value="人力资源系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-114" y="512" width="100" height="477" as="geometry" />
+          <mxGeometry x="-114" y="512" width="100" height="431" as="geometry" />
         </mxCell>
         <mxCell id="1Su-Z5GhdicjGRSp3B2g-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;" vertex="1" parent="1Su-Z5GhdicjGRSp3B2g-10">
           <mxGeometry x="45" y="84" width="10" height="292" as="geometry" />
         </mxCell>
         <mxCell id="1Su-Z5GhdicjGRSp3B2g-12" value="4A系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="101" y="512" width="100" height="482" as="geometry" />
+          <mxGeometry x="101" y="512" width="100" height="422" as="geometry" />
         </mxCell>
         <mxCell id="1Su-Z5GhdicjGRSp3B2g-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;" vertex="1" parent="1Su-Z5GhdicjGRSp3B2g-12">
           <mxGeometry x="45" y="108" width="10" height="263" as="geometry" />
@@ -1425,7 +1425,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1Su-Z5GhdicjGRSp3B2g-17" value="各业务系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="316" y="512" width="100" height="485" as="geometry" />
+          <mxGeometry x="316" y="512" width="100" height="431" as="geometry" />
         </mxCell>
         <mxCell id="1Su-Z5GhdicjGRSp3B2g-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1Su-Z5GhdicjGRSp3B2g-17">
           <mxGeometry x="45" y="231" width="10" height="80" as="geometry" />
