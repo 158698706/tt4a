@@ -1299,7 +1299,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OPX-Pbs_ssrrX5nKBT5P" name="内部人员入职时序图">
-    <mxGraphModel dx="1918" dy="714" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1690" dy="607" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1332,7 +1332,7 @@
             <mxPoint x="-160" y="358" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1Su-Z5GhdicjGRSp3B2g-9" value="根据各系统返回结果记录&lt;div&gt;到各业务系统账号推送关系表&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=0.924;exitY=0.157;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="RQNmcqIDVSjj3sl6Dkxr-2">
+        <mxCell id="1Su-Z5GhdicjGRSp3B2g-9" value="根据各系统返回结果记录&lt;div&gt;到各业务系统账号推送记录表&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=0.924;exitY=0.157;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="RQNmcqIDVSjj3sl6Dkxr-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55" y="292" as="sourcePoint" />
             <Array as="points">
@@ -1396,7 +1396,7 @@
         <mxCell id="1Su-Z5GhdicjGRSp3B2g-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;" vertex="1" parent="1Su-Z5GhdicjGRSp3B2g-12">
           <mxGeometry x="45" y="108" width="10" height="263" as="geometry" />
         </mxCell>
-        <mxCell id="1Su-Z5GhdicjGRSp3B2g-14" value="根据姓名拼音生成账号名" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=0.924;exitY=0.157;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1Su-Z5GhdicjGRSp3B2g-12" source="1Su-Z5GhdicjGRSp3B2g-13">
+        <mxCell id="1Su-Z5GhdicjGRSp3B2g-14" value="查询账号到&lt;div&gt;各业务系统账号推送记录&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=0.924;exitY=0.157;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1Su-Z5GhdicjGRSp3B2g-12" source="1Su-Z5GhdicjGRSp3B2g-13">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="54" y="149" as="sourcePoint" />
             <Array as="points">
@@ -1413,7 +1413,7 @@
             <mxPoint x="-160" y="358" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1Su-Z5GhdicjGRSp3B2g-16" value="根据各系统返回结果记录&lt;div&gt;到各业务系统账号推送关系表&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=0.924;exitY=0.157;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1Su-Z5GhdicjGRSp3B2g-12">
+        <mxCell id="1Su-Z5GhdicjGRSp3B2g-16" value="根据各系统返回结果记录&lt;div&gt;更新到各业务系统账号推送关系表&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=0.924;exitY=0.157;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1Su-Z5GhdicjGRSp3B2g-12">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55" y="292" as="sourcePoint" />
             <Array as="points">
@@ -1453,7 +1453,7 @@
         <mxCell id="1Su-Z5GhdicjGRSp3B2g-23" value="人资专员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-301" y="587" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1Su-Z5GhdicjGRSp3B2g-24" value="根据默认权限配置&lt;div&gt;推送到对应业务系统&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=1.097;exitY=0.519;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="1Su-Z5GhdicjGRSp3B2g-13" target="1Su-Z5GhdicjGRSp3B2g-18">
+        <mxCell id="1Su-Z5GhdicjGRSp3B2g-24" value="根据记录推送账号变更&lt;div&gt;到对应业务系统&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=1.097;exitY=0.519;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="1Su-Z5GhdicjGRSp3B2g-13" target="1Su-Z5GhdicjGRSp3B2g-18">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="154" y="761" as="sourcePoint" />
             <mxPoint x="328" y="764" as="targetPoint" />
