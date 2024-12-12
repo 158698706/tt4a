@@ -1630,7 +1630,7 @@
           <mxGeometry x="-346" y="405" width="828" height="8" as="geometry" />
         </mxCell>
         <mxCell id="S-RXCTIzKUD41lPt6JmD-15" value="&lt;div&gt;1、4A系统根据默认权限配置自动推送账号及权限到对应业务系统；&lt;/div&gt;&lt;div&gt;2、其他业务系统，需用户单独申请，各省市4A管理员协助推送；&lt;/div&gt;&lt;div&gt;3、新系统上线需给大量账号授权，由4A系统&amp;amp;上线业务系统后台割接授权&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;spacingTop=2;spacing=2;labelBorderColor=none;" vertex="1" parent="b9NzelZm71xTICDXXb_c-1">
-          <mxGeometry x="389" y="190" width="201" height="117" as="geometry" />
+          <mxGeometry x="389" y="190" width="163" height="143" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
