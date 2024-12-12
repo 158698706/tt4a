@@ -1407,7 +1407,7 @@
             <mxPoint x="54.99999999999977" y="203" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1Su-Z5GhdicjGRSp3B2g-15" value="返回结果及账号名等信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1Su-Z5GhdicjGRSp3B2g-12">
+        <mxCell id="1Su-Z5GhdicjGRSp3B2g-15" value="返回结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1Su-Z5GhdicjGRSp3B2g-12">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="40" y="358" as="sourcePoint" />
             <mxPoint x="-160" y="358" as="targetPoint" />
