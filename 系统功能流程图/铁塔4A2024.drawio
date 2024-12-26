@@ -692,9 +692,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BoUsOCp_eMSOlP-Li3Sc-21" value="删除前调用&lt;div&gt;校验&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="BoUsOCp_eMSOlP-Li3Sc-20" vertex="1" connectable="0">
+        <mxCell id="BoUsOCp_eMSOlP-Li3Sc-21" value="删除前调用&lt;div&gt;校验&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;labelBackgroundColor=#FFE599;" parent="BoUsOCp_eMSOlP-Li3Sc-20" vertex="1" connectable="0">
           <mxGeometry x="0.1189" y="-1" relative="1" as="geometry">
-            <mxPoint x="-17" y="-172" as="offset" />
+            <mxPoint x="-22" y="219" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BoUsOCp_eMSOlP-Li3Sc-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="AS71Braeft6pbu0-iLxS-1" source="BoUsOCp_eMSOlP-Li3Sc-11" target="BoUsOCp_eMSOlP-Li3Sc-17" edge="1">
@@ -727,8 +727,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="U6EV78eEUmiihjZh2VmN-4" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;区域删除校验：4A临时调用CRM、PMS等系统的区域校验接口，并将结果返回给主数据；后续待主数据直接对接CRM、PMS等系统后，4A取消对这些系统校验，仅校验自身对管理区域的依赖&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="AS71Braeft6pbu0-iLxS-1">
-          <mxGeometry x="733" y="179.5" width="133" height="181" as="geometry" />
+        <mxCell id="U6EV78eEUmiihjZh2VmN-4" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;区域删除校验：&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;4A临时调用CRM、PMS等系统的区域校验接口，并将结果返回给主数据；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 后续待主数据直接对接CRM、PMS等系统后，4A取消对这些系统校验，仅校验自身对管理区域的依赖&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="AS71Braeft6pbu0-iLxS-1">
+          <mxGeometry x="733" y="152" width="116" height="232" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
