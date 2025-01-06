@@ -943,7 +943,7 @@
           <mxGeometry x="114" y="-38" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oyzgpT06k1QKzh4Xdk0V-6" value="xin" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="608" y="-51" width="60" height="30" as="geometry" />
+          <mxGeometry x="778" y="35.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oyzgpT06k1QKzh4Xdk0V-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="oyzgpT06k1QKzh4Xdk0V-8" target="oyzgpT06k1QKzh4Xdk0V-4">
           <mxGeometry relative="1" as="geometry">
@@ -1061,11 +1061,11 @@
         <mxCell id="rJpZfCzQ8paph2BlpdFm-19" value="REDIS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="381" y="552" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rJpZfCzQ8paph2BlpdFm-22" value="/UAC_OA/LOGIN&lt;div&gt;&lt;span style=&quot;color: rgb(31, 31, 31); font-family: &amp;quot;Segoe UI&amp;quot;, tahoma, sans-serif; font-size: 12px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;请求参数：usercode&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(31, 31, 31); font-family: &amp;quot;Segoe UI&amp;quot;, tahoma, sans-serif; font-size: 12px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(31, 31, 31); font-family: &amp;quot;Segoe UI&amp;quot;, tahoma, sans-serif; font-size: 12px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(102, 102, 102); font-family: Helvetica; font-size: 17px; text-align: center;&quot;&gt;/UAC_OA/SSO&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(31, 31, 31); font-family: &amp;quot;Segoe UI&amp;quot;, tahoma, sans-serif; font-size: 12px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(102, 102, 102); font-family: Helvetica; font-size: 17px; text-align: center;&quot;&gt;&lt;span style=&quot;color: rgb(4, 30, 73); font-family: &amp;quot;Segoe UI&amp;quot;, tahoma, sans-serif; font-size: 12px; font-weight: 700; text-align: left; white-space-collapse: preserve;&quot;&gt;请求参数。appAcctId&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.stickyNote2;fontColor=#666666;mainText=;fontSize=17;whiteSpace=wrap;fillColor=#ffffcc;strokeColor=#F62E00;" vertex="1" parent="1">
-          <mxGeometry x="622" y="-268" width="315" height="200" as="geometry" />
-        </mxCell>
         <mxCell id="rJpZfCzQ8paph2BlpdFm-24" value="default" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="276" y="-38" width="66" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="HjOySGk1WNtZIrmQ9dAq-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;默认取cookie中的&lt;/span&gt;&lt;span style=&quot;background-color: rgb(211, 227, 253); color: rgb(4, 30, 73); font-family: &amp;quot;Segoe UI&amp;quot;, tahoma, sans-serif; font-size: 12px; text-align: start; text-wrap: nowrap;&quot;&gt;loginName&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Segoe UI, tahoma, sans-serif&quot; color=&quot;#041e49&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap: nowrap; background-color: rgb(211, 227, 253);&quot;&gt;如果没有取参数&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(31, 31, 31); font-family: &amp;quot;Segoe UI&amp;quot;, tahoma, sans-serif; font-size: 12px;&quot;&gt;usercode的值&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.stickyNote2;fontColor=#666666;mainText=;fontSize=17;whiteSpace=wrap;fillColor=#ffffcc;strokeColor=#F62E00;" vertex="1" parent="1">
+          <mxGeometry x="551" y="-204" width="315" height="146" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
