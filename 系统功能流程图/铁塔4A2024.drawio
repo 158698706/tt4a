@@ -903,9 +903,6 @@
         <mxCell id="STCdv-qfs4T4tuMd4gVM-2" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;导致结果：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;1、长期未登录时间为181天的会稽核到存入稽核表中，但长期未登录超过181天的会被清理，在稽核表中不存在。&lt;/div&gt;&lt;div&gt;2、用户因特殊原因被冻结后，当满足长期未登录条件，不会插入稽核表中&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;spacingRight=12;spacingLeft=6;size=19;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-24" y="628" width="263" height="122" as="geometry" />
         </mxCell>
-        <mxCell id="STCdv-qfs4T4tuMd4gVM-3" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;新稽核流程：&lt;/b&gt;&lt;/div&gt;&lt;div&gt;弥补旧流程补齐的遗漏问题。&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;spacingRight=12;spacingLeft=6;size=19;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="480" y="628" width="263" height="122" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
