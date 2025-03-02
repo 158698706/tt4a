@@ -1633,7 +1633,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="N9P-56FiYaB4FTtfZiz7-25" value="点击取消，&lt;div&gt;提示窗口关闭&lt;div&gt;&lt;div&gt;重新输入账号密码&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="N9P-56FiYaB4FTtfZiz7-24">
+        <mxCell id="N9P-56FiYaB4FTtfZiz7-25" value="点击取消&lt;div&gt;提示窗口关闭&lt;div&gt;&lt;div&gt;重新输入账号密码&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="N9P-56FiYaB4FTtfZiz7-24">
           <mxGeometry x="-0.3463" y="-20" relative="1" as="geometry">
             <mxPoint x="15" y="-6" as="offset" />
           </mxGeometry>
