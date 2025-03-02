@@ -1722,7 +1722,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="N9P-56FiYaB4FTtfZiz7-49" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
-          <mxGeometry x="-129" y="16" width="69" height="32" as="geometry" />
+          <mxGeometry x="-123" y="15" width="69" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
