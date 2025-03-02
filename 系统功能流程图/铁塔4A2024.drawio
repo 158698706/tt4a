@@ -1577,8 +1577,8 @@
         <mxCell id="N9P-56FiYaB4FTtfZiz7-14" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="N9P-56FiYaB4FTtfZiz7-11" target="N9P-56FiYaB4FTtfZiz7-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="N9P-56FiYaB4FTtfZiz7-11" value="根据devId去获取&lt;div&gt;本月最后登录用户hisOaUser&lt;/div&gt;&lt;div&gt;本月用户切换数swithTimes&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-5.5" y="152" width="161" height="92" as="geometry" />
+        <mxCell id="N9P-56FiYaB4FTtfZiz7-11" value="根据devId去获取&lt;div&gt;本月最后登录用户hisOaUser&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-5.5" y="174" width="161" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N9P-56FiYaB4FTtfZiz7-18" style="edgeStyle=none;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;strokeColor=default;" edge="1" parent="1" source="N9P-56FiYaB4FTtfZiz7-13" target="N9P-56FiYaB4FTtfZiz7-16">
           <mxGeometry relative="1" as="geometry">
