@@ -1534,7 +1534,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KDq0MJ61qRbXuRYmLvrv" name="SDP结合登录流程图">
-    <mxGraphModel dx="1850" dy="1007" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1450" dy="1007" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1553,7 +1553,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N9P-56FiYaB4FTtfZiz7-3" value="登录窗口" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="25" y="16" width="100" height="100" as="geometry" />
+          <mxGeometry x="25" y="30" width="100" height="72" as="geometry" />
         </mxCell>
         <mxCell id="N9P-56FiYaB4FTtfZiz7-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.01;entryY=0.428;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="N9P-56FiYaB4FTtfZiz7-2" target="N9P-56FiYaB4FTtfZiz7-3">
           <mxGeometry relative="1" as="geometry" />
@@ -1653,9 +1653,10 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-220" y="56" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="-277" y="590" />
               <mxPoint x="-305" y="457" />
               <mxPoint x="-327" y="310" />
-              <mxPoint x="-350" y="235" />
+              <mxPoint x="-337" y="239" />
               <mxPoint x="-308" y="67" />
             </Array>
           </mxGeometry>
