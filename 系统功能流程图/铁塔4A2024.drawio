@@ -1732,10 +1732,78 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DOIvj811u2i7gqbeDP4y" name="切换审批流程">
-    <mxGraphModel dx="1050" dy="607" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1124" dy="819" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Tw0zv0F6DS6POMenbTQl-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Tw0zv0F6DS6POMenbTQl-1" target="Tw0zv0F6DS6POMenbTQl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tw0zv0F6DS6POMenbTQl-1" value="登录账号：&lt;div&gt;zhansan&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-77" y="-75" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD6mRRFCHdbuT0F0PXfp-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Tw0zv0F6DS6POMenbTQl-2" target="ZD6mRRFCHdbuT0F0PXfp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tw0zv0F6DS6POMenbTQl-2" value="地市业务管理：&lt;div&gt;dsacc1&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-77" y="235" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tw0zv0F6DS6POMenbTQl-3" value="地市业务管理" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-77" y="630" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD6mRRFCHdbuT0F0PXfp-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="17.004482758620696" y="112.99999999999989" as="sourcePoint" />
+            <mxPoint x="287" y="234" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="16.97" y="174" />
+              <mxPoint x="286.97" y="174" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD6mRRFCHdbuT0F0PXfp-3" value="审批记录" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="50" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD6mRRFCHdbuT0F0PXfp-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ZD6mRRFCHdbuT0F0PXfp-2" target="ZD6mRRFCHdbuT0F0PXfp-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD6mRRFCHdbuT0F0PXfp-6" value="OA登录门户" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="99" y="-119" width="297" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="Tw0zv0F6DS6POMenbTQl-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="ZD6mRRFCHdbuT0F0PXfp-6" source="Tw0zv0F6DS6POMenbTQl-4" target="Tw0zv0F6DS6POMenbTQl-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tw0zv0F6DS6POMenbTQl-4" value="登录&lt;div&gt;触发切换条件&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZD6mRRFCHdbuT0F0PXfp-6">
+          <mxGeometry x="30" y="44" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tw0zv0F6DS6POMenbTQl-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ZD6mRRFCHdbuT0F0PXfp-6" source="Tw0zv0F6DS6POMenbTQl-5" target="ZD6mRRFCHdbuT0F0PXfp-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="181" y="178" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZD6mRRFCHdbuT0F0PXfp-1" value="大于3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="Tw0zv0F6DS6POMenbTQl-10">
+          <mxGeometry x="-0.0692" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tw0zv0F6DS6POMenbTQl-5" value="月切换次数" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ZD6mRRFCHdbuT0F0PXfp-6">
+          <mxGeometry x="192" y="34" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD6mRRFCHdbuT0F0PXfp-2" value="生成审批记录&lt;div&gt;申请人：zhansan&lt;/div&gt;&lt;div&gt;审批人：dsacc1&lt;/div&gt;&lt;div&gt;状态：未审批&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZD6mRRFCHdbuT0F0PXfp-6">
+          <mxGeometry x="172" y="167" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD6mRRFCHdbuT0F0PXfp-10" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ZD6mRRFCHdbuT0F0PXfp-8" target="ZD6mRRFCHdbuT0F0PXfp-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD6mRRFCHdbuT0F0PXfp-8" value="登录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="73" y="247" width="65" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD6mRRFCHdbuT0F0PXfp-9" value="首页&lt;div&gt;或&lt;/div&gt;&lt;div&gt;我的审批&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="235" width="120" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="ZD6mRRFCHdbuT0F0PXfp-13" value="定时读取审批记录中&lt;div&gt;审批人 = dsacc1&lt;/div&gt;&lt;div&gt;审批状态为未审批&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="65" y="142" width="149" height="49" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
