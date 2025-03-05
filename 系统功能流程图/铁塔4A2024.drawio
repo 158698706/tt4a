@@ -1880,18 +1880,15 @@
         <mxCell id="iq2BloMKgAvRzdLnGGuq-35" value="判断swithTimes" style="rhombus;whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="iq2BloMKgAvRzdLnGGuq-1">
           <mxGeometry x="-334.32" y="486" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iq2BloMKgAvRzdLnGGuq-36" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.904;exitY=0.45;exitDx=0;exitDy=0;entryX=0.289;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="iq2BloMKgAvRzdLnGGuq-1" source="iq2BloMKgAvRzdLnGGuq-35" target="iq2BloMKgAvRzdLnGGuq-27">
+        <mxCell id="iq2BloMKgAvRzdLnGGuq-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.904;exitY=0.45;exitDx=0;exitDy=0;entryX=0.289;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="iq2BloMKgAvRzdLnGGuq-1" source="iq2BloMKgAvRzdLnGGuq-35" target="iq2BloMKgAvRzdLnGGuq-27">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-150.99999999999994" y="600" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-151" y="510" />
-            </Array>
             <mxPoint x="-257.99999999999994" y="526" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iq2BloMKgAvRzdLnGGuq-37" value="&lt;span style=&quot;text-wrap: wrap;&quot;&gt;swithTimes&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;小于等于3&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="iq2BloMKgAvRzdLnGGuq-36">
           <mxGeometry x="-0.1546" y="-2" relative="1" as="geometry">
-            <mxPoint x="-26" y="14" as="offset" />
+            <mxPoint x="-4" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iq2BloMKgAvRzdLnGGuq-38" value="根据devId去获取&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;本月用户切换数swithTimes&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="iq2BloMKgAvRzdLnGGuq-1">
@@ -1973,13 +1970,6 @@
         </mxCell>
         <mxCell id="CQiuZoqH-vmYyL8iNtqB-14" value="触发审批流程" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="iq2BloMKgAvRzdLnGGuq-1">
           <mxGeometry x="-346.82" y="628" width="105" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="CQiuZoqH-vmYyL8iNtqB-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.567;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="iq2BloMKgAvRzdLnGGuq-1" source="CQiuZoqH-vmYyL8iNtqB-14" target="iq2BloMKgAvRzdLnGGuq-27">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-195" y="785" />
-            </Array>
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
