@@ -2282,7 +2282,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C9FxYF_NboMwQuxHe1k9-1" value="审批结果：&lt;div&gt;&lt;div&gt;0 未审批&lt;/div&gt;&lt;/div&gt;&lt;div&gt;1 已审批&lt;/div&gt;&lt;div&gt;2 已拒绝&lt;/div&gt;&lt;div&gt;3 已使用&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=12;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
-          <mxGeometry x="374" y="99" width="110.00000000000001" height="80" as="geometry" />
+          <mxGeometry x="374" y="99" width="75" height="80" as="geometry" />
         </mxCell>
         <mxCell id="C9FxYF_NboMwQuxHe1k9-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.992;entryY=0.324;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="C9FxYF_NboMwQuxHe1k9-1" target="bEuRLLSlVIp4uX8Zi4Kn-82">
           <mxGeometry relative="1" as="geometry" />
