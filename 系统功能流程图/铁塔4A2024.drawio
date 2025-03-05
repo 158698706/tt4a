@@ -2348,7 +2348,7 @@
         <mxCell id="C9FxYF_NboMwQuxHe1k9-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.992;entryY=0.324;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="C9FxYF_NboMwQuxHe1k9-1" target="bEuRLLSlVIp4uX8Zi4Kn-82" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="671fgq8RmnuD4ue61DzH-1" value="业务管理员码表" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+        <mxCell id="671fgq8RmnuD4ue61DzH-1" value="业支管理员码表" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
           <mxGeometry x="-344" y="-25" width="199" height="150" as="geometry" />
         </mxCell>
         <mxCell id="671fgq8RmnuD4ue61DzH-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="671fgq8RmnuD4ue61DzH-1">
