@@ -2146,7 +2146,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YZgZKDtfaJwJeFEtGLgP-31" value="给出提示&lt;div&gt;“本月切换账号已超3次，&lt;/div&gt;&lt;div&gt;需要业支管理员XX审批，&lt;/div&gt;&lt;div&gt;待审批后方可切换”&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YZgZKDtfaJwJeFEtGLgP-30">
+        <mxCell id="YZgZKDtfaJwJeFEtGLgP-31" value="给出提示&lt;div&gt;“本月账号YY已混用3次，&lt;/div&gt;&lt;div&gt;需要业支管理员XX审批，&lt;/div&gt;&lt;div&gt;待审批后方可混用”&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YZgZKDtfaJwJeFEtGLgP-30">
           <mxGeometry x="-0.0903" y="-4" relative="1" as="geometry">
             <mxPoint x="-11" y="-74" as="offset" />
           </mxGeometry>
