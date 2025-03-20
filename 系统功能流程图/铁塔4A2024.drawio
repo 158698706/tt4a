@@ -3177,12 +3177,12 @@
     </mxGraphModel>
   </diagram>
   <diagram name="混用审批数据模型" id="sp_l4t5ojhrE0kf6ev9F">
-    <mxGraphModel dx="1124" dy="819" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1275" dy="906" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="KGjRVOSkGz51O_mJopCk-0" />
         <mxCell id="KGjRVOSkGz51O_mJopCk-1" parent="KGjRVOSkGz51O_mJopCk-0" />
         <mxCell id="KGjRVOSkGz51O_mJopCk-2" value="混用日志表" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="KGjRVOSkGz51O_mJopCk-1">
-          <mxGeometry x="-104" y="-23" width="188.9500732421875" height="268.35003662109375" as="geometry" />
+          <mxGeometry x="-104" y="-23" width="188.9500732421875" height="238.35003662109375" as="geometry" />
         </mxCell>
         <mxCell id="KGjRVOSkGz51O_mJopCk-3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="KGjRVOSkGz51O_mJopCk-2">
           <mxGeometry y="30" width="188.9500732421875" height="30" as="geometry" />
@@ -3270,20 +3270,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ii5skqbmV6I44ZP60vDa-2" value="混用结果（待审批/成功/审批未通过）&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ii5skqbmV6I44ZP60vDa-0">
-          <mxGeometry x="30" width="158.9500732421875" height="30" as="geometry">
-            <mxRectangle width="158.9500732421875" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KGjRVOSkGz51O_mJopCk-21" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="KGjRVOSkGz51O_mJopCk-2">
-          <mxGeometry y="238" width="188.9500732421875" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KGjRVOSkGz51O_mJopCk-22" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="KGjRVOSkGz51O_mJopCk-21">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KGjRVOSkGz51O_mJopCk-23" value="混用结果（待审批/成功/审批未通过）&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="KGjRVOSkGz51O_mJopCk-21">
+        <mxCell id="ii5skqbmV6I44ZP60vDa-2" value="混用结果（待审批/已审批/已拒绝/已使用）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ii5skqbmV6I44ZP60vDa-0">
           <mxGeometry x="30" width="158.9500732421875" height="30" as="geometry">
             <mxRectangle width="158.9500732421875" height="30" as="alternateBounds" />
           </mxGeometry>
