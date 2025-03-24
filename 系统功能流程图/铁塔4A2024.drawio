@@ -2406,15 +2406,18 @@
     </mxGraphModel>
   </diagram>
   <diagram name="账号混用泳道图" id="GNOIUCD2fwcBm6Odwpd4">
-    <mxGraphModel dx="1784" dy="67" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3630" dy="1223" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="wjGRBAzFnEDaSkE08uGG-0" />
         <mxCell id="wjGRBAzFnEDaSkE08uGG-1" parent="wjGRBAzFnEDaSkE08uGG-0" />
+        <mxCell id="E6Hi-mazbMlYWh0zkPVW-106" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wjGRBAzFnEDaSkE08uGG-1">
+          <mxGeometry x="-386" y="1139" width="1315" height="1909" as="geometry" />
+        </mxCell>
         <mxCell id="yH1jcZMEwoigrtMOYmUB-62" value="" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;" vertex="1" parent="wjGRBAzFnEDaSkE08uGG-1">
-          <mxGeometry x="-382" y="1144" width="1307" height="1994" as="geometry" />
+          <mxGeometry x="-382" y="1144" width="1307" height="1897" as="geometry" />
         </mxCell>
         <mxCell id="yH1jcZMEwoigrtMOYmUB-63" value="用户" style="swimlane;startSize=20;" vertex="1" parent="yH1jcZMEwoigrtMOYmUB-62">
-          <mxGeometry x="20" width="350" height="1994" as="geometry" />
+          <mxGeometry x="20" width="350" height="1897" as="geometry" />
         </mxCell>
         <mxCell id="E6Hi-mazbMlYWh0zkPVW-1" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;" vertex="1" parent="yH1jcZMEwoigrtMOYmUB-63">
           <mxGeometry x="207" y="80" width="30" height="60" as="geometry" />
@@ -2422,7 +2425,7 @@
         <mxCell id="E6Hi-mazbMlYWh0zkPVW-35" value="混用提醒&lt;div&gt;需要确认&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;fontSize=14;" vertex="1" parent="yH1jcZMEwoigrtMOYmUB-63">
           <mxGeometry x="132" y="903" width="132" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="E6Hi-mazbMlYWh0zkPVW-46" value="提醒“禁止sdp账号与4A账号不一致登录”" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="yH1jcZMEwoigrtMOYmUB-63">
+        <mxCell id="E6Hi-mazbMlYWh0zkPVW-46" value="提醒“禁止使用非sdp账号登录”" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="yH1jcZMEwoigrtMOYmUB-63">
           <mxGeometry x="190" y="547" width="120" height="70.5" as="geometry" />
         </mxCell>
         <mxCell id="E6Hi-mazbMlYWh0zkPVW-66" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startSize=8;endSize=8;" edge="1" parent="yH1jcZMEwoigrtMOYmUB-63" source="E6Hi-mazbMlYWh0zkPVW-61" target="E6Hi-mazbMlYWh0zkPVW-65">
@@ -2460,13 +2463,13 @@
           <mxGeometry x="223" y="1681" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yH1jcZMEwoigrtMOYmUB-74" value="SDP" style="swimlane;startSize=20;" vertex="1" parent="yH1jcZMEwoigrtMOYmUB-62">
-          <mxGeometry x="370" width="240" height="1994" as="geometry" />
+          <mxGeometry x="370" width="240" height="1897" as="geometry" />
         </mxCell>
         <mxCell id="E6Hi-mazbMlYWh0zkPVW-2" value="登录SDP客户端当前用户为sdpUser" style="whiteSpace=wrap;html=1;verticalAlign=middle;fontSize=14;" vertex="1" parent="yH1jcZMEwoigrtMOYmUB-74">
           <mxGeometry x="35" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yH1jcZMEwoigrtMOYmUB-79" value="混用流程接口" style="swimlane;startSize=20;" vertex="1" parent="yH1jcZMEwoigrtMOYmUB-62">
-          <mxGeometry x="610" width="250" height="1994" as="geometry" />
+          <mxGeometry x="610" width="250" height="1897" as="geometry" />
         </mxCell>
         <mxCell id="E6Hi-mazbMlYWh0zkPVW-16" value="获取有效的审批记录&lt;div&gt;及审批状态&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="yH1jcZMEwoigrtMOYmUB-79">
           <mxGeometry x="105" y="894" width="110" height="80" as="geometry" />
@@ -2534,7 +2537,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="E6Hi-mazbMlYWh0zkPVW-0" value="4A登录门户" style="swimlane;startSize=20;" vertex="1" parent="yH1jcZMEwoigrtMOYmUB-62">
-          <mxGeometry x="860" width="447" height="1994" as="geometry" />
+          <mxGeometry x="860" width="447" height="1897" as="geometry" />
         </mxCell>
         <mxCell id="E6Hi-mazbMlYWh0zkPVW-10" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startSize=8;endSize=8;" edge="1" parent="E6Hi-mazbMlYWh0zkPVW-0" source="E6Hi-mazbMlYWh0zkPVW-5" target="E6Hi-mazbMlYWh0zkPVW-9">
           <mxGeometry relative="1" as="geometry" />
@@ -2595,7 +2598,7 @@
         </mxCell>
         <mxCell id="E6Hi-mazbMlYWh0zkPVW-32" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="E6Hi-mazbMlYWh0zkPVW-31">
           <mxGeometry x="-0.2766" y="2" relative="1" as="geometry">
-            <mxPoint x="-29" y="-10" as="offset" />
+            <mxPoint x="-29" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="E6Hi-mazbMlYWh0zkPVW-55" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;startSize=8;endSize=8;" edge="1" parent="E6Hi-mazbMlYWh0zkPVW-0" source="E6Hi-mazbMlYWh0zkPVW-28" target="E6Hi-mazbMlYWh0zkPVW-54">
@@ -2606,7 +2609,7 @@
             <mxPoint y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E6Hi-mazbMlYWh0zkPVW-28" value="是否混用账号&lt;div&gt;（loginUser =&lt;/div&gt;&lt;div&gt;上次成功登录账号）&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="E6Hi-mazbMlYWh0zkPVW-0">
+        <mxCell id="E6Hi-mazbMlYWh0zkPVW-28" value="是否混用账号&lt;div&gt;（loginUser !=&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;上次成功登录账号）&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="E6Hi-mazbMlYWh0zkPVW-0">
           <mxGeometry x="60" y="683" width="110" height="100" as="geometry" />
         </mxCell>
         <mxCell id="E6Hi-mazbMlYWh0zkPVW-49" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;startSize=8;endSize=8;" edge="1" parent="E6Hi-mazbMlYWh0zkPVW-0" source="E6Hi-mazbMlYWh0zkPVW-38" target="E6Hi-mazbMlYWh0zkPVW-28">
