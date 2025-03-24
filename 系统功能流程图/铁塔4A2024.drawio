@@ -2749,7 +2749,7 @@
         <mxCell id="E6Hi-mazbMlYWh0zkPVW-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startSize=8;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="yH1jcZMEwoigrtMOYmUB-62" source="E6Hi-mazbMlYWh0zkPVW-73" target="E6Hi-mazbMlYWh0zkPVW-80">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1013" y="1382" />
+              <mxPoint x="961" y="1382" />
             </Array>
           </mxGeometry>
         </mxCell>
