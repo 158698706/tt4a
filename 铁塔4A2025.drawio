@@ -52,13 +52,13 @@
         <mxCell id="G1KZ766goiGEvs0yxv07-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.414;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;endArrow=none;startFill=0;" edge="1" parent="1" source="G1KZ766goiGEvs0yxv07-3" target="G1KZ766goiGEvs0yxv07-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="G1KZ766goiGEvs0yxv07-12" value="用户U01" style="whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="G1KZ766goiGEvs0yxv07-12" value="用户U01" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-250.5" y="264" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="G1KZ766goiGEvs0yxv07-13" value="用户U02" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-95" y="264" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G1KZ766goiGEvs0yxv07-14" value="用户U03" style="whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="G1KZ766goiGEvs0yxv07-14" value="用户U03" style="whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="61" y="264" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="G1KZ766goiGEvs0yxv07-15" value="用户U04" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
