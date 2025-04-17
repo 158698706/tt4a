@@ -403,7 +403,7 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qxEov33yZkXztcAwy9Pq-18" value="4A认证及查询服务" style="swimlane;startSize=20;" vertex="1" parent="qxEov33yZkXztcAwy9Pq-0">
+        <mxCell id="qxEov33yZkXztcAwy9Pq-18" value="4A认证服务" style="swimlane;startSize=20;" vertex="1" parent="qxEov33yZkXztcAwy9Pq-0">
           <mxGeometry x="537" width="215" height="571" as="geometry" />
         </mxCell>
         <mxCell id="qxEov33yZkXztcAwy9Pq-5" value="令牌校验接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qxEov33yZkXztcAwy9Pq-18">
