@@ -63,7 +63,7 @@
         <mxCell id="JnwnjsweZAxiL3DcM_pp-11" value="本地密码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="JnwnjsweZAxiL3DcM_pp-9" vertex="1">
           <mxGeometry x="40" y="108" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1Zy8I95tH8bVo6ZfM0J7-0" value="&lt;br&gt;4A、办公网、LDAP服务均在总部系统&lt;br&gt;&lt;br&gt;准入为总部及各省份对应部署" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;verticalAlign=middle;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="1Zy8I95tH8bVo6ZfM0J7-0" value="&lt;br&gt;4A、办公网、LDAP服务均在总部&lt;br&gt;&lt;br&gt;准入为总部及各省份对应部署" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;verticalAlign=middle;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-99" y="506.5" width="246" height="74" as="geometry" />
         </mxCell>
         <mxCell id="2pDPu1kfkvxgTF7jboe--2" value="总部" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
