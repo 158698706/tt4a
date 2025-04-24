@@ -440,7 +440,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="clSSFheYETtkrs3GYLcZ" name="默认权限生效图">
-    <mxGraphModel dx="719" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="496" dy="268" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -505,6 +505,68 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WNSf4bNAi27IOAC47h-X-25" value="返回账号到人力资源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WNSf4bNAi27IOAC47h-X-24">
+          <mxGeometry x="-0.0244" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WNSf4bNAi27IOAC47h-X-27" value="铁塔员工更换部门" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880.0000000000005" y="60" width="627.9999999999995" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="WNSf4bNAi27IOAC47h-X-28" value="人力资源" style="swimlane;startSize=20;html=1;" vertex="1" parent="WNSf4bNAi27IOAC47h-X-27">
+          <mxGeometry y="20" width="180" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="WNSf4bNAi27IOAC47h-X-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WNSf4bNAi27IOAC47h-X-28" source="WNSf4bNAi27IOAC47h-X-30" target="WNSf4bNAi27IOAC47h-X-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WNSf4bNAi27IOAC47h-X-30" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;aspect=fixed;" vertex="1" parent="WNSf4bNAi27IOAC47h-X-28">
+          <mxGeometry x="58.999999999999545" y="40" width="80" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="WNSf4bNAi27IOAC47h-X-31" value="内部员工调岗" style="whiteSpace=wrap;html=1;strokeWidth=2;aspect=fixed;" vertex="1" parent="WNSf4bNAi27IOAC47h-X-28">
+          <mxGeometry x="53.999999999999545" y="130" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="WNSf4bNAi27IOAC47h-X-32" value="工单系统" style="swimlane;startSize=20;html=1;" vertex="1" parent="WNSf4bNAi27IOAC47h-X-27">
+          <mxGeometry x="180" y="20" width="180" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="WNSf4bNAi27IOAC47h-X-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WNSf4bNAi27IOAC47h-X-27" source="WNSf4bNAi27IOAC47h-X-31" target="WNSf4bNAi27IOAC47h-X-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WNSf4bNAi27IOAC47h-X-34" value="4A系统" style="swimlane;startSize=20;html=1;" vertex="1" parent="WNSf4bNAi27IOAC47h-X-27">
+          <mxGeometry x="360" y="20" width="267.99999999999955" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="WNSf4bNAi27IOAC47h-X-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WNSf4bNAi27IOAC47h-X-34" source="WNSf4bNAi27IOAC47h-X-37" target="WNSf4bNAi27IOAC47h-X-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WNSf4bNAi27IOAC47h-X-37" value="内部员工调岗接口" style="whiteSpace=wrap;html=1;strokeWidth=2;aspect=fixed;" vertex="1" parent="WNSf4bNAi27IOAC47h-X-34">
+          <mxGeometry x="97.99999999999955" y="130" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="WNSf4bNAi27IOAC47h-X-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WNSf4bNAi27IOAC47h-X-34" source="WNSf4bNAi27IOAC47h-X-39" target="WNSf4bNAi27IOAC47h-X-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WNSf4bNAi27IOAC47h-X-39" value="查找内部账号的默认权限" style="whiteSpace=wrap;html=1;strokeWidth=2;aspect=fixed;" vertex="1" parent="WNSf4bNAi27IOAC47h-X-34">
+          <mxGeometry x="24" y="360" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="WNSf4bNAi27IOAC47h-X-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WNSf4bNAi27IOAC47h-X-34" source="WNSf4bNAi27IOAC47h-X-41" target="WNSf4bNAi27IOAC47h-X-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WNSf4bNAi27IOAC47h-X-41" value="根据人员归属组织查询默认权限" style="whiteSpace=wrap;html=1;strokeWidth=2;aspect=fixed;" vertex="1" parent="WNSf4bNAi27IOAC47h-X-34">
+          <mxGeometry x="154" y="360" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="WNSf4bNAi27IOAC47h-X-42" value="产生人资待办" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WNSf4bNAi27IOAC47h-X-34">
+          <mxGeometry x="97.99999999999955" y="200" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WNSf4bNAi27IOAC47h-X-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WNSf4bNAi27IOAC47h-X-34" source="WNSf4bNAi27IOAC47h-X-44" target="WNSf4bNAi27IOAC47h-X-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WNSf4bNAi27IOAC47h-X-44" value="根据上两步的默认权限确定需要推送的系统和需要赋予的角色" style="whiteSpace=wrap;html=1;strokeWidth=2;aspect=fixed;" vertex="1" parent="WNSf4bNAi27IOAC47h-X-34">
+          <mxGeometry x="74" y="446.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WNSf4bNAi27IOAC47h-X-45" value="推送账号+权限到业务系统" style="whiteSpace=wrap;html=1;strokeWidth=2;aspect=fixed;" vertex="1" parent="WNSf4bNAi27IOAC47h-X-34">
+          <mxGeometry x="74" y="564" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WNSf4bNAi27IOAC47h-X-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="WNSf4bNAi27IOAC47h-X-27" source="WNSf4bNAi27IOAC47h-X-42" target="WNSf4bNAi27IOAC47h-X-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WNSf4bNAi27IOAC47h-X-47" value="返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WNSf4bNAi27IOAC47h-X-46">
           <mxGeometry x="-0.0244" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
