@@ -440,10 +440,22 @@
     </mxGraphModel>
   </diagram>
   <diagram id="clSSFheYETtkrs3GYLcZ" name="默认权限生效图">
-    <mxGraphModel dx="1042" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="719" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WNSf4bNAi27IOAC47h-X-1" value="账号入职" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180.00000000000045" y="60" width="540" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="WNSf4bNAi27IOAC47h-X-2" value="人力资源" style="swimlane;startSize=20;html=1;" vertex="1" parent="WNSf4bNAi27IOAC47h-X-1">
+          <mxGeometry y="20" width="180" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="WNSf4bNAi27IOAC47h-X-3" value="工单系统" style="swimlane;startSize=20;html=1;" vertex="1" parent="WNSf4bNAi27IOAC47h-X-1">
+          <mxGeometry x="180" y="20" width="180" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="WNSf4bNAi27IOAC47h-X-4" value="4A系统" style="swimlane;startSize=20;html=1;" vertex="1" parent="WNSf4bNAi27IOAC47h-X-1">
+          <mxGeometry x="360" y="20" width="180" height="460" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
