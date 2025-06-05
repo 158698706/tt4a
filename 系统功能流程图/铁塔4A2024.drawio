@@ -2382,7 +2382,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VPyP4umiDMbzNmWgP1K4-0" value="流程状态&lt;div&gt;=拒绝&lt;div&gt;流程归档&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="YZgZKDtfaJwJeFEtGLgP-1">
+        <mxCell id="VPyP4umiDMbzNmWgP1K4-0" value="&lt;div&gt;&lt;div&gt;流程归档&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="YZgZKDtfaJwJeFEtGLgP-1">
           <mxGeometry x="-338" y="1716" width="115" height="67" as="geometry" />
         </mxCell>
         <mxCell id="VPyP4umiDMbzNmWgP1K4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="YZgZKDtfaJwJeFEtGLgP-1" source="YH5IkxICero3V05JqqkQ-24" target="VPyP4umiDMbzNmWgP1K4-0">
