@@ -2905,7 +2905,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="账号混用泳道图-外部账号" id="UFJ2SRLxaRNs6Fe0wFRH">
-    <mxGraphModel dx="1442" dy="-204" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="896" dy="-516" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="vdb3OTYfFp_BjD_IcU3u-0" />
         <mxCell id="vdb3OTYfFp_BjD_IcU3u-1" parent="vdb3OTYfFp_BjD_IcU3u-0" />
@@ -3126,7 +3126,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vdb3OTYfFp_BjD_IcU3u-59" value="1 提醒" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="vdb3OTYfFp_BjD_IcU3u-58">
+        <mxCell id="vdb3OTYfFp_BjD_IcU3u-59" value="1 提醒 或 2审批" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="vdb3OTYfFp_BjD_IcU3u-58">
           <mxGeometry x="-0.2194" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
